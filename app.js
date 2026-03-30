@@ -55,14 +55,15 @@ let myChart;
 function renderChart(userData) {
     const ctx = document.getElementById('statsChart').getContext('2d');
     
-    // 1. Raw Data Points
+    // 1. Raw Data Points (Individual Races)
     const rawPoints = userData.races.map(race => ({
         x: new Date(race.ended_at),
         y: parseDuration(race.user_finish_time),
-        goal: race.goal.name
+        goal: race.goal.name,
+        url: race.full_race_url // This was added by the updated scraper
     })).filter(p => p.y > 0).sort((a, b) => a.x - b.x);
 
-    // 2. Calculate Trend Line (10-race Moving Average)
+    // 2. Trend Line Calculation
     const trendPoints = rawPoints.map((point, index, array) => {
         const start = Math.max(0, index - 9);
         const subset = array.slice(start, index + 1);
@@ -82,15 +83,16 @@ function renderChart(userData) {
                     borderColor: 'rgba(0, 204, 255, 0.3)',
                     pointBackgroundColor: '#00ccff',
                     showLine: false,
-                    pointRadius: 4
+                    pointRadius: 5,
+                    pointHoverRadius: 8
                 },
                 {
                     label: 'Skill Trend (10-race Avg)',
                     data: trendPoints,
-                    borderColor: '#ffcc00', 
+                    borderColor: '#ffcc00',
                     backgroundColor: 'transparent',
                     borderWidth: 3,
-                    pointRadius: 0, 
+                    pointRadius: 0,
                     tension: 0.4
                 }
             ]
@@ -98,6 +100,22 @@ function renderChart(userData) {
         options: {
             responsive: true,
             maintainAspectRatio: false,
+            // --- CLICK TO OPEN RACETIME ---
+            onClick: (e, elements) => {
+                if (elements.length > 0) {
+                    const i = elements[0].index;
+                    const datasetIndex = elements[0].datasetIndex;
+                    // Only open URL if clicking a blue dot (dataset 0)
+                    if (datasetIndex === 0) {
+                        const url = rawPoints[i].url;
+                        if (url) window.open(url, '_blank');
+                    }
+                }
+            },
+            // --- CHANGE CURSOR ON HOVER ---
+            onHover: (event, chartElement) => {
+                event.native.target.style.cursor = chartElement[0] ? 'pointer' : 'default';
+            },
             scales: {
                 x: {
                     type: 'time',
@@ -127,7 +145,10 @@ function renderChart(userData) {
                             const s = Math.round((val % 1) * 60);
                             return ` Time: ${h}h ${m}m ${s}s`;
                         },
-                        footer: (items) => `Goal: ${items[0].raw.goal}`
+                        footer: (items) => {
+                            return items[0].datasetIndex === 0 ? 
+                                `Goal: ${items[0].raw.goal}\n\n(Click to view race)` : "";
+                        }
                     }
                 }
             }
