@@ -51,10 +51,14 @@ function searchUser() {
 
 // 4. Chart Rendering (Chart.js)
 function loadUser(username) {
-    primaryUser = { name: username, races: bingoData[username].races };
-    document.getElementById('display-name').innerText = username;
+    if (!bingoData[username]) return;
 
-    // BUILD THE DYNAMIC VERSION LIST
+    primaryUser = { name: username, races: bingoData[username].races };
+    
+    // Sync the search box text so it doesn't stay empty or wrong
+    document.getElementById('userSearch').value = username;
+    document.getElementById('display-name').innerText = username;
+    
     updateVersionDropdown(primaryUser.races);
     applyFilters();
 }

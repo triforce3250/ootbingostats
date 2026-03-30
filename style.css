@@ -42,12 +42,25 @@ button {
     font-weight: bold;
 }
 
-.quick-select { font-size: 0.85rem; color: #888; }
+.quick-select {
+    margin: 10px 0;
+    font-size: 0.85em;
+    color: #888;
+}
+
 .quick-select button {
-    background: none;
-    color: var(--primary);
-    padding: 0 5px;
-    text-decoration: underline;
+    background: transparent;
+    border: 1px solid #444;
+    color: #aaa;
+    margin-left: 5px;
+    padding: 2px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.quick-select button:hover {
+    border-color: #00ccff;
+    color: #00ccff;
 }
 
 .stats-grid {
