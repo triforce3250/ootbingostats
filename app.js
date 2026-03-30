@@ -143,7 +143,13 @@ function renderChart(pUser, cUser) {
             onClick: (e, el) => { if (el.length > 0 && el[0].datasetIndex === 0) window.open(pPoints[el[0].index].url, '_blank'); },
             onHover: (e, el) => { e.native.target.style.cursor = (el[0] && el[0].datasetIndex === 0) ? 'pointer' : 'default'; },
             scales: {
-                x: { type: 'time', time: { unit: 'month' }, grid: { color: '#333' } },
+                x: {
+                    type: 'time',
+                    time: { unit: 'month' },
+                    bounds: 'data', // This forces the chart to end exactly at the last race
+                    grid: { color: '#333' },
+                    ticks: { color: '#888' }
+                },
                 y: { ticks: { callback: v => Math.floor(v / 60) + 'h ' + Math.round(v % 60) + 'm' }, grid: { color: '#333' } }
             },
             plugins: {
