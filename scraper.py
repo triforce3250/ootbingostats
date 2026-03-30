@@ -33,10 +33,21 @@ def get_user_id_map():
         print(f" ! Mapping Error: {e}")
         return {}
 
+That is a sharp observation. Using the recorded field as a primary filter is much more reliable because, as you noted, a race can be "finished" but still be an unranked, unofficial, or "test" room that doesn't count toward a player's official history.
+
+I have updated the fetch_bingo_data function to prioritize the recordable and recorded flags. I’ve also kept the Progress Bar, mode=normal check, and the Race URL generation.
+
+Updated scraper.py (Filtering by Recorded Status)
+Python
+import sys
+import requests
+import time
+
 def fetch_bingo_data(username, user_id):
     print(f"\nFetching history for {username}...")
     bingo_races = []
     page = 1
+    skipped_count = 0
     
     while page <= 12: 
         url = f"https://racetime.gg/user/{user_id}/races/data?page={page}"
@@ -56,21 +67,28 @@ def fetch_bingo_data(username, user_id):
                 sys.stdout.write(f"\r    Page {page} [{bar}{spaces}] {percent}%")
                 sys.stdout.flush()
 
-                # --- FILTERING LOGIC ---
+                # --- DATA EXTRACTION ---
                 category = race.get('category', {}).get('slug', '').lower()
-                status = race.get('status', {}).get('value', '')
                 goal_name = race.get('goal', {}).get('name', '').lower()
                 info_link = race.get('info', '') or ''
+                
+                # NEW: Priority on Record Status
+                is_recorded = race.get('recorded', False)
+                is_recordable = race.get('recordable', False)
 
-                # Strict Vanilla Check:
-                # 1. Goal name must be exactly "bingo"
-                # 2. Must use the official ootbingo.github.io generator
-                if (category == 'oot' and 
-                    status == 'finished' and 
+                # --- UPDATED STRICT FILTER ---
+                # 1. Must be OoT + Official Bingo + Normal Mode
+                # 2. MUST be Recordable AND Recorded (Filters out unofficial/test races)
+                is_valid = (
+                    category == 'oot' and 
+                    is_recordable and 
+                    is_recorded and
                     goal_name == 'bingo' and 
-                    'ootbingo.github.io/bingo/bingo.html' in info_link):
-                    
-                    # Deep Dive for the Finish Time
+                    'ootbingo.github.io/bingo/bingo.html' in info_link and
+                    'mode=normal' in info_link
+                )
+
+                if is_valid:
                     race_detail_url = f"https://racetime.gg{race.get('data_url')}"
                     detail_res = requests.get(race_detail_url, headers=HEADERS)
                     
@@ -81,10 +99,14 @@ def fetch_bingo_data(username, user_id):
                         
                         if entrant and entrant.get('finish_time'):
                             race['user_finish_time'] = entrant['finish_time']
+                            race['full_race_url'] = f"https://racetime.gg{race.get('url')}"
                             bingo_races.append(race)
                     time.sleep(0.2) 
+                else:
+                    if category == 'oot':
+                        skipped_count += 1
 
-            sys.stdout.write(f"\n    - Page {page} done. Valid Bingos: {len(bingo_races)}\n")
+            sys.stdout.write(f"\n    - Page {page} done. Added: {len(bingo_races)} | Filtered Out: {skipped_count}\n")
             if page >= data.get('num_pages', 1): break
             page += 1
             time.sleep(1.0)
