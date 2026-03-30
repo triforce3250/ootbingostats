@@ -74,13 +74,11 @@ function renderChart(userData) {
     });
 }
 
-// Add this at the bottom of your app.js
 function quickSearch(name) {
     document.getElementById('userSearch').value = name;
     searchUser();
 }
 
-// And update your searchUser function to show the dashboard
 function searchUser() {
     const input = document.getElementById('userSearch').value.toLowerCase().trim();
     const userData = fullData[input];
