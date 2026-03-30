@@ -22,7 +22,6 @@ def get_user_id_map():
                 for entry in board.get('rankings', []):
                     user = entry.get('user', {})
                     name = user.get('name', '').lower()
-                    # We store the unique ID string specifically
                     user_id = user.get('id') 
                     if name and user_id:
                         id_map[name] = user_id
@@ -34,44 +33,55 @@ def get_user_id_map():
         return {}
 
 def fetch_bingo_data(username, user_id):
-    print(f"Fetching Bingo history for {username} (ID: {user_id})...")
+    print(f"Fetching history for {username}...")
     bingo_races = []
     page = 1
     
-    # We'll try at least 3 pages or until we hit the end
+    # Scanning first 10 pages of history
     while page <= 10: 
-        # Using the direct API endpoint for race data by ID
-        url = f"https://racetime.gg/api/users/{user_id}/races/data?category=oot&page={page}"
+        url = f"https://racetime.gg/user/{user_id}/races/data?page={page}"
         try:
             res = requests.get(url, headers=HEADERS)
-            if res.status_code != 200:
-                print(f"    ! Page {page} failed (Status {res.status_code})")
-                break
+            if res.status_code != 200: break
             
             data = res.json()
             races = data.get('races', [])
-            if not races:
-                break
+            if not races: break
             
             for race in races:
-                goal = race['goal']['name'].lower()
-                if race['status'] == 'finished' and 'bingo' in goal:
-                    bingo_races.append(race)
-            
-            print(f"    - Page {page}: Found {len(races)} races, {len(bingo_races)} were Bingo.")
-            
-            if page >= data.get('num_pages', 1):
-                break
-            
+                # Filter for OoT and Bingo goals
+                category = race.get('category', {}).get('slug', '').lower()
+                goal = race.get('goal', {}).get('name', '').lower()
+                
+                if category == 'oot' and race['status']['value'] == 'finished' and 'bingo' in goal:
+                    # Deep Dive: Fetch the race-specific data for the finish time
+                    # We use the 'data_url' found in the race object (e.g. /oot/race-name/data)
+                    race_detail_url = f"https://racetime.gg{race.get('data_url')}"
+                    detail_res = requests.get(race_detail_url, headers=HEADERS)
+                    
+                    if detail_res.status_code == 200:
+                        details = detail_res.json()
+                        # Find our specific user in the entrants list
+                        entrant = next((e for e in details.get('entrants', []) 
+                                      if e.get('user', {}).get('id') == user_id), None)
+                        
+                        if entrant and entrant.get('finish_time'):
+                            # Attach the time directly to the race object
+                            race['user_finish_time'] = entrant['finish_time']
+                            bingo_races.append(race)
+                            time.sleep(0.5) # Be kind to individual race endpoints
+
+            print(f"    - Page {page}: Found {len(bingo_races)} Bingos total")
+            if page >= data.get('num_pages', 1): break
             page += 1
-            time.sleep(1.5)
+            time.sleep(1.0)
         except Exception as e:
             print(f"    ! Error: {e}")
             break
             
     return bingo_races
 
-# --- Main ---
+# --- Main Execution ---
 id_map = get_user_id_map()
 data_store = {}
 
@@ -87,12 +97,9 @@ for name in TARGET_USERS:
                 "races": history,
                 "last_updated": time.strftime("%Y-%m-%d %H:%M:%S")
             }
-    else:
-        print(f" ! {name} not found in ID map.")
-    
-    time.sleep(2)
+        time.sleep(2)
 
 with open('data.json', 'w') as f:
     json.dump(data_store, f, indent=4)
 
-print(f"\nDone! Saved {len(data_store)} users.")
+print(f"\nSuccess! Saved {len(data_store)} users to data.json")
