@@ -35,7 +35,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M20.845454S"
+                "user_finish_time": "P0DT01H13M20.845454S",
+                "full_race_url": "https://racetime.gg/oot/fancy-nocturne-0852"
             },
             {
                 "name": "oot/mecha-navi-0795",
@@ -70,7 +71,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H01M08.732623S"
+                "user_finish_time": "P0DT01H01M08.732623S",
+                "full_race_url": "https://racetime.gg/oot/mecha-navi-0795"
             },
             {
                 "name": "oot/witty-tektike-1203",
@@ -105,42 +107,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M05.023815S"
-            },
-            {
-                "name": "oot/amused-cojiro-5363",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/amused-cojiro-5363",
-                "data_url": "/oot/amused-cojiro-5363/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=901245&mode=blackout",
-                "entrants_count": 18,
-                "entrants_count_finished": 18,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-02-28T16:32:29.831Z",
-                "started_at": "2026-02-28T17:11:53.801Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-02-28T19:57:59.640Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H10M46.633776S"
+                "user_finish_time": "P0DT01H11M05.023815S",
+                "full_race_url": "https://racetime.gg/oot/witty-tektike-1203"
             },
             {
                 "name": "oot/cunning-sapphire-0459",
@@ -175,42 +143,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H03M01.909081S"
-            },
-            {
-                "name": "oot/scrawny-cow-4383",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/scrawny-cow-4383",
-                "data_url": "/oot/scrawny-cow-4383/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "Shieldless https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=158277&mode=normal",
-                "entrants_count": 2,
-                "entrants_count_finished": 2,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-01-18T23:51:12.450Z",
-                "started_at": "2026-01-19T00:03:09.258Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-01-19T01:38:16.413Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H25M49.260411S"
+                "user_finish_time": "P0DT01H03M01.909081S",
+                "full_race_url": "https://racetime.gg/oot/cunning-sapphire-0459"
             },
             {
                 "name": "oot/artful-fishingpond-4181",
@@ -245,7 +179,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M19.177510S"
+                "user_finish_time": "P0DT01H04M19.177510S",
+                "full_race_url": "https://racetime.gg/oot/artful-fishingpond-4181"
             },
             {
                 "name": "oot/disco-barinade-3528",
@@ -280,42 +215,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H02M44.186364S"
-            },
-            {
-                "name": "oot/scrawny-bongobongo-5763",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/scrawny-bongobongo-5763",
-                "data_url": "/oot/scrawny-bongobongo-5763/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=263693&mode=normal",
-                "entrants_count": 2,
-                "entrants_count_finished": 2,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-01-15T00:22:02.120Z",
-                "started_at": "2026-01-15T00:32:53.526Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-01-15T01:58:55.734Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H22M45.184177S"
+                "user_finish_time": "P0DT01H02M44.186364S",
+                "full_race_url": "https://racetime.gg/oot/disco-barinade-3528"
             },
             {
                 "name": "oot/fearless-knuckle-4997",
@@ -350,7 +251,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M05.395226S"
+                "user_finish_time": "P0DT01H09M05.395226S",
+                "full_race_url": "https://racetime.gg/oot/fearless-knuckle-4997"
             },
             {
                 "name": "oot/bonus-quiver-4282",
@@ -385,7 +287,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M42.512268S"
+                "user_finish_time": "P0DT01H06M42.512268S",
+                "full_race_url": "https://racetime.gg/oot/bonus-quiver-4282"
             },
             {
                 "name": "oot/classic-bracelet-0984",
@@ -420,7 +323,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M22.254689S"
+                "user_finish_time": "P0DT01H14M22.254689S",
+                "full_race_url": "https://racetime.gg/oot/classic-bracelet-0984"
             },
             {
                 "name": "oot/disco-wallet-3170",
@@ -455,7 +359,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M42.227574S"
+                "user_finish_time": "P0DT01H15M42.227574S",
+                "full_race_url": "https://racetime.gg/oot/disco-wallet-3170"
             },
             {
                 "name": "oot/daring-stalfos-6340",
@@ -490,7 +395,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M05.996617S"
+                "user_finish_time": "P0DT01H11M05.996617S",
+                "full_race_url": "https://racetime.gg/oot/daring-stalfos-6340"
             },
             {
                 "name": "oot/lurking-wallet-3257",
@@ -525,7 +431,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H05M44.078241S"
+                "user_finish_time": "P0DT01H05M44.078241S",
+                "full_race_url": "https://racetime.gg/oot/lurking-wallet-3257"
             },
             {
                 "name": "oot/splendid-ganondorf-0123",
@@ -560,7 +467,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H05M03.983962S"
+                "user_finish_time": "P0DT01H05M03.983962S",
+                "full_race_url": "https://racetime.gg/oot/splendid-ganondorf-0123"
             },
             {
                 "name": "oot/bonus-chest-6186",
@@ -595,7 +503,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M28.824829S"
+                "user_finish_time": "P0DT01H04M28.824829S",
+                "full_race_url": "https://racetime.gg/oot/bonus-chest-6186"
             },
             {
                 "name": "oot/dynamic-shabom-3104",
@@ -630,7 +539,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT00H59M31.317530S"
+                "user_finish_time": "P0DT00H59M31.317530S",
+                "full_race_url": "https://racetime.gg/oot/dynamic-shabom-3104"
             },
             {
                 "name": "oot/brave-redead-9571",
@@ -665,7 +575,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT00H58M24.109042S"
+                "user_finish_time": "P0DT00H58M24.109042S",
+                "full_race_url": "https://racetime.gg/oot/brave-redead-9571"
             },
             {
                 "name": "oot/superb-dungeonmap-6034",
@@ -700,7 +611,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H03M51.646477S"
+                "user_finish_time": "P0DT01H03M51.646477S",
+                "full_race_url": "https://racetime.gg/oot/superb-dungeonmap-6034"
             },
             {
                 "name": "oot/splendid-sword-7077",
@@ -735,7 +647,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H03M43.293865S"
+                "user_finish_time": "P0DT01H03M43.293865S",
+                "full_race_url": "https://racetime.gg/oot/splendid-sword-7077"
             },
             {
                 "name": "oot/lazy-hylian-4077",
@@ -770,7 +683,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M48.327470S"
+                "user_finish_time": "P0DT01H10M48.327470S",
+                "full_race_url": "https://racetime.gg/oot/lazy-hylian-4077"
             },
             {
                 "name": "oot/sleepy-heartcontainer-4765",
@@ -805,7 +719,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M27.392899S"
+                "user_finish_time": "P0DT01H08M27.392899S",
+                "full_race_url": "https://racetime.gg/oot/sleepy-heartcontainer-4765"
             },
             {
                 "name": "oot/elegant-kotake-2468",
@@ -840,7 +755,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M04.130614S"
+                "user_finish_time": "P0DT01H11M04.130614S",
+                "full_race_url": "https://racetime.gg/oot/elegant-kotake-2468"
             },
             {
                 "name": "oot/mega-shield-7681",
@@ -875,7 +791,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M53.173929S"
+                "user_finish_time": "P0DT01H06M53.173929S",
+                "full_race_url": "https://racetime.gg/oot/mega-shield-7681"
             },
             {
                 "name": "oot/silly-rauru-5711",
@@ -910,7 +827,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H00M57.518794S"
+                "user_finish_time": "P0DT01H00M57.518794S",
+                "full_race_url": "https://racetime.gg/oot/silly-rauru-5711"
             },
             {
                 "name": "oot/funky-sapphire-9851",
@@ -945,7 +863,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H03M55.994455S"
+                "user_finish_time": "P0DT01H03M55.994455S",
+                "full_race_url": "https://racetime.gg/oot/funky-sapphire-9851"
             },
             {
                 "name": "oot/agreeable-fire-2906",
@@ -980,7 +899,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M57.589426S"
+                "user_finish_time": "P0DT01H04M57.589426S",
+                "full_race_url": "https://racetime.gg/oot/agreeable-fire-2906"
             },
             {
                 "name": "oot/golden-guay-5545",
@@ -1015,7 +935,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT00H57M18.213148S"
+                "user_finish_time": "P0DT00H57M18.213148S",
+                "full_race_url": "https://racetime.gg/oot/golden-guay-5545"
             },
             {
                 "name": "oot/puzzled-shabom-8289",
@@ -1050,7 +971,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M23.281883S"
+                "user_finish_time": "P0DT01H08M23.281883S",
+                "full_race_url": "https://racetime.gg/oot/puzzled-shabom-8289"
             },
             {
                 "name": "oot/artful-ruby-3558",
@@ -1085,7 +1007,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H02M24.185162S"
+                "user_finish_time": "P0DT01H02M24.185162S",
+                "full_race_url": "https://racetime.gg/oot/artful-ruby-3558"
             },
             {
                 "name": "oot/cold-gerudo-0418",
@@ -1120,7 +1043,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H05M16.923952S"
+                "user_finish_time": "P0DT01H05M16.923952S",
+                "full_race_url": "https://racetime.gg/oot/cold-gerudo-0418"
             },
             {
                 "name": "oot/splendid-keese-2870",
@@ -1155,7 +1079,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M16.839277S"
+                "user_finish_time": "P0DT01H12M16.839277S",
+                "full_race_url": "https://racetime.gg/oot/splendid-keese-2870"
             },
             {
                 "name": "oot/priceless-link-5619",
@@ -1190,7 +1115,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M08.250742S"
+                "user_finish_time": "P0DT01H08M08.250742S",
+                "full_race_url": "https://racetime.gg/oot/priceless-link-5619"
             },
             {
                 "name": "oot/brainy-arrow-3654",
@@ -1225,42 +1151,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M30.105315S"
-            },
-            {
-                "name": "oot/jolly-scale-7046",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/jolly-scale-7046",
-                "data_url": "/oot/jolly-scale-7046/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=835698&mode=blackout",
-                "entrants_count": 3,
-                "entrants_count_finished": 3,
-                "entrants_count_inactive": 0,
-                "opened_at": "2025-05-11T23:51:24.823Z",
-                "started_at": "2025-05-12T00:01:58.808Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-05-12T04:28:39.297Z",
-                "cancelled_at": null,
-                "recordable": true,
-                "recorded": true,
-                "user_finish_time": "P0DT02H42M31.911115S"
+                "user_finish_time": "P0DT01H11M30.105315S",
+                "full_race_url": "https://racetime.gg/oot/brainy-arrow-3654"
             },
             {
                 "name": "oot/hungry-kokiri-5807",
@@ -1295,7 +1187,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M40.037151S"
+                "user_finish_time": "P0DT01H07M40.037151S",
+                "full_race_url": "https://racetime.gg/oot/hungry-kokiri-5807"
             },
             {
                 "name": "oot/mega-keese-4068",
@@ -1330,7 +1223,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M54.507188S"
+                "user_finish_time": "P0DT01H04M54.507188S",
+                "full_race_url": "https://racetime.gg/oot/mega-keese-4068"
             },
             {
                 "name": "oot/brainy-likelike-0076",
@@ -1365,7 +1259,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M24.304925S"
+                "user_finish_time": "P0DT01H18M24.304925S",
+                "full_race_url": "https://racetime.gg/oot/brainy-likelike-0076"
             },
             {
                 "name": "oot/reliable-eyeballfrog-6877",
@@ -1400,7 +1295,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M39.161197S"
+                "user_finish_time": "P0DT01H08M39.161197S",
+                "full_race_url": "https://racetime.gg/oot/reliable-eyeballfrog-6877"
             },
             {
                 "name": "oot/prudent-freezard-6384",
@@ -1435,7 +1331,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H05M15.478828S"
+                "user_finish_time": "P0DT01H05M15.478828S",
+                "full_race_url": "https://racetime.gg/oot/prudent-freezard-6384"
             },
             {
                 "name": "oot/zany-emerald-0417",
@@ -1470,7 +1367,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M31.563373S"
+                "user_finish_time": "P0DT01H11M31.563373S",
+                "full_race_url": "https://racetime.gg/oot/zany-emerald-0417"
             },
             {
                 "name": "oot/wonderful-rauru-5760",
@@ -1505,7 +1403,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M45.973124S"
+                "user_finish_time": "P0DT01H06M45.973124S",
+                "full_race_url": "https://racetime.gg/oot/wonderful-rauru-5760"
             },
             {
                 "name": "oot/magnificent-fairy-7343",
@@ -1540,7 +1439,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M50.791889S"
+                "user_finish_time": "P0DT01H17M50.791889S",
+                "full_race_url": "https://racetime.gg/oot/magnificent-fairy-7343"
             },
             {
                 "name": "oot/grumpy-ocarina-9727",
@@ -1575,7 +1475,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M41.376173S"
+                "user_finish_time": "P0DT01H09M41.376173S",
+                "full_race_url": "https://racetime.gg/oot/grumpy-ocarina-9727"
             },
             {
                 "name": "oot/odd-skulltula-3265",
@@ -1610,7 +1511,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M30.939376S"
+                "user_finish_time": "P0DT01H07M30.939376S",
+                "full_race_url": "https://racetime.gg/oot/odd-skulltula-3265"
             },
             {
                 "name": "oot/trusty-mido-1864",
@@ -1645,7 +1547,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M56.776996S"
+                "user_finish_time": "P0DT01H14M56.776996S",
+                "full_race_url": "https://racetime.gg/oot/trusty-mido-1864"
             },
             {
                 "name": "oot/snug-minuet-5719",
@@ -1680,7 +1583,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M57.074930S"
+                "user_finish_time": "P0DT01H06M57.074930S",
+                "full_race_url": "https://racetime.gg/oot/snug-minuet-5719"
             },
             {
                 "name": "oot/dizzy-nayru-0279",
@@ -1715,7 +1619,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M38.746885S"
+                "user_finish_time": "P0DT01H10M38.746885S",
+                "full_race_url": "https://racetime.gg/oot/dizzy-nayru-0279"
             },
             {
                 "name": "oot/disco-tektike-3978",
@@ -1750,7 +1655,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M38.982080S"
+                "user_finish_time": "P0DT01H18M38.982080S",
+                "full_race_url": "https://racetime.gg/oot/disco-tektike-3978"
             },
             {
                 "name": "oot/obedient-octorok-9534",
@@ -1785,7 +1691,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M01.185003S"
+                "user_finish_time": "P0DT01H09M01.185003S",
+                "full_race_url": "https://racetime.gg/oot/obedient-octorok-9534"
             },
             {
                 "name": "oot/splendid-ganon-7888",
@@ -1820,7 +1727,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M21.441058S"
+                "user_finish_time": "P0DT01H19M21.441058S",
+                "full_race_url": "https://racetime.gg/oot/splendid-ganon-7888"
             },
             {
                 "name": "oot/golden-knuckle-1465",
@@ -1855,7 +1763,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M53.255449S"
+                "user_finish_time": "P0DT01H08M53.255449S",
+                "full_race_url": "https://racetime.gg/oot/golden-knuckle-1465"
             },
             {
                 "name": "oot/clever-din-9846",
@@ -1890,7 +1799,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M38.412839S"
+                "user_finish_time": "P0DT01H06M38.412839S",
+                "full_race_url": "https://racetime.gg/oot/clever-din-9846"
             },
             {
                 "name": "oot/amused-saria-2144",
@@ -1925,7 +1835,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H01M22.764276S"
+                "user_finish_time": "P0DT01H01M22.764276S",
+                "full_race_url": "https://racetime.gg/oot/amused-saria-2144"
             },
             {
                 "name": "oot/calm-bugs-4094",
@@ -1960,7 +1871,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M30.657653S"
+                "user_finish_time": "P0DT01H14M30.657653S",
+                "full_race_url": "https://racetime.gg/oot/calm-bugs-4094"
             },
             {
                 "name": "oot/skyward-fish-5874",
@@ -1995,7 +1907,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M13.077168S"
+                "user_finish_time": "P0DT01H04M13.077168S",
+                "full_race_url": "https://racetime.gg/oot/skyward-fish-5874"
             },
             {
                 "name": "oot/smelly-mido-9224",
@@ -2030,7 +1943,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M49.402703S"
+                "user_finish_time": "P0DT01H12M49.402703S",
+                "full_race_url": "https://racetime.gg/oot/smelly-mido-9224"
             },
             {
                 "name": "oot/chaotic-darunia-2910",
@@ -2065,7 +1979,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M14.497800S"
+                "user_finish_time": "P0DT01H07M14.497800S",
+                "full_race_url": "https://racetime.gg/oot/chaotic-darunia-2910"
             },
             {
                 "name": "oot/chaotic-tunic-1254",
@@ -2100,7 +2015,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M58.150198S"
+                "user_finish_time": "P0DT01H04M58.150198S",
+                "full_race_url": "https://racetime.gg/oot/chaotic-tunic-1254"
             },
             {
                 "name": "oot/frantic-octorok-5864",
@@ -2135,7 +2051,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT00H58M47.751038S"
+                "user_finish_time": "P0DT00H58M47.751038S",
+                "full_race_url": "https://racetime.gg/oot/frantic-octorok-5864"
             },
             {
                 "name": "oot/brave-hookshot-9045",
@@ -2170,7 +2087,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H00M36.894396S"
+                "user_finish_time": "P0DT01H00M36.894396S",
+                "full_race_url": "https://racetime.gg/oot/brave-hookshot-9045"
             },
             {
                 "name": "oot/classic-farore-9123",
@@ -2205,7 +2123,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M31.115183S"
+                "user_finish_time": "P0DT01H14M31.115183S",
+                "full_race_url": "https://racetime.gg/oot/classic-farore-9123"
             },
             {
                 "name": "oot/agreeable-nocturne-5589",
@@ -2240,7 +2159,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H02M51.684845S"
+                "user_finish_time": "P0DT01H02M51.684845S",
+                "full_race_url": "https://racetime.gg/oot/agreeable-nocturne-5589"
             },
             {
                 "name": "oot/flying-scale-0148",
@@ -2275,7 +2195,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M16.997887S"
+                "user_finish_time": "P0DT01H10M16.997887S",
+                "full_race_url": "https://racetime.gg/oot/flying-scale-0148"
             },
             {
                 "name": "oot/tasty-windmill-9129",
@@ -2310,7 +2231,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M15.059525S"
+                "user_finish_time": "P0DT01H12M15.059525S",
+                "full_race_url": "https://racetime.gg/oot/tasty-windmill-9129"
             },
             {
                 "name": "oot/bonus-beamos-0047",
@@ -2345,7 +2267,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M29.303494S"
+                "user_finish_time": "P0DT01H08M29.303494S",
+                "full_race_url": "https://racetime.gg/oot/bonus-beamos-0047"
             },
             {
                 "name": "oot/gorgeous-bombchu-6975",
@@ -2380,7 +2303,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M35.829302S"
+                "user_finish_time": "P0DT01H07M35.829302S",
+                "full_race_url": "https://racetime.gg/oot/gorgeous-bombchu-6975"
             },
             {
                 "name": "oot/snug-cojiro-5928",
@@ -2415,7 +2339,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT00H58M53.127338S"
+                "user_finish_time": "P0DT00H58M53.127338S",
+                "full_race_url": "https://racetime.gg/oot/snug-cojiro-5928"
             },
             {
                 "name": "oot/lurking-din-7164",
@@ -2450,7 +2375,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M16.304117S"
+                "user_finish_time": "P0DT01H18M16.304117S",
+                "full_race_url": "https://racetime.gg/oot/lurking-din-7164"
             },
             {
                 "name": "oot/sleepy-gauntlet-5196",
@@ -2485,7 +2411,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M02.269820S"
+                "user_finish_time": "P0DT01H10M02.269820S",
+                "full_race_url": "https://racetime.gg/oot/sleepy-gauntlet-5196"
             },
             {
                 "name": "oot/dazzling-mido-6172",
@@ -2520,7 +2447,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M24.349480S"
+                "user_finish_time": "P0DT01H10M24.349480S",
+                "full_race_url": "https://racetime.gg/oot/dazzling-mido-6172"
             },
             {
                 "name": "oot/elegant-ruby-5772",
@@ -2555,7 +2483,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M34.238767S"
+                "user_finish_time": "P0DT01H09M34.238767S",
+                "full_race_url": "https://racetime.gg/oot/elegant-ruby-5772"
             },
             {
                 "name": "oot/agreeable-dekubaba-6823",
@@ -2590,7 +2519,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H03M21.512839S"
+                "user_finish_time": "P0DT01H03M21.512839S",
+                "full_race_url": "https://racetime.gg/oot/agreeable-dekubaba-6823"
             },
             {
                 "name": "oot/amused-barinade-7525",
@@ -2625,7 +2555,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M41.873447S"
+                "user_finish_time": "P0DT01H07M41.873447S",
+                "full_race_url": "https://racetime.gg/oot/amused-barinade-7525"
             },
             {
                 "name": "oot/fortunate-water-7508",
@@ -2660,7 +2591,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H03M38.155924S"
+                "user_finish_time": "P0DT01H03M38.155924S",
+                "full_race_url": "https://racetime.gg/oot/fortunate-water-7508"
             },
             {
                 "name": "oot/banzai-sheik-4584",
@@ -2695,7 +2627,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M48.944372S"
+                "user_finish_time": "P0DT01H07M48.944372S",
+                "full_race_url": "https://racetime.gg/oot/banzai-sheik-4584"
             },
             {
                 "name": "oot/gnarly-bracelet-6257",
@@ -2730,7 +2663,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M03.746392S"
+                "user_finish_time": "P0DT01H07M03.746392S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-bracelet-6257"
             },
             {
                 "name": "oot/mysterious-cojiro-5006",
@@ -2765,7 +2699,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M04.334701S"
+                "user_finish_time": "P0DT01H08M04.334701S",
+                "full_race_url": "https://racetime.gg/oot/mysterious-cojiro-5006"
             },
             {
                 "name": "oot/lucky-bugs-8921",
@@ -2800,7 +2735,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H01M24.210263S"
+                "user_finish_time": "P0DT01H01M24.210263S",
+                "full_race_url": "https://racetime.gg/oot/lucky-bugs-8921"
             },
             {
                 "name": "oot/snug-shadow-4637",
@@ -2835,7 +2771,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M15.726046S"
+                "user_finish_time": "P0DT01H04M15.726046S",
+                "full_race_url": "https://racetime.gg/oot/snug-shadow-4637"
             },
             {
                 "name": "oot/amazing-guay-3644",
@@ -2870,7 +2807,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M08.181624S"
+                "user_finish_time": "P0DT01H15M08.181624S",
+                "full_race_url": "https://racetime.gg/oot/amazing-guay-3644"
             },
             {
                 "name": "oot/hyper-pocketegg-2161",
@@ -2905,7 +2843,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M25.777984S"
+                "user_finish_time": "P0DT01H13M25.777984S",
+                "full_race_url": "https://racetime.gg/oot/hyper-pocketegg-2161"
             },
             {
                 "name": "oot/perfect-ironboots-0083",
@@ -2940,7 +2879,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M35.964902S"
+                "user_finish_time": "P0DT01H09M35.964902S",
+                "full_race_url": "https://racetime.gg/oot/perfect-ironboots-0083"
             },
             {
                 "name": "oot/graceful-gohma-3181",
@@ -2975,7 +2915,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H02M46.764686S"
+                "user_finish_time": "P0DT01H02M46.764686S",
+                "full_race_url": "https://racetime.gg/oot/graceful-gohma-3181"
             },
             {
                 "name": "oot/prudent-beamos-3666",
@@ -3010,7 +2951,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M51.159649S"
+                "user_finish_time": "P0DT01H12M51.159649S",
+                "full_race_url": "https://racetime.gg/oot/prudent-beamos-3666"
             },
             {
                 "name": "oot/lawful-hylian-7615",
@@ -3045,7 +2987,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M54.192637S"
+                "user_finish_time": "P0DT01H08M54.192637S",
+                "full_race_url": "https://racetime.gg/oot/lawful-hylian-7615"
             },
             {
                 "name": "oot/sunken-beamos-7612",
@@ -3080,7 +3023,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M37.590948S"
+                "user_finish_time": "P0DT01H09M37.590948S",
+                "full_race_url": "https://racetime.gg/oot/sunken-beamos-7612"
             },
             {
                 "name": "oot/dynamax-navi-7728",
@@ -3115,7 +3059,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M27.977416S"
+                "user_finish_time": "P0DT01H06M27.977416S",
+                "full_race_url": "https://racetime.gg/oot/dynamax-navi-7728"
             },
             {
                 "name": "oot/reliable-shadow-9269",
@@ -3150,7 +3095,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M05.819878S"
+                "user_finish_time": "P0DT01H10M05.819878S",
+                "full_race_url": "https://racetime.gg/oot/reliable-shadow-9269"
             },
             {
                 "name": "oot/banzai-water-6682",
@@ -3185,7 +3131,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M41.469875S"
+                "user_finish_time": "P0DT01H14M41.469875S",
+                "full_race_url": "https://racetime.gg/oot/banzai-water-6682"
             },
             {
                 "name": "oot/zany-rauru-4347",
@@ -3220,7 +3167,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M27.261432S"
+                "user_finish_time": "P0DT01H08M27.261432S",
+                "full_race_url": "https://racetime.gg/oot/zany-rauru-4347"
             },
             {
                 "name": "oot/fancy-wasteland-6115",
@@ -3255,7 +3203,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H05M15.467351S"
+                "user_finish_time": "P0DT01H05M15.467351S",
+                "full_race_url": "https://racetime.gg/oot/fancy-wasteland-6115"
             },
             {
                 "name": "oot/clumsy-hoverboots-9108",
@@ -3290,7 +3239,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M02.568897S"
+                "user_finish_time": "P0DT01H09M02.568897S",
+                "full_race_url": "https://racetime.gg/oot/clumsy-hoverboots-9108"
             },
             {
                 "name": "oot/speedy-stalfos-0263",
@@ -3325,7 +3275,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M17.968767S"
+                "user_finish_time": "P0DT01H04M17.968767S",
+                "full_race_url": "https://racetime.gg/oot/speedy-stalfos-0263"
             },
             {
                 "name": "oot/jolly-mido-0240",
@@ -3360,7 +3311,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M33.253085S"
+                "user_finish_time": "P0DT01H09M33.253085S",
+                "full_race_url": "https://racetime.gg/oot/jolly-mido-0240"
             },
             {
                 "name": "oot/hyper-water-5648",
@@ -3395,7 +3347,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H24M43.361434S"
+                "user_finish_time": "P0DT01H24M43.361434S",
+                "full_race_url": "https://racetime.gg/oot/hyper-water-5648"
             },
             {
                 "name": "oot/puzzled-ruto-6732",
@@ -3430,7 +3383,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M49.600189S"
+                "user_finish_time": "P0DT01H09M49.600189S",
+                "full_race_url": "https://racetime.gg/oot/puzzled-ruto-6732"
             },
             {
                 "name": "oot/lazy-bow-3630",
@@ -3465,7 +3419,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M38.679882S"
+                "user_finish_time": "P0DT01H09M38.679882S",
+                "full_race_url": "https://racetime.gg/oot/lazy-bow-3630"
             },
             {
                 "name": "oot/artful-dungeonmap-8816",
@@ -3500,7 +3455,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M57.278571S"
+                "user_finish_time": "P0DT01H06M57.278571S",
+                "full_race_url": "https://racetime.gg/oot/artful-dungeonmap-8816"
             },
             {
                 "name": "oot/foolish-ganondorf-8732",
@@ -3535,7 +3491,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M04.041669S"
+                "user_finish_time": "P0DT01H10M04.041669S",
+                "full_race_url": "https://racetime.gg/oot/foolish-ganondorf-8732"
             },
             {
                 "name": "oot/dynamic-tunic-0536",
@@ -3570,7 +3527,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M13.002224S"
+                "user_finish_time": "P0DT01H06M13.002224S",
+                "full_race_url": "https://racetime.gg/oot/dynamic-tunic-0536"
             },
             {
                 "name": "oot/eager-octorok-8466",
@@ -3605,7 +3563,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H03M42.362468S"
+                "user_finish_time": "P0DT01H03M42.362468S",
+                "full_race_url": "https://racetime.gg/oot/eager-octorok-8466"
             },
             {
                 "name": "oot/gnarly-lizalfos-1956",
@@ -3640,7 +3599,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M03.959109S"
+                "user_finish_time": "P0DT01H14M03.959109S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-lizalfos-1956"
             },
             {
                 "name": "oot/banzai-dodongo-4677",
@@ -3675,7 +3635,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H05M29.951748S"
+                "user_finish_time": "P0DT01H05M29.951748S",
+                "full_race_url": "https://racetime.gg/oot/banzai-dodongo-4677"
             },
             {
                 "name": "oot/hungry-icecavern-2469",
@@ -3710,7 +3671,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M51.371339S"
+                "user_finish_time": "P0DT01H04M51.371339S",
+                "full_race_url": "https://racetime.gg/oot/hungry-icecavern-2469"
             },
             {
                 "name": "oot/calm-sheik-9886",
@@ -3745,7 +3707,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M39.128898S"
+                "user_finish_time": "P0DT01H10M39.128898S",
+                "full_race_url": "https://racetime.gg/oot/calm-sheik-9886"
             },
             {
                 "name": "oot/dynamax-volvagia-9263",
@@ -3780,10 +3743,11 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M41.399696S"
+                "user_finish_time": "P0DT01H17M41.399696S",
+                "full_race_url": "https://racetime.gg/oot/dynamax-volvagia-9263"
             }
         ],
-        "last_updated": "2026-03-30 07:06:37"
+        "last_updated": "2026-03-30 07:18:29"
     },
     "triforce3250": {
         "username": "triforce3250",
@@ -3821,7 +3785,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M32.161110S"
+                "user_finish_time": "P0DT01H12M32.161110S",
+                "full_race_url": "https://racetime.gg/oot/fancy-nocturne-0852"
             },
             {
                 "name": "oot/witty-tektike-1203",
@@ -3856,7 +3821,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M15.893778S"
+                "user_finish_time": "P0DT01H15M15.893778S",
+                "full_race_url": "https://racetime.gg/oot/witty-tektike-1203"
             },
             {
                 "name": "oot/smart-fishingpond-7366",
@@ -3891,7 +3857,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M55.107817S"
+                "user_finish_time": "P0DT01H18M55.107817S",
+                "full_race_url": "https://racetime.gg/oot/smart-fishingpond-7366"
             },
             {
                 "name": "oot/adequate-twinrova-9883",
@@ -3926,7 +3893,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M58.932674S"
+                "user_finish_time": "P0DT01H10M58.932674S",
+                "full_race_url": "https://racetime.gg/oot/adequate-twinrova-9883"
             },
             {
                 "name": "oot/epic-wolfos-7051",
@@ -3961,7 +3929,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H24M27.783456S"
+                "user_finish_time": "P0DT01H24M27.783456S",
+                "full_race_url": "https://racetime.gg/oot/epic-wolfos-7051"
             },
             {
                 "name": "oot/reliable-tunic-0993",
@@ -3996,42 +3965,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M21.315285S"
-            },
-            {
-                "name": "oot/amused-cojiro-5363",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/amused-cojiro-5363",
-                "data_url": "/oot/amused-cojiro-5363/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=901245&mode=blackout",
-                "entrants_count": 18,
-                "entrants_count_finished": 18,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-02-28T16:32:29.831Z",
-                "started_at": "2026-02-28T17:11:53.801Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-02-28T19:57:59.640Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H01M27.445752S"
+                "user_finish_time": "P0DT01H12M21.315285S",
+                "full_race_url": "https://racetime.gg/oot/reliable-tunic-0993"
             },
             {
                 "name": "oot/messy-ruto-4362",
@@ -4066,7 +4001,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M04.955080S"
+                "user_finish_time": "P0DT01H15M04.955080S",
+                "full_race_url": "https://racetime.gg/oot/messy-ruto-4362"
             },
             {
                 "name": "oot/invincible-skulltula-6465",
@@ -4101,7 +4037,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M47.533508S"
+                "user_finish_time": "P0DT01H12M47.533508S",
+                "full_race_url": "https://racetime.gg/oot/invincible-skulltula-6465"
             },
             {
                 "name": "oot/brainy-biri-6773",
@@ -4136,7 +4073,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M32.691806S"
+                "user_finish_time": "P0DT01H12M32.691806S",
+                "full_race_url": "https://racetime.gg/oot/brainy-biri-6773"
             },
             {
                 "name": "oot/frantic-talon-6790",
@@ -4171,7 +4109,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H26M13.767411S"
+                "user_finish_time": "P0DT01H26M13.767411S",
+                "full_race_url": "https://racetime.gg/oot/frantic-talon-6790"
             },
             {
                 "name": "oot/cunning-dungeonmap-2648",
@@ -4206,7 +4145,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M10.842896S"
+                "user_finish_time": "P0DT01H12M10.842896S",
+                "full_race_url": "https://racetime.gg/oot/cunning-dungeonmap-2648"
             },
             {
                 "name": "oot/mecha-stalfos-0033",
@@ -4241,7 +4181,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M29.623885S"
+                "user_finish_time": "P0DT01H08M29.623885S",
+                "full_race_url": "https://racetime.gg/oot/mecha-stalfos-0033"
             },
             {
                 "name": "oot/banzai-tektike-6573",
@@ -4276,7 +4217,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M36.474497S"
+                "user_finish_time": "P0DT01H14M36.474497S",
+                "full_race_url": "https://racetime.gg/oot/banzai-tektike-6573"
             },
             {
                 "name": "oot/innocent-bottle-2631",
@@ -4311,7 +4253,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M34.713956S"
+                "user_finish_time": "P0DT01H14M34.713956S",
+                "full_race_url": "https://racetime.gg/oot/innocent-bottle-2631"
             },
             {
                 "name": "oot/clever-nocturne-7700",
@@ -4346,7 +4289,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M20.203356S"
+                "user_finish_time": "P0DT01H10M20.203356S",
+                "full_race_url": "https://racetime.gg/oot/clever-nocturne-7700"
             },
             {
                 "name": "oot/foolish-freezard-4087",
@@ -4381,7 +4325,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H01M00.122817S"
+                "user_finish_time": "P0DT01H01M00.122817S",
+                "full_race_url": "https://racetime.gg/oot/foolish-freezard-4087"
             },
             {
                 "name": "oot/skyward-octorok-7994",
@@ -4416,7 +4361,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M48.651510S"
+                "user_finish_time": "P0DT01H11M48.651510S",
+                "full_race_url": "https://racetime.gg/oot/skyward-octorok-7994"
             },
             {
                 "name": "oot/fancy-epona-6159",
@@ -4451,7 +4397,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M47.439759S"
+                "user_finish_time": "P0DT01H15M47.439759S",
+                "full_race_url": "https://racetime.gg/oot/fancy-epona-6159"
             },
             {
                 "name": "oot/travelling-ironboots-8597",
@@ -4486,7 +4433,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M50.563443S"
+                "user_finish_time": "P0DT01H12M50.563443S",
+                "full_race_url": "https://racetime.gg/oot/travelling-ironboots-8597"
             },
             {
                 "name": "oot/shiny-ruto-8462",
@@ -4521,42 +4469,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M50.870032S"
-            },
-            {
-                "name": "oot/scrawny-cow-4383",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/scrawny-cow-4383",
-                "data_url": "/oot/scrawny-cow-4383/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "Shieldless https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=158277&mode=normal",
-                "entrants_count": 2,
-                "entrants_count_finished": 2,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-01-18T23:51:12.450Z",
-                "started_at": "2026-01-19T00:03:09.258Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-01-19T01:38:16.413Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H35M07.119964S"
+                "user_finish_time": "P0DT01H06M50.870032S",
+                "full_race_url": "https://racetime.gg/oot/shiny-ruto-8462"
             },
             {
                 "name": "oot/legendary-tektike-4319",
@@ -4591,7 +4505,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M24.416056S"
+                "user_finish_time": "P0DT01H14M24.416056S",
+                "full_race_url": "https://racetime.gg/oot/legendary-tektike-4319"
             },
             {
                 "name": "oot/disco-barinade-3528",
@@ -4626,42 +4541,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H24M23.954233S"
-            },
-            {
-                "name": "oot/scrawny-bongobongo-5763",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/scrawny-bongobongo-5763",
-                "data_url": "/oot/scrawny-bongobongo-5763/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=263693&mode=normal",
-                "entrants_count": 2,
-                "entrants_count_finished": 2,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-01-15T00:22:02.120Z",
-                "started_at": "2026-01-15T00:32:53.526Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-01-15T01:58:55.734Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H26M02.137914S"
+                "user_finish_time": "P0DT01H24M23.954233S",
+                "full_race_url": "https://racetime.gg/oot/disco-barinade-3528"
             },
             {
                 "name": "oot/fearless-knuckle-4997",
@@ -4696,7 +4577,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H22M55.457633S"
+                "user_finish_time": "P0DT01H22M55.457633S",
+                "full_race_url": "https://racetime.gg/oot/fearless-knuckle-4997"
             },
             {
                 "name": "oot/fried-ingo-9560",
@@ -4731,7 +4613,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M27.729711S"
+                "user_finish_time": "P0DT01H08M27.729711S",
+                "full_race_url": "https://racetime.gg/oot/fried-ingo-9560"
             },
             {
                 "name": "oot/helpful-sword-3650",
@@ -4766,7 +4649,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M34.726822S"
+                "user_finish_time": "P0DT01H08M34.726822S",
+                "full_race_url": "https://racetime.gg/oot/helpful-sword-3650"
             },
             {
                 "name": "oot/mega-gibdo-6052",
@@ -4801,7 +4685,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H21M12.820361S"
+                "user_finish_time": "P0DT01H21M12.820361S",
+                "full_race_url": "https://racetime.gg/oot/mega-gibdo-6052"
             },
             {
                 "name": "oot/innocent-minuet-2103",
@@ -4836,7 +4721,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H24M54.584189S"
+                "user_finish_time": "P0DT01H24M54.584189S",
+                "full_race_url": "https://racetime.gg/oot/innocent-minuet-2103"
             },
             {
                 "name": "oot/clumsy-saria-2460",
@@ -4871,7 +4757,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M27.259776S"
+                "user_finish_time": "P0DT01H17M27.259776S",
+                "full_race_url": "https://racetime.gg/oot/clumsy-saria-2460"
             },
             {
                 "name": "oot/odd-ruby-9785",
@@ -4906,7 +4793,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M21.894194S"
+                "user_finish_time": "P0DT01H16M21.894194S",
+                "full_race_url": "https://racetime.gg/oot/odd-ruby-9785"
             },
             {
                 "name": "oot/wild-shadow-6913",
@@ -4941,7 +4829,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M28.829155S"
+                "user_finish_time": "P0DT01H12M28.829155S",
+                "full_race_url": "https://racetime.gg/oot/wild-shadow-6913"
             },
             {
                 "name": "oot/prudent-tunic-0272",
@@ -4976,7 +4865,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M49.598841S"
+                "user_finish_time": "P0DT01H09M49.598841S",
+                "full_race_url": "https://racetime.gg/oot/prudent-tunic-0272"
             },
             {
                 "name": "oot/frantic-cojiro-8502",
@@ -5011,7 +4901,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M59.443633S"
+                "user_finish_time": "P0DT01H09M59.443633S",
+                "full_race_url": "https://racetime.gg/oot/frantic-cojiro-8502"
             },
             {
                 "name": "oot/reliable-fairy-0210",
@@ -5046,7 +4937,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H40M21.468837S"
+                "user_finish_time": "P0DT01H40M21.468837S",
+                "full_race_url": "https://racetime.gg/oot/reliable-fairy-0210"
             },
             {
                 "name": "oot/bonus-quiver-4282",
@@ -5081,7 +4973,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M01.105164S"
+                "user_finish_time": "P0DT01H19M01.105164S",
+                "full_race_url": "https://racetime.gg/oot/bonus-quiver-4282"
             },
             {
                 "name": "oot/mega-armos-7560",
@@ -5116,7 +5009,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M23.077001S"
+                "user_finish_time": "P0DT01H14M23.077001S",
+                "full_race_url": "https://racetime.gg/oot/mega-armos-7560"
             },
             {
                 "name": "oot/classic-bracelet-0984",
@@ -5151,7 +5045,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M15.874061S"
+                "user_finish_time": "P0DT01H08M15.874061S",
+                "full_race_url": "https://racetime.gg/oot/classic-bracelet-0984"
             },
             {
                 "name": "oot/mega-likelike-3265",
@@ -5186,7 +5081,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M56.361728S"
+                "user_finish_time": "P0DT01H10M56.361728S",
+                "full_race_url": "https://racetime.gg/oot/mega-likelike-3265"
             },
             {
                 "name": "oot/innocent-fish-4073",
@@ -5221,7 +5117,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M32.046839S"
+                "user_finish_time": "P0DT01H13M32.046839S",
+                "full_race_url": "https://racetime.gg/oot/innocent-fish-4073"
             },
             {
                 "name": "oot/magic-eyeballfrog-1907",
@@ -5256,7 +5153,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M14.945688S"
+                "user_finish_time": "P0DT01H14M14.945688S",
+                "full_race_url": "https://racetime.gg/oot/magic-eyeballfrog-1907"
             },
             {
                 "name": "oot/epic-beamos-8471",
@@ -5291,7 +5189,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H24M24.415707S"
+                "user_finish_time": "P0DT01H24M24.415707S",
+                "full_race_url": "https://racetime.gg/oot/epic-beamos-8471"
             },
             {
                 "name": "oot/sublime-shabom-6489",
@@ -5326,7 +5225,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M52.638791S"
+                "user_finish_time": "P0DT01H09M52.638791S",
+                "full_race_url": "https://racetime.gg/oot/sublime-shabom-6489"
             },
             {
                 "name": "oot/bonus-chest-6186",
@@ -5361,7 +5261,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M11.489388S"
+                "user_finish_time": "P0DT01H14M11.489388S",
+                "full_race_url": "https://racetime.gg/oot/bonus-chest-6186"
             },
             {
                 "name": "oot/lawful-serenade-4226",
@@ -5396,7 +5297,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M17.572560S"
+                "user_finish_time": "P0DT01H06M17.572560S",
+                "full_race_url": "https://racetime.gg/oot/lawful-serenade-4226"
             },
             {
                 "name": "oot/swag-shield-7479",
@@ -5431,7 +5333,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M56.836821S"
+                "user_finish_time": "P0DT01H14M56.836821S",
+                "full_race_url": "https://racetime.gg/oot/swag-shield-7479"
             },
             {
                 "name": "oot/critical-bosskey-8557",
@@ -5466,7 +5369,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M17.591960S"
+                "user_finish_time": "P0DT01H09M17.591960S",
+                "full_race_url": "https://racetime.gg/oot/critical-bosskey-8557"
             },
             {
                 "name": "oot/trusty-fishingpond-1548",
@@ -5501,7 +5405,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M46.970276S"
+                "user_finish_time": "P0DT01H08M46.970276S",
+                "full_race_url": "https://racetime.gg/oot/trusty-fishingpond-1548"
             },
             {
                 "name": "oot/clumsy-water-5135",
@@ -5536,7 +5441,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M15.999194S"
+                "user_finish_time": "P0DT01H07M15.999194S",
+                "full_race_url": "https://racetime.gg/oot/clumsy-water-5135"
             },
             {
                 "name": "oot/epic-shield-6065",
@@ -5571,7 +5477,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M21.848685S"
+                "user_finish_time": "P0DT01H11M21.848685S",
+                "full_race_url": "https://racetime.gg/oot/epic-shield-6065"
             },
             {
                 "name": "oot/superb-heartcontainer-7616",
@@ -5606,7 +5513,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M38.534146S"
+                "user_finish_time": "P0DT01H16M38.534146S",
+                "full_race_url": "https://racetime.gg/oot/superb-heartcontainer-7616"
             },
             {
                 "name": "oot/clumsy-wolfos-4293",
@@ -5641,7 +5549,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M48.510482S"
+                "user_finish_time": "P0DT01H11M48.510482S",
+                "full_race_url": "https://racetime.gg/oot/clumsy-wolfos-4293"
             },
             {
                 "name": "oot/dapper-arrow-9924",
@@ -5676,7 +5585,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M23.626510S"
+                "user_finish_time": "P0DT01H11M23.626510S",
+                "full_race_url": "https://racetime.gg/oot/dapper-arrow-9924"
             },
             {
                 "name": "oot/legendary-epona-0718",
@@ -5711,7 +5621,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M17.669865S"
+                "user_finish_time": "P0DT01H04M17.669865S",
+                "full_race_url": "https://racetime.gg/oot/legendary-epona-0718"
             },
             {
                 "name": "oot/superb-icecavern-2539",
@@ -5746,7 +5657,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M57.945147S"
+                "user_finish_time": "P0DT01H17M57.945147S",
+                "full_race_url": "https://racetime.gg/oot/superb-icecavern-2539"
             },
             {
                 "name": "oot/amazing-nocturne-5384",
@@ -5781,7 +5693,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M01.179618S"
+                "user_finish_time": "P0DT01H09M01.179618S",
+                "full_race_url": "https://racetime.gg/oot/amazing-nocturne-5384"
             },
             {
                 "name": "oot/fancy-serenade-2712",
@@ -5816,7 +5729,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H22M40.765440S"
+                "user_finish_time": "P0DT01H22M40.765440S",
+                "full_race_url": "https://racetime.gg/oot/fancy-serenade-2712"
             },
             {
                 "name": "oot/puzzled-gohma-2840",
@@ -5851,7 +5765,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M04.234426S"
+                "user_finish_time": "P0DT01H12M04.234426S",
+                "full_race_url": "https://racetime.gg/oot/puzzled-gohma-2840"
             },
             {
                 "name": "oot/classic-rupee-6277",
@@ -5886,7 +5801,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M58.078557S"
+                "user_finish_time": "P0DT01H09M58.078557S",
+                "full_race_url": "https://racetime.gg/oot/classic-rupee-6277"
             },
             {
                 "name": "oot/scrawny-ingo-9470",
@@ -5921,77 +5837,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M29.417478S"
-            },
-            {
-                "name": "oot/swag-mido-1817",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/swag-mido-1817",
-                "data_url": "/oot/swag-mido-1817/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "double-bingo https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=764064&mode=normal",
-                "entrants_count": 7,
-                "entrants_count_finished": 7,
-                "entrants_count_inactive": 0,
-                "opened_at": "2025-07-20T08:14:04.455Z",
-                "started_at": "2025-07-20T08:19:02.295Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-07-20T10:30:00.278Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H29M11.485729S"
-            },
-            {
-                "name": "oot/disco-dungeonmap-4878",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/disco-dungeonmap-4878",
-                "data_url": "/oot/disco-dungeonmap-4878/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?mode=normal&version=4.1&seed=504501",
-                "entrants_count": 9,
-                "entrants_count_finished": 8,
-                "entrants_count_inactive": 1,
-                "opened_at": "2025-07-20T06:56:19.173Z",
-                "started_at": "2025-07-20T07:01:10.850Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-07-20T08:29:45.967Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H00M13.901515S"
+                "user_finish_time": "P0DT01H14M29.417478S",
+                "full_race_url": "https://racetime.gg/oot/scrawny-ingo-9470"
             },
             {
                 "name": "oot/crazy-windmill-2762",
@@ -6026,7 +5873,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M37.852273S"
+                "user_finish_time": "P0DT01H10M37.852273S",
+                "full_race_url": "https://racetime.gg/oot/crazy-windmill-2762"
             },
             {
                 "name": "oot/golden-guay-5545",
@@ -6061,7 +5909,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M58.712025S"
+                "user_finish_time": "P0DT01H16M58.712025S",
+                "full_race_url": "https://racetime.gg/oot/golden-guay-5545"
             },
             {
                 "name": "oot/cute-dungeon-5753",
@@ -6096,7 +5945,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M49.706037S"
+                "user_finish_time": "P0DT01H12M49.706037S",
+                "full_race_url": "https://racetime.gg/oot/cute-dungeon-5753"
             },
             {
                 "name": "oot/calm-bosskey-0509",
@@ -6131,7 +5981,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M09.659374S"
+                "user_finish_time": "P0DT01H13M09.659374S",
+                "full_race_url": "https://racetime.gg/oot/calm-bosskey-0509"
             },
             {
                 "name": "oot/cunning-dodongo-8313",
@@ -6166,7 +6017,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M03.435815S"
+                "user_finish_time": "P0DT01H10M03.435815S",
+                "full_race_url": "https://racetime.gg/oot/cunning-dodongo-8313"
             },
             {
                 "name": "oot/lawful-octorok-9877",
@@ -6201,7 +6053,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M52.955372S"
+                "user_finish_time": "P0DT01H10M52.955372S",
+                "full_race_url": "https://racetime.gg/oot/lawful-octorok-9877"
             },
             {
                 "name": "oot/puzzled-link-9524",
@@ -6236,7 +6089,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M28.337095S"
+                "user_finish_time": "P0DT01H17M28.337095S",
+                "full_race_url": "https://racetime.gg/oot/puzzled-link-9524"
             },
             {
                 "name": "oot/snug-dekubaba-2101",
@@ -6271,7 +6125,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M05.789269S"
+                "user_finish_time": "P0DT01H15M05.789269S",
+                "full_race_url": "https://racetime.gg/oot/snug-dekubaba-2101"
             },
             {
                 "name": "oot/puzzled-shabom-8289",
@@ -6306,7 +6161,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M30.865240S"
+                "user_finish_time": "P0DT01H11M30.865240S",
+                "full_race_url": "https://racetime.gg/oot/puzzled-shabom-8289"
             },
             {
                 "name": "oot/brainy-ocarina-6385",
@@ -6341,7 +6197,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M32.403456S"
+                "user_finish_time": "P0DT01H10M32.403456S",
+                "full_race_url": "https://racetime.gg/oot/brainy-ocarina-6385"
             },
             {
                 "name": "oot/salty-epona-4235",
@@ -6376,7 +6233,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M19.027703S"
+                "user_finish_time": "P0DT01H12M19.027703S",
+                "full_race_url": "https://racetime.gg/oot/salty-epona-4235"
             },
             {
                 "name": "oot/dynamic-colossus-0628",
@@ -6411,7 +6269,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M45.505741S"
+                "user_finish_time": "P0DT01H09M45.505741S",
+                "full_race_url": "https://racetime.gg/oot/dynamic-colossus-0628"
             },
             {
                 "name": "oot/lucky-bow-1235",
@@ -6446,7 +6305,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M52.155978S"
+                "user_finish_time": "P0DT01H13M52.155978S",
+                "full_race_url": "https://racetime.gg/oot/lucky-bow-1235"
             },
             {
                 "name": "oot/smart-skulltula-4628",
@@ -6481,7 +6341,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M26.156677S"
+                "user_finish_time": "P0DT01H12M26.156677S",
+                "full_race_url": "https://racetime.gg/oot/smart-skulltula-4628"
             },
             {
                 "name": "oot/secret-guay-2959",
@@ -6516,7 +6377,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M28.559284S"
+                "user_finish_time": "P0DT01H14M28.559284S",
+                "full_race_url": "https://racetime.gg/oot/secret-guay-2959"
             },
             {
                 "name": "oot/salty-ruby-8570",
@@ -6551,42 +6413,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M25.903625S"
-            },
-            {
-                "name": "oot/perfect-gauntlet-4200",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/perfect-gauntlet-4200",
-                "data_url": "/oot/perfect-gauntlet-4200/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=631576&mode=short",
-                "entrants_count": 4,
-                "entrants_count_finished": 3,
-                "entrants_count_inactive": 1,
-                "opened_at": "2025-06-04T00:02:03.166Z",
-                "started_at": "2025-06-04T00:23:35.837Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-06-04T01:29:11.597Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT00H40M16.471997S"
+                "user_finish_time": "P0DT01H16M25.903625S",
+                "full_race_url": "https://racetime.gg/oot/salty-ruby-8570"
             },
             {
                 "name": "oot/brave-moblin-9286",
@@ -6621,7 +6449,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M04.709664S"
+                "user_finish_time": "P0DT01H09M04.709664S",
+                "full_race_url": "https://racetime.gg/oot/brave-moblin-9286"
             },
             {
                 "name": "oot/famous-water-1593",
@@ -6656,7 +6485,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M28.163171S"
+                "user_finish_time": "P0DT01H15M28.163171S",
+                "full_race_url": "https://racetime.gg/oot/famous-water-1593"
             },
             {
                 "name": "oot/fortunate-boomerang-7054",
@@ -6691,7 +6521,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H28M00.999242S"
+                "user_finish_time": "P0DT01H28M00.999242S",
+                "full_race_url": "https://racetime.gg/oot/fortunate-boomerang-7054"
             },
             {
                 "name": "oot/superb-guay-4924",
@@ -6726,7 +6557,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M15.314658S"
+                "user_finish_time": "P0DT01H19M15.314658S",
+                "full_race_url": "https://racetime.gg/oot/superb-guay-4924"
             },
             {
                 "name": "oot/lucky-sheik-0872",
@@ -6761,7 +6593,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M07.792279S"
+                "user_finish_time": "P0DT01H08M07.792279S",
+                "full_race_url": "https://racetime.gg/oot/lucky-sheik-0872"
             },
             {
                 "name": "oot/smart-hylian-0682",
@@ -6796,7 +6629,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M54.917992S"
+                "user_finish_time": "P0DT01H13M54.917992S",
+                "full_race_url": "https://racetime.gg/oot/smart-hylian-0682"
             },
             {
                 "name": "oot/hyper-heartcontainer-7735",
@@ -6831,7 +6665,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H23M53.443374S"
+                "user_finish_time": "P0DT01H23M53.443374S",
+                "full_race_url": "https://racetime.gg/oot/hyper-heartcontainer-7735"
             },
             {
                 "name": "oot/artful-moblin-6817",
@@ -6866,7 +6701,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M57.578469S"
+                "user_finish_time": "P0DT01H07M57.578469S",
+                "full_race_url": "https://racetime.gg/oot/artful-moblin-6817"
             },
             {
                 "name": "oot/awesome-gerudo-8972",
@@ -6901,7 +6737,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M47.649315S"
+                "user_finish_time": "P0DT01H17M47.649315S",
+                "full_race_url": "https://racetime.gg/oot/awesome-gerudo-8972"
             },
             {
                 "name": "oot/eager-gauntlet-7831",
@@ -6936,7 +6773,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M16.779012S"
+                "user_finish_time": "P0DT01H10M16.779012S",
+                "full_race_url": "https://racetime.gg/oot/eager-gauntlet-7831"
             },
             {
                 "name": "oot/scruffy-dampe-2424",
@@ -6971,7 +6809,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M13.532488S"
+                "user_finish_time": "P0DT01H11M13.532488S",
+                "full_race_url": "https://racetime.gg/oot/scruffy-dampe-2424"
             },
             {
                 "name": "oot/trusty-gossipstone-5865",
@@ -7006,7 +6845,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H21M24.831372S"
+                "user_finish_time": "P0DT01H21M24.831372S",
+                "full_race_url": "https://racetime.gg/oot/trusty-gossipstone-5865"
             },
             {
                 "name": "oot/famous-shadow-6705",
@@ -7041,7 +6881,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M59.628445S"
+                "user_finish_time": "P0DT01H13M59.628445S",
+                "full_race_url": "https://racetime.gg/oot/famous-shadow-6705"
             },
             {
                 "name": "oot/amused-kingzora-7270",
@@ -7076,7 +6917,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M10.737212S"
+                "user_finish_time": "P0DT01H16M10.737212S",
+                "full_race_url": "https://racetime.gg/oot/amused-kingzora-7270"
             },
             {
                 "name": "oot/agreeable-beamos-3698",
@@ -7111,7 +6953,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M39.615052S"
+                "user_finish_time": "P0DT01H10M39.615052S",
+                "full_race_url": "https://racetime.gg/oot/agreeable-beamos-3698"
             },
             {
                 "name": "oot/grumpy-ocarina-9727",
@@ -7146,7 +6989,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M06.518925S"
+                "user_finish_time": "P0DT01H17M06.518925S",
+                "full_race_url": "https://racetime.gg/oot/grumpy-ocarina-9727"
             },
             {
                 "name": "oot/dapper-heartcontainer-7376",
@@ -7181,7 +7025,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M28.265236S"
+                "user_finish_time": "P0DT01H13M28.265236S",
+                "full_race_url": "https://racetime.gg/oot/dapper-heartcontainer-7376"
             },
             {
                 "name": "oot/swag-goron-9374",
@@ -7216,7 +7061,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M09.529405S"
+                "user_finish_time": "P0DT01H10M09.529405S",
+                "full_race_url": "https://racetime.gg/oot/swag-goron-9374"
             },
             {
                 "name": "oot/fortunate-likelike-2269",
@@ -7251,7 +7097,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M06.741349S"
+                "user_finish_time": "P0DT01H11M06.741349S",
+                "full_race_url": "https://racetime.gg/oot/fortunate-likelike-2269"
             },
             {
                 "name": "oot/crafty-arrow-7399",
@@ -7286,7 +7133,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M38.223440S"
+                "user_finish_time": "P0DT01H16M38.223440S",
+                "full_race_url": "https://racetime.gg/oot/crafty-arrow-7399"
             },
             {
                 "name": "oot/scruffy-bulletbag-2202",
@@ -7321,7 +7169,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H21M14.434804S"
+                "user_finish_time": "P0DT01H21M14.434804S",
+                "full_race_url": "https://racetime.gg/oot/scruffy-bulletbag-2202"
             },
             {
                 "name": "oot/jolly-bean-0412",
@@ -7356,7 +7205,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M08.525503S"
+                "user_finish_time": "P0DT01H18M08.525503S",
+                "full_race_url": "https://racetime.gg/oot/jolly-bean-0412"
             },
             {
                 "name": "oot/silly-icecavern-1127",
@@ -7391,7 +7241,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H08M54.762686S"
+                "user_finish_time": "P0DT01H08M54.762686S",
+                "full_race_url": "https://racetime.gg/oot/silly-icecavern-1127"
             },
             {
                 "name": "oot/snug-minuet-5719",
@@ -7426,7 +7277,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M13.743413S"
+                "user_finish_time": "P0DT01H17M13.743413S",
+                "full_race_url": "https://racetime.gg/oot/snug-minuet-5719"
             },
             {
                 "name": "oot/shiny-ocarina-6762",
@@ -7461,7 +7313,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M42.384718S"
+                "user_finish_time": "P0DT01H09M42.384718S",
+                "full_race_url": "https://racetime.gg/oot/shiny-ocarina-6762"
             },
             {
                 "name": "oot/comic-dampe-8942",
@@ -7496,10 +7349,11 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M24.408827S"
+                "user_finish_time": "P0DT01H17M24.408827S",
+                "full_race_url": "https://racetime.gg/oot/comic-dampe-8942"
             }
         ],
-        "last_updated": "2026-03-30 07:07:34"
+        "last_updated": "2026-03-30 07:19:34"
     },
     "2dollargargoyle": {
         "username": "2DollarGargoyle",
@@ -7537,7 +7391,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H31M35.486897S"
+                "user_finish_time": "P0DT01H31M35.486897S",
+                "full_race_url": "https://racetime.gg/oot/mecha-navi-0795"
             },
             {
                 "name": "oot/foolish-farore-5733",
@@ -7572,7 +7427,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H26M18.500229S"
+                "user_finish_time": "P0DT01H26M18.500229S",
+                "full_race_url": "https://racetime.gg/oot/foolish-farore-5733"
             },
             {
                 "name": "oot/graceful-tektike-9942",
@@ -7607,7 +7463,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M27.520710S"
+                "user_finish_time": "P0DT01H19M27.520710S",
+                "full_race_url": "https://racetime.gg/oot/graceful-tektike-9942"
             },
             {
                 "name": "oot/artful-fishingpond-4181",
@@ -7642,7 +7499,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M48.295686S"
+                "user_finish_time": "P0DT01H17M48.295686S",
+                "full_race_url": "https://racetime.gg/oot/artful-fishingpond-4181"
             },
             {
                 "name": "oot/famous-temple-6479",
@@ -7677,7 +7535,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M55.880179S"
+                "user_finish_time": "P0DT01H09M55.880179S",
+                "full_race_url": "https://racetime.gg/oot/famous-temple-6479"
             },
             {
                 "name": "oot/perfect-serenade-8208",
@@ -7712,7 +7571,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M21.311135S"
+                "user_finish_time": "P0DT01H12M21.311135S",
+                "full_race_url": "https://racetime.gg/oot/perfect-serenade-8208"
             },
             {
                 "name": "oot/funky-colossus-0774",
@@ -7747,7 +7607,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M25.451635S"
+                "user_finish_time": "P0DT01H12M25.451635S",
+                "full_race_url": "https://racetime.gg/oot/funky-colossus-0774"
             },
             {
                 "name": "oot/dapper-arrow-9924",
@@ -7782,7 +7643,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M41.117351S"
+                "user_finish_time": "P0DT01H13M41.117351S",
+                "full_race_url": "https://racetime.gg/oot/dapper-arrow-9924"
             },
             {
                 "name": "oot/hungry-twinrova-6359",
@@ -7817,7 +7679,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M38.615511S"
+                "user_finish_time": "P0DT01H09M38.615511S",
+                "full_race_url": "https://racetime.gg/oot/hungry-twinrova-6359"
             },
             {
                 "name": "oot/amazing-nocturne-5384",
@@ -7852,7 +7715,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M42.337694S"
+                "user_finish_time": "P0DT01H14M42.337694S",
+                "full_race_url": "https://racetime.gg/oot/amazing-nocturne-5384"
             },
             {
                 "name": "oot/pogtastic-medallion-4035",
@@ -7887,7 +7751,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M38.338421S"
+                "user_finish_time": "P0DT01H19M38.338421S",
+                "full_race_url": "https://racetime.gg/oot/pogtastic-medallion-4035"
             },
             {
                 "name": "oot/fried-link-9585",
@@ -7922,7 +7787,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M14.549139S"
+                "user_finish_time": "P0DT01H11M14.549139S",
+                "full_race_url": "https://racetime.gg/oot/fried-link-9585"
             },
             {
                 "name": "oot/agreeable-fire-2906",
@@ -7957,7 +7823,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M32.772734S"
+                "user_finish_time": "P0DT01H13M32.772734S",
+                "full_race_url": "https://racetime.gg/oot/agreeable-fire-2906"
             },
             {
                 "name": "oot/superb-mushroom-6373",
@@ -7992,7 +7859,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H23M12.135559S"
+                "user_finish_time": "P0DT01H23M12.135559S",
+                "full_race_url": "https://racetime.gg/oot/superb-mushroom-6373"
             },
             {
                 "name": "oot/banzai-navi-7932",
@@ -8027,42 +7895,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M47.481538S"
-            },
-            {
-                "name": "oot/superb-moblin-5202",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/superb-moblin-5202",
-                "data_url": "/oot/superb-moblin-5202/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=761684&mode=normal",
-                "entrants_count": 9,
-                "entrants_count_finished": 9,
-                "entrants_count_inactive": 0,
-                "opened_at": "2025-07-20T12:24:56.521Z",
-                "started_at": "2025-07-20T12:54:03.742Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-07-20T14:10:23.218Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H12M49.367185S"
+                "user_finish_time": "P0DT01H17M47.481538S",
+                "full_race_url": "https://racetime.gg/oot/banzai-navi-7932"
             },
             {
                 "name": "oot/graceful-din-7261",
@@ -8097,77 +7931,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H24M32.903330S"
-            },
-            {
-                "name": "oot/swag-mido-1817",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/swag-mido-1817",
-                "data_url": "/oot/swag-mido-1817/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "double-bingo https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=764064&mode=normal",
-                "entrants_count": 7,
-                "entrants_count_finished": 7,
-                "entrants_count_inactive": 0,
-                "opened_at": "2025-07-20T08:14:04.455Z",
-                "started_at": "2025-07-20T08:19:02.295Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-07-20T10:30:00.278Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H44M00.065200S"
-            },
-            {
-                "name": "oot/disco-dungeonmap-4878",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/disco-dungeonmap-4878",
-                "data_url": "/oot/disco-dungeonmap-4878/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?mode=normal&version=4.1&seed=504501",
-                "entrants_count": 9,
-                "entrants_count_finished": 8,
-                "entrants_count_inactive": 1,
-                "opened_at": "2025-07-20T06:56:19.173Z",
-                "started_at": "2025-07-20T07:01:10.850Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-07-20T08:29:45.967Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT00H50M13.232989S"
+                "user_finish_time": "P0DT01H24M32.903330S",
+                "full_race_url": "https://racetime.gg/oot/graceful-din-7261"
             },
             {
                 "name": "oot/crazy-windmill-2762",
@@ -8202,7 +7967,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M26.295541S"
+                "user_finish_time": "P0DT01H12M26.295541S",
+                "full_race_url": "https://racetime.gg/oot/crazy-windmill-2762"
             },
             {
                 "name": "oot/golden-guay-5545",
@@ -8237,7 +8003,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M30.097743S"
+                "user_finish_time": "P0DT01H17M30.097743S",
+                "full_race_url": "https://racetime.gg/oot/golden-guay-5545"
             },
             {
                 "name": "oot/cute-dungeon-5753",
@@ -8272,7 +8039,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M59.261377S"
+                "user_finish_time": "P0DT01H15M59.261377S",
+                "full_race_url": "https://racetime.gg/oot/cute-dungeon-5753"
             },
             {
                 "name": "oot/calm-bosskey-0509",
@@ -8307,7 +8075,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M33.613946S"
+                "user_finish_time": "P0DT01H15M33.613946S",
+                "full_race_url": "https://racetime.gg/oot/calm-bosskey-0509"
             },
             {
                 "name": "oot/puzzled-link-9524",
@@ -8342,7 +8111,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M45.227743S"
+                "user_finish_time": "P0DT01H15M45.227743S",
+                "full_race_url": "https://racetime.gg/oot/puzzled-link-9524"
             },
             {
                 "name": "oot/fancy-bracelet-1492",
@@ -8377,7 +8147,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M18.551422S"
+                "user_finish_time": "P0DT01H16M18.551422S",
+                "full_race_url": "https://racetime.gg/oot/fancy-bracelet-1492"
             },
             {
                 "name": "oot/zany-deadhand-4386",
@@ -8412,7 +8183,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M52.751577S"
+                "user_finish_time": "P0DT01H06M52.751577S",
+                "full_race_url": "https://racetime.gg/oot/zany-deadhand-4386"
             },
             {
                 "name": "oot/bonus-fairy-2114",
@@ -8447,7 +8219,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H23M05.144488S"
+                "user_finish_time": "P0DT01H23M05.144488S",
+                "full_race_url": "https://racetime.gg/oot/bonus-fairy-2114"
             },
             {
                 "name": "oot/salty-epona-4235",
@@ -8482,7 +8255,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H29M58.054772S"
+                "user_finish_time": "P0DT01H29M58.054772S",
+                "full_race_url": "https://racetime.gg/oot/salty-epona-4235"
             },
             {
                 "name": "oot/critical-guay-7802",
@@ -8517,7 +8291,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H25M11.007864S"
+                "user_finish_time": "P0DT01H25M11.007864S",
+                "full_race_url": "https://racetime.gg/oot/critical-guay-7802"
             },
             {
                 "name": "oot/clumsy-ocarina-9729",
@@ -8552,7 +8327,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M55.853957S"
+                "user_finish_time": "P0DT01H19M55.853957S",
+                "full_race_url": "https://racetime.gg/oot/clumsy-ocarina-9729"
             },
             {
                 "name": "oot/disco-bean-4310",
@@ -8587,7 +8363,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H23M49.120543S"
+                "user_finish_time": "P0DT01H23M49.120543S",
+                "full_race_url": "https://racetime.gg/oot/disco-bean-4310"
             },
             {
                 "name": "oot/priceless-link-5619",
@@ -8622,42 +8399,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M49.306693S"
-            },
-            {
-                "name": "oot/proud-bean-4753",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/proud-bean-4753",
-                "data_url": "/oot/proud-bean-4753/data",
-                "goal": {
-                    "name": "Bingo",
-                    "custom": false
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=72985&mode=normal",
-                "entrants_count": 5,
-                "entrants_count_finished": 4,
-                "entrants_count_inactive": 1,
-                "opened_at": "2025-05-15T11:19:29.464Z",
-                "started_at": "2025-05-15T12:23:12.583Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-05-15T14:27:15.029Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H11M10.961257S"
+                "user_finish_time": "P0DT01H14M49.306693S",
+                "full_race_url": "https://racetime.gg/oot/priceless-link-5619"
             },
             {
                 "name": "oot/smart-hylian-0682",
@@ -8692,7 +8435,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H25M43.959364S"
+                "user_finish_time": "P0DT01H25M43.959364S",
+                "full_race_url": "https://racetime.gg/oot/smart-hylian-0682"
             },
             {
                 "name": "oot/mega-keese-4068",
@@ -8727,7 +8471,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H22M07.073190S"
+                "user_finish_time": "P0DT01H22M07.073190S",
+                "full_race_url": "https://racetime.gg/oot/mega-keese-4068"
             },
             {
                 "name": "oot/outrageous-zora-6276",
@@ -8762,7 +8507,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M57.180066S"
+                "user_finish_time": "P0DT01H18M57.180066S",
+                "full_race_url": "https://racetime.gg/oot/outrageous-zora-6276"
             },
             {
                 "name": "oot/lucky-dodongo-6676",
@@ -8797,7 +8543,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H09M44.876540S"
+                "user_finish_time": "P0DT01H09M44.876540S",
+                "full_race_url": "https://racetime.gg/oot/lucky-dodongo-6676"
             },
             {
                 "name": "oot/swag-claimcheck-6954",
@@ -8832,7 +8579,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M14.180271S"
+                "user_finish_time": "P0DT01H16M14.180271S",
+                "full_race_url": "https://racetime.gg/oot/swag-claimcheck-6954"
             },
             {
                 "name": "oot/tactical-minuet-1651",
@@ -8867,7 +8615,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M51.543008S"
+                "user_finish_time": "P0DT01H16M51.543008S",
+                "full_race_url": "https://racetime.gg/oot/tactical-minuet-1651"
             },
             {
                 "name": "oot/smelly-dampe-5276",
@@ -8902,7 +8651,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M55.795741S"
+                "user_finish_time": "P0DT01H18M55.795741S",
+                "full_race_url": "https://racetime.gg/oot/smelly-dampe-5276"
             },
             {
                 "name": "oot/curious-hammer-8164",
@@ -8937,7 +8687,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M16.653491S"
+                "user_finish_time": "P0DT01H16M16.653491S",
+                "full_race_url": "https://racetime.gg/oot/curious-hammer-8164"
             },
             {
                 "name": "oot/dazzling-arrow-0399",
@@ -8972,7 +8723,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M51.598770S"
+                "user_finish_time": "P0DT01H06M51.598770S",
+                "full_race_url": "https://racetime.gg/oot/dazzling-arrow-0399"
             },
             {
                 "name": "oot/snug-minuet-5719",
@@ -9007,7 +8759,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M15.599266S"
+                "user_finish_time": "P0DT01H11M15.599266S",
+                "full_race_url": "https://racetime.gg/oot/snug-minuet-5719"
             },
             {
                 "name": "oot/scruffy-skullkid-2323",
@@ -9042,7 +8795,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H23M33.798692S"
+                "user_finish_time": "P0DT01H23M33.798692S",
+                "full_race_url": "https://racetime.gg/oot/scruffy-skullkid-2323"
             },
             {
                 "name": "oot/magic-moblin-9844",
@@ -9077,7 +8831,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M08.249179S"
+                "user_finish_time": "P0DT01H16M08.249179S",
+                "full_race_url": "https://racetime.gg/oot/magic-moblin-9844"
             },
             {
                 "name": "oot/gnarly-freezard-4324",
@@ -9112,7 +8867,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H21M01.103576S"
+                "user_finish_time": "P0DT01H21M01.103576S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-freezard-4324"
             },
             {
                 "name": "oot/perfect-windmill-5322",
@@ -9147,7 +8903,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H20M31.632171S"
+                "user_finish_time": "P0DT01H20M31.632171S",
+                "full_race_url": "https://racetime.gg/oot/perfect-windmill-5322"
             },
             {
                 "name": "oot/reliable-sword-7060",
@@ -9182,7 +8939,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H21M20.853780S"
+                "user_finish_time": "P0DT01H21M20.853780S",
+                "full_race_url": "https://racetime.gg/oot/reliable-sword-7060"
             },
             {
                 "name": "oot/hyper-bombchu-4260",
@@ -9217,7 +8975,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H23M41.016744S"
+                "user_finish_time": "P0DT01H23M41.016744S",
+                "full_race_url": "https://racetime.gg/oot/hyper-bombchu-4260"
             },
             {
                 "name": "oot/hot-sapphire-4693",
@@ -9252,7 +9011,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M26.390523S"
+                "user_finish_time": "P0DT01H18M26.390523S",
+                "full_race_url": "https://racetime.gg/oot/hot-sapphire-4693"
             },
             {
                 "name": "oot/good-nabooru-5399",
@@ -9287,7 +9047,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M41.724010S"
+                "user_finish_time": "P0DT01H19M41.724010S",
+                "full_race_url": "https://racetime.gg/oot/good-nabooru-5399"
             },
             {
                 "name": "oot/skyward-hoverboots-1922",
@@ -9322,7 +9083,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M37.944819S"
+                "user_finish_time": "P0DT01H13M37.944819S",
+                "full_race_url": "https://racetime.gg/oot/skyward-hoverboots-1922"
             },
             {
                 "name": "oot/fried-bulletbag-0012",
@@ -9357,7 +9119,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H05M22.020778S"
+                "user_finish_time": "P0DT01H05M22.020778S",
+                "full_race_url": "https://racetime.gg/oot/fried-bulletbag-0012"
             },
             {
                 "name": "oot/priceless-lizalfos-9866",
@@ -9392,7 +9155,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M28.255061S"
+                "user_finish_time": "P0DT01H12M28.255061S",
+                "full_race_url": "https://racetime.gg/oot/priceless-lizalfos-9866"
             },
             {
                 "name": "oot/amazing-spookymask-2682",
@@ -9427,7 +9191,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H07M46.448253S"
+                "user_finish_time": "P0DT01H07M46.448253S",
+                "full_race_url": "https://racetime.gg/oot/amazing-spookymask-2682"
             },
             {
                 "name": "oot/brainy-medallion-3133",
@@ -9462,7 +9227,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M41.843152S"
+                "user_finish_time": "P0DT01H11M41.843152S",
+                "full_race_url": "https://racetime.gg/oot/brainy-medallion-3133"
             },
             {
                 "name": "oot/gnarly-icecavern-3182",
@@ -9497,7 +9263,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M02.818490S"
+                "user_finish_time": "P0DT01H15M02.818490S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-icecavern-3182"
             },
             {
                 "name": "oot/charming-claimcheck-4229",
@@ -9532,7 +9299,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M42.682585S"
+                "user_finish_time": "P0DT01H10M42.682585S",
+                "full_race_url": "https://racetime.gg/oot/charming-claimcheck-4229"
             },
             {
                 "name": "oot/lurking-din-7164",
@@ -9567,7 +9335,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M04.322215S"
+                "user_finish_time": "P0DT01H15M04.322215S",
+                "full_race_url": "https://racetime.gg/oot/lurking-din-7164"
             },
             {
                 "name": "oot/witty-forest-4672",
@@ -9602,7 +9371,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M45.232022S"
+                "user_finish_time": "P0DT01H12M45.232022S",
+                "full_race_url": "https://racetime.gg/oot/witty-forest-4672"
             },
             {
                 "name": "oot/foolish-wolfos-0382",
@@ -9637,7 +9407,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M05.736045S"
+                "user_finish_time": "P0DT01H11M05.736045S",
+                "full_race_url": "https://racetime.gg/oot/foolish-wolfos-0382"
             },
             {
                 "name": "oot/dazzling-mido-6172",
@@ -9672,7 +9443,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H21M01.550379S"
+                "user_finish_time": "P0DT01H21M01.550379S",
+                "full_race_url": "https://racetime.gg/oot/dazzling-mido-6172"
             },
             {
                 "name": "oot/magic-windmill-3853",
@@ -9707,7 +9479,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M10.081602S"
+                "user_finish_time": "P0DT01H13M10.081602S",
+                "full_race_url": "https://racetime.gg/oot/magic-windmill-3853"
             },
             {
                 "name": "oot/disco-bombbag-1195",
@@ -9742,7 +9515,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M12.119565S"
+                "user_finish_time": "P0DT01H12M12.119565S",
+                "full_race_url": "https://racetime.gg/oot/disco-bombbag-1195"
             },
             {
                 "name": "oot/odd-guay-4260",
@@ -9777,7 +9551,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H30M09.374670S"
+                "user_finish_time": "P0DT01H30M09.374670S",
+                "full_race_url": "https://racetime.gg/oot/odd-guay-4260"
             },
             {
                 "name": "oot/puzzled-hammer-4330",
@@ -9812,7 +9587,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M15.028346S"
+                "user_finish_time": "P0DT01H11M15.028346S",
+                "full_race_url": "https://racetime.gg/oot/puzzled-hammer-4330"
             },
             {
                 "name": "oot/brainy-rauru-8292",
@@ -9847,7 +9623,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M25.432762S"
+                "user_finish_time": "P0DT01H11M25.432762S",
+                "full_race_url": "https://racetime.gg/oot/brainy-rauru-8292"
             },
             {
                 "name": "oot/amused-barinade-7525",
@@ -9882,7 +9659,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M26.158988S"
+                "user_finish_time": "P0DT01H10M26.158988S",
+                "full_race_url": "https://racetime.gg/oot/amused-barinade-7525"
             },
             {
                 "name": "oot/lazy-navi-2741",
@@ -9917,7 +9695,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H04M24.923329S"
+                "user_finish_time": "P0DT01H04M24.923329S",
+                "full_race_url": "https://racetime.gg/oot/lazy-navi-2741"
             },
             {
                 "name": "oot/trusty-ruto-1049",
@@ -9952,7 +9731,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M04.819363S"
+                "user_finish_time": "P0DT01H16M04.819363S",
+                "full_race_url": "https://racetime.gg/oot/trusty-ruto-1049"
             },
             {
                 "name": "oot/lucky-fairy-8082",
@@ -9987,7 +9767,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M28.558775S"
+                "user_finish_time": "P0DT01H15M28.558775S",
+                "full_race_url": "https://racetime.gg/oot/lucky-fairy-8082"
             },
             {
                 "name": "oot/lucky-bugs-8921",
@@ -10022,7 +9803,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M35.396644S"
+                "user_finish_time": "P0DT01H13M35.396644S",
+                "full_race_url": "https://racetime.gg/oot/lucky-bugs-8921"
             },
             {
                 "name": "oot/snug-shadow-4637",
@@ -10057,7 +9839,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M15.305465S"
+                "user_finish_time": "P0DT01H13M15.305465S",
+                "full_race_url": "https://racetime.gg/oot/snug-shadow-4637"
             },
             {
                 "name": "oot/magic-deadhand-3343",
@@ -10092,7 +9875,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H38M07.267513S"
+                "user_finish_time": "P0DT01H38M07.267513S",
+                "full_race_url": "https://racetime.gg/oot/magic-deadhand-3343"
             },
             {
                 "name": "oot/quick-freezard-3851",
@@ -10127,7 +9911,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M08.978856S"
+                "user_finish_time": "P0DT01H14M08.978856S",
+                "full_race_url": "https://racetime.gg/oot/quick-freezard-3851"
             },
             {
                 "name": "oot/travelling-moblin-9448",
@@ -10162,7 +9947,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H17M51.544371S"
+                "user_finish_time": "P0DT01H17M51.544371S",
+                "full_race_url": "https://racetime.gg/oot/travelling-moblin-9448"
             },
             {
                 "name": "oot/innocent-bombbag-3184",
@@ -10197,7 +9983,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H30M28.262803S"
+                "user_finish_time": "P0DT01H30M28.262803S",
+                "full_race_url": "https://racetime.gg/oot/innocent-bombbag-3184"
             },
             {
                 "name": "oot/reliable-bottle-5425",
@@ -10232,7 +10019,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H19M39.430358S"
+                "user_finish_time": "P0DT01H19M39.430358S",
+                "full_race_url": "https://racetime.gg/oot/reliable-bottle-5425"
             },
             {
                 "name": "oot/hyper-water-5648",
@@ -10267,7 +10055,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H18M50.255557S"
+                "user_finish_time": "P0DT01H18M50.255557S",
+                "full_race_url": "https://racetime.gg/oot/hyper-water-5648"
             },
             {
                 "name": "oot/grumpy-hammer-7628",
@@ -10302,7 +10091,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M02.606389S"
+                "user_finish_time": "P0DT01H14M02.606389S",
+                "full_race_url": "https://racetime.gg/oot/grumpy-hammer-7628"
             },
             {
                 "name": "oot/agreeable-hammer-6735",
@@ -10337,7 +10127,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H33M36.334316S"
+                "user_finish_time": "P0DT01H33M36.334316S",
+                "full_race_url": "https://racetime.gg/oot/agreeable-hammer-6735"
             },
             {
                 "name": "oot/artful-dungeonmap-8816",
@@ -10372,7 +10163,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H13M28.487000S"
+                "user_finish_time": "P0DT01H13M28.487000S",
+                "full_race_url": "https://racetime.gg/oot/artful-dungeonmap-8816"
             },
             {
                 "name": "oot/eager-octorok-8466",
@@ -10407,7 +10199,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H20M06.480365S"
+                "user_finish_time": "P0DT01H20M06.480365S",
+                "full_race_url": "https://racetime.gg/oot/eager-octorok-8466"
             },
             {
                 "name": "oot/quick-mushroom-8602",
@@ -10442,7 +10235,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H06M50.839421S"
+                "user_finish_time": "P0DT01H06M50.839421S",
+                "full_race_url": "https://racetime.gg/oot/quick-mushroom-8602"
             },
             {
                 "name": "oot/hungry-icecavern-2469",
@@ -10477,7 +10271,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H11M11.280335S"
+                "user_finish_time": "P0DT01H11M11.280335S",
+                "full_race_url": "https://racetime.gg/oot/hungry-icecavern-2469"
             },
             {
                 "name": "oot/prudent-ingo-3318",
@@ -10512,7 +10307,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M20.030859S"
+                "user_finish_time": "P0DT01H14M20.030859S",
+                "full_race_url": "https://racetime.gg/oot/prudent-ingo-3318"
             },
             {
                 "name": "oot/mysterious-navi-6936",
@@ -10547,7 +10343,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H16M41.364060S"
+                "user_finish_time": "P0DT01H16M41.364060S",
+                "full_race_url": "https://racetime.gg/oot/mysterious-navi-6936"
             },
             {
                 "name": "oot/dynamax-volvagia-9263",
@@ -10582,7 +10379,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M00.834137S"
+                "user_finish_time": "P0DT01H12M00.834137S",
+                "full_race_url": "https://racetime.gg/oot/dynamax-volvagia-9263"
             },
             {
                 "name": "oot/foolish-ruto-0785",
@@ -10617,7 +10415,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H10M41.064974S"
+                "user_finish_time": "P0DT01H10M41.064974S",
+                "full_race_url": "https://racetime.gg/oot/foolish-ruto-0785"
             },
             {
                 "name": "oot/crazy-bulletbag-5132",
@@ -10652,7 +10451,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H12M46.377412S"
+                "user_finish_time": "P0DT01H12M46.377412S",
+                "full_race_url": "https://racetime.gg/oot/crazy-bulletbag-5132"
             },
             {
                 "name": "oot/comic-dekutree-0418",
@@ -10687,7 +10487,8 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H15M46.499270S"
+                "user_finish_time": "P0DT01H15M46.499270S",
+                "full_race_url": "https://racetime.gg/oot/comic-dekutree-0418"
             },
             {
                 "name": "oot/silly-poe-5641",
@@ -10722,9 +10523,10 @@
                 "cancelled_at": null,
                 "recordable": true,
                 "recorded": true,
-                "user_finish_time": "P0DT01H14M02.246464S"
+                "user_finish_time": "P0DT01H14M02.246464S",
+                "full_race_url": "https://racetime.gg/oot/silly-poe-5641"
             }
         ],
-        "last_updated": "2026-03-30 07:08:27"
+        "last_updated": "2026-03-30 07:20:33"
     }
 }
