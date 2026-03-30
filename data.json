@@ -3783,7 +3783,7 @@
                 "user_finish_time": "P0DT01H17M41.399696S"
             }
         ],
-        "last_updated": "2026-03-30 06:59:44"
+        "last_updated": "2026-03-30 07:06:37"
     },
     "triforce3250": {
         "username": "triforce3250",
@@ -7289,41 +7289,6 @@
                 "user_finish_time": "P0DT01H16M38.223440S"
             },
             {
-                "name": "oot/travelling-bombchu-8402",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/travelling-bombchu-8402",
-                "data_url": "/oot/travelling-bombchu-8402/data",
-                "goal": {
-                    "name": "Lockout Bingo",
-                    "custom": true
-                },
-                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=886018&mode=normal",
-                "entrants_count": 2,
-                "entrants_count_finished": 1,
-                "entrants_count_inactive": 1,
-                "opened_at": "2025-03-21T02:50:15.206Z",
-                "started_at": "2025-03-21T03:01:54.882Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-03-21T04:53:16.568Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H50M46.915227S"
-            },
-            {
                 "name": "oot/scruffy-bulletbag-2202",
                 "status": {
                     "value": "finished",
@@ -7534,7 +7499,7 @@
                 "user_finish_time": "P0DT01H17M24.408827S"
             }
         ],
-        "last_updated": "2026-03-30 07:00:49"
+        "last_updated": "2026-03-30 07:07:34"
     },
     "2dollargargoyle": {
         "username": "2DollarGargoyle",
@@ -10760,6 +10725,6 @@
                 "user_finish_time": "P0DT01H14M02.246464S"
             }
         ],
-        "last_updated": "2026-03-30 07:01:46"
+        "last_updated": "2026-03-30 07:08:27"
     }
 }
