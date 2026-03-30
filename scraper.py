@@ -49,11 +49,19 @@ def fetch_bingo_data(username, user_id):
             if not races: break
             
             for race in races:
-                # Filter for OoT and Bingo goals
                 category = race.get('category', {}).get('slug', '').lower()
                 goal = race.get('goal', {}).get('name', '').lower()
-                
-                if category == 'oot' and race['status']['value'] == 'finished' and 'bingo' in goal:
+                info = race.get('info', '') or '' # Get the info link
+
+                # STRICT FILTER: 
+                # 1. Must be OoT
+                # 2. Must be Finished
+                # 3. Must have "Bingo" in the goal
+                # 4. Must link to the official ootbingo generator
+                if (category == 'oot' and 
+                    race['status']['value'] == 'finished' and 
+                    'bingo' in goal and 
+                    'ootbingo.github.io/bingo' in info):
                     # Deep Dive: Fetch the race-specific data for the finish time
                     # We use the 'data_url' found in the race object (e.g. /oot/race-name/data)
                     race_detail_url = f"https://racetime.gg{race.get('data_url')}"
