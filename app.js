@@ -73,20 +73,16 @@ function loadUser(username) {
 }
 
 function handleCompare() {
-    const name = document.getElementById('compareSearch').value.trim();
+    const val = document.getElementById('compareSearch').value.trim();
     
-    // If the input is valid and exists in our data
-    if (name && bingoData[name]) {
-        compareUser = { 
-            name: name, 
-            races: bingoData[name].races 
-        };
-    } else {
-        // If the box is cleared or name is invalid, REMOVE the rival
-        compareUser = null;
+    if (val === "") {
+        compareUser = null; // Reset the state
+        applyFilters();     // Re-render immediately without the rival
+    } else if (bingoData[val]) {
+        compareUser = { name: val, races: bingoData[val].races };
+        applyFilters();
+        document.activeElement.blur();
     }
-    
-    applyFilters();
 }
 
 function updateVersionDropdown(races) {
@@ -112,28 +108,28 @@ function applyFilters() {
     const version = document.getElementById('versionFilter').value;
     const filterFn = (r) => version === 'all' || r.bingo_version === version;
     
-    // Filter the Primary User
-    const pFilteredRaces = primaryUser.races.filter(filterFn);
-    const pData = { name: primaryUser.name, races: pFilteredRaces };
+    // Primary Data
+    const pData = {
+        name: primaryUser.name,
+        races: primaryUser.races.filter(filterFn)
+    };
     
-    // Prepare the Rival
+    // Rival Data - Only if compareUser exists and has a name
     let cData = null;
-    const displayName = document.getElementById('display-name');
+    const rivalInput = document.getElementById('compareSearch').value.trim();
 
-    if (compareUser) {
-        const cFilteredRaces = compareUser.races.filter(filterFn);
-        cData = { name: compareUser.name, races: cFilteredRaces };
-        
-        // Update Subtitle to: Primary vs Rival
-        displayName.innerText = `${pData.name} vs ${cData.name}`;
+    if (rivalInput && compareUser) {
+        cData = {
+            name: compareUser.name,
+            races: compareUser.races.filter(filterFn)
+        };
+        document.getElementById('display-name').innerText = `${pData.name} vs ${cData.name}`;
     } else {
-        // Update Subtitle to: Player Name
-        displayName.innerText = pData.name;
+        document.getElementById('display-name').innerText = pData.name;
     }
     
-    // Update the sub-count text (the <p> below the name)
-    const raceCount = document.getElementById('race-count');
-    raceCount.innerText = compareUser 
+    // Update count text
+    document.getElementById('race-count').innerText = cData 
         ? `Comparing ${pData.races.length} vs ${cData.races.length} races`
         : `Showing ${pData.races.length} total races`;
 
@@ -165,35 +161,40 @@ function renderChart(pUser, cUser) {
             label: `${pUser.name} (Individual Races)`,
             data: pPoints,
             showLine: false,
-            pointBackgroundColor: '#00ccff', 
+            borderColor: '#00ccff',
             pointRadius: 4,
+            borderWidth: 3,
             pointHoverRadius: 6,
-            order: 2
+            order: 1 // Drawn on very top
         },
         {
             label: `${pUser.name} (Trend)`,
             data: pTrend,
             borderColor: '#ffcc00',
             pointRadius: 0,
-            borderWidth: 3, 
+            borderWidth: 3,
             tension: 0.4,
-            order: 1
+            order: 2 // Drawn below dots
         }
     ];
 
+    // Only add the rival if cUser (cData) is not null
     if (cUser) {
         const cPoints = getPoints(cUser.races);
-        const cTrend = cPoints.map((p, i, a) => ({ x: p.x, y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10) }));
-        // Add only the trend line for comparison to keep chart clean
+        const cTrend = cPoints.map((p, i, a) => ({
+            x: p.x,
+            y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10)
+        }));
+
         datasets.push({
-            label: `${cUser.name} (Trend)`, // Label for the Rival
+            label: `${cUser.name} (Trend)`,
             data: cTrend,
             borderColor: '#ff4444',
             borderDash: [5, 5],
             pointRadius: 0,
             borderWidth: 2,
             tension: 0.4,
-            order: 0
+            order: 3 // Drawn at the bottom-most layer
         });
     }
 
