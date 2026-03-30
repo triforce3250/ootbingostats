@@ -162,13 +162,13 @@ function renderChart(pUser, cUser) {
 
     const datasets = [
         { 
-            label: `${pUser.name} (Individual Races)`, // Explicit label for the legend
+            label: `${pUser.name} (Individual Races)`,
             data: pPoints,
-            borderColor: '#00ccff',
-            pointRadius: 0,
-            borderWidth: 3, 
-            tension: 0.4,
-            order: 1
+            showLine: false,
+            pointBackgroundColor: '#00ccff', 
+            pointRadius: 4,
+            pointHoverRadius: 6,
+            order: 2
         },
         {
             label: `${pUser.name} (Trend)`,
