@@ -12,58 +12,72 @@ HEADERS = {
 }
 
 def fetch_bingo_data(username):
-    print(f"Fetching data for {username}...")
+    print(f"Searching for {username}...")
     try:
-        # Search for user
-        search_res = requests.get(
-            f"https://racetime.gg/api/users/search?term={username}", 
-            headers=HEADERS
-        )
+        # 1. SEARCH: Get the User ID (The Aa5veo... part)
+        # We use the 'term' parameter exactly as the site does
+        search_url = f"https://racetime.gg/api/users/search?term={username}"
+        search_res = requests.get(search_url, headers=HEADERS)
         
-        # Check if we got a real response
         if search_res.status_code != 200:
-            print(f"  ! Server returned error {search_res.status_code}")
+            print(f"  ! Search failed for {username} (Status: {search_res.status_code})")
             return None
             
         search_data = search_res.json()
-        if not search_data['results']: return None
+        results = search_data.get('results', [])
         
-        user_info = search_data['results'][0]
-        user_url = user_info['url']
+        if not results:
+            print(f"  ! No results found for {username}")
+            return None
+
+        # Find the best match (the first result)
+        user_info = results[0]
+        user_id_url = user_info['url'] # This will be /user/Aa5v.../username
+        display_name = user_info['name']
+
+        print(f"  > Found ID-URL: {user_id_url}")
         
         bingo_races = []
         page = 1
         total_pages = 1
         
+        # 2. DATA FETCH: Use the specific ID-URL to get race history
         while page <= total_pages:
-            race_res = requests.get(
-                f"https://racetime.gg{user_url}/races/data?category=oot&page={page}",
-                headers=HEADERS
-            ).json()
+            data_url = f"https://racetime.gg{user_id_url}/races/data?category=oot&page={page}"
+            data_res = requests.get(data_url, headers=HEADERS)
             
-            for race in race_res.get('races', []):
+            if data_res.status_code != 200:
+                print(f"  ! Data fetch failed on page {page}")
+                break
+                
+            data = data_res.json()
+            
+            for race in data.get('races', []):
                 goal_name = race['goal']['name'].lower()
                 if race['status'] == 'finished' and 'bingo' in goal_name:
                     bingo_races.append(race)
             
-            total_pages = race_res.get('num_pages', 1)
+            total_pages = data.get('num_pages', 1)
             print(f"  - Page {page}/{total_pages} (Bingo count: {len(bingo_races)})")
-            page += 1
-            time.sleep(1.0) # Increased delay to avoid being blocked
             
-        return {"username": user_info['name'], "races": bingo_races}
+            page += 1
+            time.sleep(1.2) # Gentle delay
+            
+        return {"username": display_name, "races": bingo_races}
+
     except Exception as e:
-        print(f"  ! Error fetching {username}: {e}")
+        print(f"  ! Error processing {username}: {e}")
         return None
 
+# Main execution loop
 data_store = {}
 for user in USERNAMES:
-    data = fetch_bingo_data(user)
-    if data:
-        data_store[user.lower()] = data
-    time.sleep(2.0) # Gap between different users
+    result = fetch_bingo_data(user)
+    if result and result['races']:
+        data_store[user.lower()] = result
+    time.sleep(2.5) # Gap between users to prevent rate-limiting
 
 with open('data.json', 'w') as f:
     json.dump(data_store, f)
 
-print("Scraping complete.")
+print(f"Scraping complete. Database updated with {len(data_store)} users.")
