@@ -8,7 +8,7 @@ USERNAMES = [
 
 # This tells Racetime.gg who is calling their API
 HEADERS = {
-    'User-Agent': 'OoT-Bingo-Stats-Bot/1.0 (Contact: your-github-username)'
+    'User-Agent': 'OoT-Bingo-Stats-Bot/1.0 (Contact: triforce3250)'
 }
 
 def fetch_bingo_data(username):
