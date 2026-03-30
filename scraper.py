@@ -64,7 +64,7 @@ def fetch_bingo_data(username, user_id):
     print(f"\nProcessing: {username}")
     bingo_races = []
     page = 1
-    MAX_PAGES = 100 
+    MAX_PAGES = 200 
     
     while page <= MAX_PAGES:
         url = f"https://racetime.gg/user/{user_id}/races/data?page={page}"
@@ -79,20 +79,30 @@ def fetch_bingo_data(username, user_id):
                 sys.stdout.write(f"\r    Page {page} | Race {i+1}/{len(races)}")
                 sys.stdout.flush()
 
+                # SAFE FETCHING:
+                # Use 'or {}' so that if the field is None, it becomes an empty dict
                 info = (race.get('info', '') or '').lower()
+                category = race.get('category') or {}
+                goal = race.get('goal') or {}
                 
-                # PRE-FILTER: Avoid deep-diving into non-vanilla races
-                if (race.get('category', {}).get('slug') == 'oot' and
+                # Updated is_valid with safety checks
+                is_valid = (
+                    category.get('slug') == 'oot' and
                     race.get('recorded', False) and
-                    race.get('goal', {}).get('name', '').lower() == 'bingo' and
+                    (goal.get('name') or '').lower() == 'bingo' and
+                    'ootbingo.github.io/bingo' in info and
                     'mode=normal' in info and
-                    'anti-bingo' not in info):
+                    'anti-bingo' not in info
+                )
 
+                if is_valid:
                     detail_res = requests.get(f"https://racetime.gg{race['data_url']}", headers=HEADERS)
                     if detail_res.status_code == 200:
                         details = detail_res.json()
-                        entrant = next((e for e in details.get('entrants', []) 
-                                      if e.get('user', {}).get('id') == user_id), None)
+                        entrants = details.get('entrants') or []
+                        # Use a safe check for the user ID
+                        entrant = next((e for e in entrants 
+                                        if e.get('user') and e.get('user', {}).get('id') == user_id), None)
                         if entrant and entrant.get('finish_time'):
                             race['user_finish_time'] = entrant['finish_time']
                             race['full_race_url'] = f"https://racetime.gg{race.get('url')}"
