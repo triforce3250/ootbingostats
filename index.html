@@ -6,6 +6,7 @@
     <title>OoT Bingo Stats Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
 </head>
 <body>
@@ -33,6 +34,43 @@
         </section>
 
         <hr>
+
+        <div class="dashboard-controls">
+            <div class="control-group">
+                <label>Primary Racer:</label>
+                <input type="text" id="userSearch" list="playerList" oninput="handleSearch()" onfocus="this.value=''"
+                    placeholder="Select Player...">
+            </div>
+        
+            <div class="control-group">
+                <label>Compare With:</label>
+                <input type="text" id="compareSearch" list="playerList" oninput="handleCompare()" onfocus="this.value=''"
+                    placeholder="Optional Rival...">
+            </div>
+        
+            <div class="control-group">
+                <label>Filter by Version:</label>
+                <select id="versionFilter" onchange="applyFilters()">
+                    <option value="all">All Versions</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>View Controls:</label>
+                <button id="resetZoomBtn" onclick="resetChartZoom()" style="display:none;">Reset Zoom</button>
+            </div>
+        </div>
+        
+        <datalist id="playerList"></datalist>
+        
+        <div id="stats-summary">
+            <h2 id="display-name">Select a player</h2>
+            <p id="race-count"></p>
+        </div>
+        
+        <div class="chart-container" style="position: relative; height:70vh; width:90vw; margin: auto;">
+            <canvas id="statsChart"></canvas>
+        </div>
 
         <main id="dashboard" style="display: none;">
             <div id="statsSummary" class="stats-grid">

@@ -50,107 +50,121 @@ function searchUser() {
 }
 
 // 4. Chart Rendering (Chart.js)
-let myChart;
-function renderChart(userData) {
+function loadUser(username) {
+    primaryUser = { name: username, races: bingoData[username].races };
+    document.getElementById('display-name').innerText = username;
+
+    // BUILD THE DYNAMIC VERSION LIST
+    updateVersionDropdown(primaryUser.races);
+    applyFilters();
+}
+
+function handleCompare() {
+    const name = document.getElementById('compareSearch').value;
+    if (bingoData[name]) {
+        compareUser = { name: name, races: bingoData[name].races };
+        applyFilters();
+    } else if (name === "") {
+        compareUser = null;
+        applyFilters();
+    }
+}
+
+function updateVersionDropdown(races) {
+    const select = document.getElementById('versionFilter');
+    const currentVal = select.value;
+    const versions = [...new Set(races.map(r => r.bingo_version))].sort((a, b) => b - a);
+
+    select.innerHTML = '<option value="all">All Versions</option>';
+    versions.forEach(v => {
+        if (v === "Unknown") return;
+        const opt = document.createElement('option');
+        opt.value = v;
+        opt.innerText = `v${v}`;
+        select.appendChild(opt);
+    });
+    // Keep selection if it still exists
+    select.value = versions.includes(currentVal) ? currentVal : "all";
+}
+
+function applyFilters() {
+    const version = document.getElementById('versionFilter').value;
+
+    const filterFn = (r) => version === 'all' || r.bingo_version === version;
+
+    const pData = { ...primaryUser, races: primaryUser.races.filter(filterFn) };
+    const cData = compareUser ? { ...compareUser, races: compareUser.races.filter(filterFn) } : null;
+
+    document.getElementById('race-count').innerText = `Displaying ${pData.races.length} races`;
+    renderChart(pData, cData);
+}
+
+function resetChartZoom() {
+    if (window.myChart) {
+        window.myChart.resetZoom();
+        document.getElementById('resetZoomBtn').style.display = 'none';
+    }
+}
+
+function renderChart(pUser, cUser) {
     const ctx = document.getElementById('statsChart').getContext('2d');
     
-    // 1. Raw Data Points (Individual Races)
-    const rawPoints = userData.races.map(race => ({
-        x: new Date(race.ended_at),
-        y: parseDuration(race.user_finish_time),
-        goal: race.goal.name,
-        url: race.full_race_url // This was added by the updated scraper
+    const getPoints = (races) => races.map(r => ({
+        x: new Date(r.ended_at),
+        y: parseDuration(r.user_finish_time),
+        url: r.full_race_url,
+        v: r.bingo_version
     })).filter(p => p.y > 0).sort((a, b) => a.x - b.x);
 
-    // 2. Trend Line Calculation
-    const trendPoints = rawPoints.map((point, index, array) => {
-        const start = Math.max(0, index - 9);
-        const subset = array.slice(start, index + 1);
-        const average = subset.reduce((sum, p) => sum + p.y, 0) / subset.length;
-        return { x: point.x, y: average };
-    });
+    const pPoints = getPoints(pUser.races);
+    const pTrend = pPoints.map((p, i, a) => ({ x: p.x, y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10) }));
+
+    const datasets = [
+        { label: `${pUser.name} Races`, data: pPoints, showLine: false, pointBackgroundColor: '#00ccff', pointRadius: 4 },
+        { label: `${pUser.name} Trend`, data: pTrend, borderColor: '#ffcc00', pointRadius: 0, borderWidth: 3, tension: 0.4 }
+    ];
+
+    if (cUser) {
+        const cPoints = getPoints(cUser.races);
+        const cTrend = cPoints.map((p, i, a) => ({ x: p.x, y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10) }));
+        // Add only the trend line for comparison to keep chart clean
+        datasets.push({ label: `${cUser.name} Trend`, data: cTrend, borderColor: '#ff4444', borderDash: [5, 5], pointRadius: 0, borderWidth: 2, tension: 0.4 });
+    }
 
     if (window.myChart) window.myChart.destroy();
-
     window.myChart = new Chart(ctx, {
         type: 'line',
-        data: {
-            datasets: [
-                {
-                    label: 'Individual Races',
-                    data: rawPoints,
-                    borderColor: 'rgba(0, 204, 255, 0.3)',
-                    pointBackgroundColor: '#00ccff',
-                    showLine: false,
-                    pointRadius: 5,
-                    pointHoverRadius: 8
-                },
-                {
-                    label: 'Skill Trend (10-race Avg)',
-                    data: trendPoints,
-                    borderColor: '#ffcc00',
-                    backgroundColor: 'transparent',
-                    borderWidth: 3,
-                    pointRadius: 0,
-                    tension: 0.4
-                }
-            ]
-        },
+        data: { datasets },
         options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            // --- CLICK TO OPEN RACETIME ---
-            onClick: (e, elements) => {
-                if (elements.length > 0) {
-                    const i = elements[0].index;
-                    const datasetIndex = elements[0].datasetIndex;
-                    // Only open URL if clicking a blue dot (dataset 0)
-                    if (datasetIndex === 0) {
-                        const url = rawPoints[i].url;
-                        if (url) window.open(url, '_blank');
-                    }
-                }
-            },
-            // --- CHANGE CURSOR ON HOVER ---
-            onHover: (event, chartElement) => {
-                event.native.target.style.cursor = chartElement[0] ? 'pointer' : 'default';
-            },
+            onClick: (e, el) => { if (el.length > 0 && el[0].datasetIndex === 0) window.open(pPoints[el[0].index].url, '_blank'); },
+            onHover: (e, el) => { e.native.target.style.cursor = (el[0] && el[0].datasetIndex === 0) ? 'pointer' : 'default'; },
             scales: {
-                x: {
-                    type: 'time',
-                    time: { unit: 'month' },
-                    grid: { color: '#333' }
-                },
-                y: {
-                    title: { display: true, text: 'Finish Time', color: '#888' },
-                    grid: { color: '#333' },
-                    ticks: {
-                        callback: function(value) {
-                            const h = Math.floor(value / 60);
-                            const m = Math.round(value % 60);
-                            return h > 0 ? `${h}h ${m}m` : `${m}m`;
-                        },
-                        color: '#aaa'
-                    }
-                }
+                x: { type: 'time', time: { unit: 'month' }, grid: { color: '#333' } },
+                y: { ticks: { callback: v => Math.floor(v / 60) + 'h ' + Math.round(v % 60) + 'm' }, grid: { color: '#333' } }
             },
             plugins: {
+                zoom: {
+                    zoom: {
+                        drag: {
+                            enabled: true,
+                            backgroundColor: 'rgba(0, 204, 255, 0.2)',
+                            borderColor: 'rgba(0, 204, 255, 0.5)',
+                            borderWidth: 1
+                        },
+                        mode: 'x',
+                        onZoomComplete: function () {
+                            // Show the reset button once a zoom happens
+                            document.getElementById('resetZoomBtn').style.display = 'inline-block';
+                        }
+                    },
+                    limits: {
+                        x: { min: 'original', max: 'original' }
+                    }
+                },
                 tooltip: {
                     callbacks: {
-                        label: function(context) {
-                            const val = context.raw.y;
-                            const h = Math.floor(val / 60);
-                            const m = Math.floor(val % 60);
-                            const s = Math.round((val % 1) * 60);
-                            return ` Time: ${h}h ${m}m ${s}s`;
-                        },
-                        footer: (items) => {
-                            if (items[0].datasetIndex === 0) {
-                                const date = items[0].raw.x.toLocaleDateString();
-                                return `Date: ${date}\n(Click to view race)`;
-                            }
-                            return "";
-                        }
+                        label: c => ` Time: ${Math.floor(c.raw.y / 60)}h ${Math.floor(c.raw.y % 60)}m ${Math.round((c.raw.y % 1) * 60)}s`,
+                        footer: i => i[0].datasetIndex === 0 ? `v${i[0].raw.v}\nClick to view` : ""
                     }
                 }
             }

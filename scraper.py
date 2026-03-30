@@ -64,8 +64,7 @@ def fetch_bingo_data(username, user_id):
     print(f"\nProcessing: {username}")
     bingo_races = []
     page = 1
-    # 50 pages * 20 races = 1000 limit
-    MAX_PAGES = 50 
+    MAX_PAGES = 100 
     
     while page <= MAX_PAGES:
         url = f"https://racetime.gg/user/{user_id}/races/data?page={page}"
@@ -77,23 +76,19 @@ def fetch_bingo_data(username, user_id):
             if not races: break
             
             for i, race in enumerate(races):
-                # Update progress bar per race for better visibility
-                sys.stdout.write(f"\r    Page {page}/50 | Race {i+1}/20")
+                sys.stdout.write(f"\r    Page {page} | Race {i+1}/{len(races)}")
                 sys.stdout.flush()
 
-                # Filtering checks
-                info = race.get('info', '') or ''
-                is_valid = (
-                    race.get('category', {}).get('slug') == 'oot' and
+                info = (race.get('info', '') or '').lower()
+                
+                # PRE-FILTER: Avoid deep-diving into non-vanilla races
+                if (race.get('category', {}).get('slug') == 'oot' and
                     race.get('recorded', False) and
                     race.get('goal', {}).get('name', '').lower() == 'bingo' and
                     'ootbingo.github.io/bingo/bingo.html' in info and
                     'mode=normal' in info and
-                    'anti-bingo' not in info # Filters out the anti-bingo mode
-                )
+                    'anti-bingo' not in info):
 
-                if is_valid:
-                    # Deep dive for finish time
                     detail_res = requests.get(f"https://racetime.gg{race['data_url']}", headers=HEADERS)
                     if detail_res.status_code == 200:
                         details = detail_res.json()
@@ -102,16 +97,19 @@ def fetch_bingo_data(username, user_id):
                         if entrant and entrant.get('finish_time'):
                             race['user_finish_time'] = entrant['finish_time']
                             race['full_race_url'] = f"https://racetime.gg{race.get('url')}"
+                            # Extract version string for the frontend
+                            import re
+                            v_match = re.search(r'version=([\d.]+)', info)
+                            race['bingo_version'] = v_match.group(1) if v_match else "Unknown"
                             bingo_races.append(race)
-                    time.sleep(0.1) # Small delay to avoid hammering
+                    time.sleep(0.05) # Slightly faster sleep since we are pre-filtering
 
             if page >= data.get('num_pages', 1): break
             page += 1
         except Exception as e:
-            print(f"\nError fetching {username}: {e}")
+            print(f"\nError: {e}")
             break
             
-    print(f"\n    Finished. Total Bingos found: {len(bingo_races)}")
     return bingo_races
 
 # --- Main Execution ---
