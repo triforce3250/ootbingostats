@@ -4,32 +4,7 @@ import time
 import sys
 
 LEADERBOARD_DATA = """
-tob3000, juwk, triforce3250, Amateseru, TKC, FantaTanked, 2DollarGargoyle, 
-Runnerguy2489, Eggmeister, hayafo, neefe, Bonooru, Timato, MutantAura, 
-jenslang, Link11, MooseOoT, Challensois_, AverageGreg, the__consultant, 
-Jake Wright, PhoenixFeather, Adam, P.Titou, Chris7, LiterallyLake, 
-realtimeattack64, sva, tsundererar, ArthurOudini, CoffeePot, DiamondFlash27, 
-PaintSkate8, Grego, MikeKatz45, blinkzy, Darker, dotzo, xwillmarktheplace, 
-Nalle, Lulz, scaramanga, skepticole, Reaper, WickedGligar, magnumpi47, 
-Gombill, Woli, makko, goodgortho, Zell, ArmorySons, JEANBERNARDGAMING, 
-Cloudike, adef, Xanra, Fenyan, Numberplay, Cma, Cabbage72, PsyMarth, 
-QuickKiran, Hapenfors, Worn_Mittens, Valientlink, Kurt, Ilher, Apasher, 
-gsk8, k4erup, JFM2796, Sloth, MatttInTheHat, LadyLambdadeltasDandruff, 
-SariasObject, Fleush, prettybigjoe, Myelin, Davpat, TomPouce, shirosoluna, 
-Tashman91, VidyaJames, Matz, plasma-parse, Countdown, Midboss, Bou_Frost, 
-Yanis, Photon, noface099, Sonfloro, Condor, Zeru, moosecrap, benstephens56, 
-ZAR, HonkyMcButterball, Caidren, keys336, gc1, brocolli4, shaggy, cynsitive, 
-West0pher, mathias8750, taaboo, Skyreon, LexWatercolor, Niamek, tsuyoi, 
-Kayro64, Rjminotaur, gamestabled, Zer0SG_1, Cisco64, Slask, Rubixmagic, 
-peatsheep, Nonsensebread, Ohrange, ZachLink99, Maddie, Alaris, mkbgnr, 
-Nkitten, Luisito, linky628, swagieswamp, Fadoxthon, MikeKanis, Sorokya, 
-monochromii, katienoelle, Sestral, Zombie_God, ZeFloppies, soda, Speedbayer_, 
-Spitle, thags15, purple tissue box, Kayla, haktical, ClydePowers, nozzly, 
-PancakeTurtle, Aksannyi, The corpser, ChefBear, Crafth, khuno, Figure8, 
-Glasfolie, Cobeck, Juchemao17, TheCowness, kouyou, Luichito, Savestate, 
-gc_one, khufufoofoo, Tempest, eltiokamina, Amber24, Zemoo, NicV, 
-jasoncario131, GreenBomber, SantasLittleNibbler, colin, Lil_KyleYT, 
-LunaticJ, dot, iOliver, Willow The Whimsical
+mathias8750
 """
 
 TARGET_USERS = [name.strip() for name in LEADERBOARD_DATA.split(',') if name.strip()]
