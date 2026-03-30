@@ -64,7 +64,7 @@ def fetch_bingo_data(username, user_id):
     print(f"\nProcessing: {username}")
     bingo_races = []
     page = 1
-    MAX_PAGES = 100 
+    MAX_PAGES = 250 
     
     while page <= MAX_PAGES:
         url = f"https://racetime.gg/user/{user_id}/races/data?page={page}"
