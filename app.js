@@ -110,30 +110,30 @@ function applyFilters() {
     if (!primaryUser) return;
     
     const version = document.getElementById('versionFilter').value;
-    
-    // Filter logic: if 'all', keep everything. Otherwise, match the version string.
     const filterFn = (r) => version === 'all' || r.bingo_version === version;
     
+    // Filter the Primary User
     const pFilteredRaces = primaryUser.races.filter(filterFn);
+    const pData = { name: primaryUser.name, races: pFilteredRaces };
     
-    // Prepare the primary data object
-    const pData = { 
-        name: primaryUser.name, 
-        races: pFilteredRaces 
-    };
-    
-    // Prepare the rival data object ONLY if they exist
+    // Prepare the Rival
     let cData = null;
+    const displayName = document.getElementById('display-name');
+
     if (compareUser) {
         const cFilteredRaces = compareUser.races.filter(filterFn);
-        cData = { 
-            name: compareUser.name, 
-            races: cFilteredRaces 
-        };
+        cData = { name: compareUser.name, races: cFilteredRaces };
+        
+        // Update Subtitle to: Primary vs Rival
+        displayName.innerText = `${pData.name} vs ${cData.name}`;
+    } else {
+        // Update Subtitle to: Player Name
+        displayName.innerText = pData.name;
     }
     
-    // Update the subtitle text
-    document.getElementById('race-count').innerText = compareUser 
+    // Update the sub-count text (the <p> below the name)
+    const raceCount = document.getElementById('race-count');
+    raceCount.innerText = compareUser 
         ? `Comparing ${pData.races.length} vs ${cData.races.length} races`
         : `Showing ${pData.races.length} total races`;
 
@@ -161,8 +161,23 @@ function renderChart(pUser, cUser) {
     const pTrend = pPoints.map((p, i, a) => ({ x: p.x, y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10) }));
 
     const datasets = [
-        { label: `${pUser.name} Races`, data: pPoints, showLine: false, pointBackgroundColor: '#00ccff', pointRadius: 4 },
-        { label: `${pUser.name} Trend`, data: pTrend, borderColor: '#ffcc00', pointRadius: 0, borderWidth: 3, tension: 0.4 }
+        {
+            label: `${pUser.name} Races`, // This restores the "Blue Dot" label
+            data: pPoints,
+            showLine: false,
+            pointBackgroundColor: '#00ccff',
+            pointRadius: 4,
+            order: 2 // Keeps dots on top of lines
+        },
+        {
+            label: `${pUser.name} Trend`,
+            data: pTrend,
+            borderColor: '#ffcc00',
+            pointRadius: 0,
+            borderWidth: 3,
+            tension: 0.4,
+            order: 1
+        }
     ];
 
     if (cUser) {
@@ -213,7 +228,11 @@ function renderChart(pUser, cUser) {
                         label: c => ` Time: ${Math.floor(c.raw.y / 60)}h ${Math.floor(c.raw.y % 60)}m ${Math.round((c.raw.y % 1) * 60)}s`,
                         footer: i => i[0].datasetIndex === 0 ? `v${i[0].raw.v}\nClick to view` : ""
                     }
-                }
+                },
+                legend: {
+                    display: true,
+                    labels: { color: '#aaa' } // Matches your dark theme
+                },
             }
         }
     });

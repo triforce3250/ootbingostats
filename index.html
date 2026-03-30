@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>📜 OoT Bingo Stats</h1>
+            <h1 id="dashboard-main-title">📜 OoT Bingo Stats</h1>
             <p>Historical performance tracking for Ocarina of Time Bingo.</p>
         </header>
 
@@ -20,14 +20,14 @@
             <div class="search-row">
                 <div class="control-group">
                     <label>Primary Racer</label>
-                    <input type="text" id="userSearch" list="playerList" placeholder="Select Racer..." onfocus="this.value=''"
-                        oninput="handleSearch()">
+                    <input type="text" id="userSearch" list="playerList" placeholder="Select Racer..." onclick="this.value=''"
+                        onfocus="this.value=''" oninput="handleSearch()">
                 </div>
 
             <div class="control-group">
                 <label>Optional Comparison</label>
-                <input type="text" id="compareSearch" list="playerList" placeholder="Add Comparison..." onfocus="this.value=''"
-                    oninput="handleCompare()">
+                <input type="text" id="compareSearch" list="playerList" placeholder="Add Rival..." onclick="this.value=''"
+                    onfocus="this.value=''" oninput="handleCompare()">
                 </div>
                 </div>
 
