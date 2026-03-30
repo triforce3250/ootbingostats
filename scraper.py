@@ -64,7 +64,7 @@ def fetch_bingo_data(username, user_id):
     print(f"\nProcessing: {username}")
     bingo_races = []
     page = 1
-    MAX_PAGES = 250 
+    MAX_PAGES = 100 
     
     while page <= MAX_PAGES:
         url = f"https://racetime.gg/user/{user_id}/races/data?page={page}"
@@ -85,7 +85,6 @@ def fetch_bingo_data(username, user_id):
                 if (race.get('category', {}).get('slug') == 'oot' and
                     race.get('recorded', False) and
                     race.get('goal', {}).get('name', '').lower() == 'bingo' and
-                    'ootbingo.github.io/bingo/bingo.html' in info and
                     'mode=normal' in info and
                     'anti-bingo' not in info):
 
@@ -99,8 +98,17 @@ def fetch_bingo_data(username, user_id):
                             race['full_race_url'] = f"https://racetime.gg{race.get('url')}"
                             # Extract version string for the frontend
                             import re
-                            v_match = re.search(r'version=([\d.]+)', info)
-                            race['bingo_version'] = v_match.group(1) if v_match else "Unknown"
+                            # Pattern 1: looks for /vX.X/ in the URL path
+                            # Pattern 2: looks for version=X.X in the query string
+                            version_match = re.search(r'/v([\d.]+)/|version=([\d.]+)', info)
+
+                            if version_match:
+                                # Groups(0) is the whole match, 1 is the path version, 2 is the query version
+                                bingo_version = version_match.group(1) or version_match.group(2)
+                            else:
+                                bingo_version = "Unknown"
+
+                            race['bingo_version'] = bingo_version
                             bingo_races.append(race)
                     time.sleep(0.05) # Slightly faster sleep since we are pre-filtering
 
