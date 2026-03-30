@@ -108,41 +108,6 @@
                 "user_finish_time": "P0DT01H11M05.023815S"
             },
             {
-                "name": "oot/dazzling-temple-6567",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/dazzling-temple-6567",
-                "data_url": "/oot/dazzling-temple-6567/data",
-                "goal": {
-                    "name": "Path Bingo (https://rranjan11.github.io/path-bingo-old-generator/)",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 3,
-                "entrants_count_finished": 3,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-03-07T01:56:41.133Z",
-                "started_at": "2026-03-07T02:09:45.720Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-03-07T03:28:18.530Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT00H54M45.368210S"
-            },
-            {
                 "name": "oot/amused-cojiro-5363",
                 "status": {
                     "value": "finished",
@@ -1893,146 +1858,6 @@
                 "user_finish_time": "P0DT01H08M53.255449S"
             },
             {
-                "name": "oot/sublime-scrub-7788",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/sublime-scrub-7788",
-                "data_url": "/oot/sublime-scrub-7788/data",
-                "goal": {
-                    "name": "Hell Bingo Finals",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 2,
-                "entrants_count_finished": 2,
-                "entrants_count_inactive": 0,
-                "opened_at": "2024-11-03T18:37:56.317Z",
-                "started_at": "2024-11-03T19:05:38.268Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-11-03T21:20:13.603Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H40M56.976297S"
-            },
-            {
-                "name": "oot/classic-nabooru-9323",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/classic-nabooru-9323",
-                "data_url": "/oot/classic-nabooru-9323/data",
-                "goal": {
-                    "name": "Hell Bingo Semi 2",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 2,
-                "entrants_count_finished": 1,
-                "entrants_count_inactive": 1,
-                "opened_at": "2024-11-02T18:46:35.291Z",
-                "started_at": "2024-11-02T19:05:00.834Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-11-02T20:52:16.552Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H28M09.751416S"
-            },
-            {
-                "name": "oot/perfect-claimcheck-7665",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/perfect-claimcheck-7665",
-                "data_url": "/oot/perfect-claimcheck-7665/data",
-                "goal": {
-                    "name": "Hell Bingo Qualifier 2",
-                    "custom": true
-                },
-                "info": "https://bingo.pancaketurtle.com/room/3GwYX8kWSD-M-qEByGGcgQ    pass: qualtwo    (do not reveal card)",
-                "entrants_count": 11,
-                "entrants_count_finished": 9,
-                "entrants_count_inactive": 2,
-                "opened_at": "2024-10-27T18:27:15.685Z",
-                "started_at": "2024-10-27T19:02:12.536Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-10-27T21:42:51.120Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H48M09.261326S"
-            },
-            {
-                "name": "oot/secret-zelda-1442",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/secret-zelda-1442",
-                "data_url": "/oot/secret-zelda-1442/data",
-                "goal": {
-                    "name": "Hell Bingo Qual1",
-                    "custom": true
-                },
-                "info": "https://bingo.pancaketurtle.com/room/2TzlTJg6QsSVMmvb6tVxnQ pass: qualone",
-                "entrants_count": 11,
-                "entrants_count_finished": 10,
-                "entrants_count_inactive": 1,
-                "opened_at": "2024-10-26T13:56:38.150Z",
-                "started_at": "2024-10-26T14:06:29.831Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-10-26T17:12:30.589Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H38M33.784343S"
-            },
-            {
                 "name": "oot/clever-din-9846",
                 "status": {
                     "value": "finished",
@@ -3083,76 +2908,6 @@
                 "user_finish_time": "P0DT01H13M25.777984S"
             },
             {
-                "name": "oot/mysterious-dekubaba-3841",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/mysterious-dekubaba-3841",
-                "data_url": "/oot/mysterious-dekubaba-3841/data",
-                "goal": {
-                    "name": "Team Exploration Blackout Bingo",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 6,
-                "entrants_count_finished": 6,
-                "entrants_count_inactive": 0,
-                "opened_at": "2024-05-19T18:09:50.173Z",
-                "started_at": "2024-05-19T18:27:44.593Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-05-19T21:00:23.189Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H18M43.659684S"
-            },
-            {
-                "name": "oot/saucy-fish-2756",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/saucy-fish-2756",
-                "data_url": "/oot/saucy-fish-2756/data",
-                "goal": {
-                    "name": "Team Exploration Blackout Bingo",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 5,
-                "entrants_count_finished": 5,
-                "entrants_count_inactive": 0,
-                "opened_at": "2024-05-12T18:29:28.856Z",
-                "started_at": "2024-05-12T18:41:17.804Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-05-12T20:39:36.700Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H51M49.281060S"
-            },
-            {
                 "name": "oot/perfect-ironboots-0083",
                 "status": {
                     "value": "finished",
@@ -3361,9 +3116,674 @@
                 "recordable": true,
                 "recorded": true,
                 "user_finish_time": "P0DT01H06M27.977416S"
+            },
+            {
+                "name": "oot/reliable-shadow-9269",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/reliable-shadow-9269",
+                "data_url": "/oot/reliable-shadow-9269/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=192230&mode=normal",
+                "entrants_count": 4,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-03-30T20:51:08.785Z",
+                "started_at": "2024-03-30T21:06:49.527Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-30T22:42:24.621Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M05.819878S"
+            },
+            {
+                "name": "oot/banzai-water-6682",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/banzai-water-6682",
+                "data_url": "/oot/banzai-water-6682/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=577715&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-03-29T21:02:59.995Z",
+                "started_at": "2024-03-29T21:18:21.211Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-29T22:47:59.024Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H14M41.469875S"
+            },
+            {
+                "name": "oot/zany-rauru-4347",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/zany-rauru-4347",
+                "data_url": "/oot/zany-rauru-4347/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=587818&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-03-28T18:03:49.010Z",
+                "started_at": "2024-03-28T18:12:51.571Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-28T19:30:35.477Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H08M27.261432S"
+            },
+            {
+                "name": "oot/fancy-wasteland-6115",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/fancy-wasteland-6115",
+                "data_url": "/oot/fancy-wasteland-6115/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=154101&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-03-21T13:07:42.521Z",
+                "started_at": "2024-03-21T13:12:18.608Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-21T14:42:15.759Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H05M15.467351S"
+            },
+            {
+                "name": "oot/clumsy-hoverboots-9108",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/clumsy-hoverboots-9108",
+                "data_url": "/oot/clumsy-hoverboots-9108/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=550184&mode=normal",
+                "entrants_count": 7,
+                "entrants_count_finished": 6,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-03-16T20:56:05.515Z",
+                "started_at": "2024-03-16T21:09:14.241Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-16T23:02:41.924Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H09M02.568897S"
+            },
+            {
+                "name": "oot/speedy-stalfos-0263",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/speedy-stalfos-0263",
+                "data_url": "/oot/speedy-stalfos-0263/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=638106&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-03-14T22:20:18.806Z",
+                "started_at": "2024-03-14T22:46:29.539Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-15T00:14:03.819Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H04M17.968767S"
+            },
+            {
+                "name": "oot/jolly-mido-0240",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/jolly-mido-0240",
+                "data_url": "/oot/jolly-mido-0240/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=691556&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 1,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-03-08T20:48:54.476Z",
+                "started_at": "2024-03-08T20:56:15.059Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-09T01:50:04.051Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H09M33.253085S"
+            },
+            {
+                "name": "oot/hyper-water-5648",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/hyper-water-5648",
+                "data_url": "/oot/hyper-water-5648/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=269602&mode=normal",
+                "entrants_count": 7,
+                "entrants_count_finished": 7,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-03-02T20:53:02.864Z",
+                "started_at": "2024-03-02T21:12:01.636Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-03-02T23:16:55.707Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H24M43.361434S"
+            },
+            {
+                "name": "oot/puzzled-ruto-6732",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/puzzled-ruto-6732",
+                "data_url": "/oot/puzzled-ruto-6732/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=120783&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 1,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-02-29T18:29:24.733Z",
+                "started_at": "2024-02-29T18:46:43.906Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-29T20:01:21.048Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H09M49.600189S"
+            },
+            {
+                "name": "oot/lazy-bow-3630",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/lazy-bow-3630",
+                "data_url": "/oot/lazy-bow-3630/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=182588&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-02-27T20:31:51.995Z",
+                "started_at": "2024-02-27T20:44:14.964Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-27T22:12:01.354Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H09M38.679882S"
+            },
+            {
+                "name": "oot/artful-dungeonmap-8816",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/artful-dungeonmap-8816",
+                "data_url": "/oot/artful-dungeonmap-8816/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=504444&mode=normal",
+                "entrants_count": 5,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 2,
+                "opened_at": "2024-02-24T21:00:52.798Z",
+                "started_at": "2024-02-24T21:24:56.728Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-24T23:30:59.556Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H06M57.278571S"
+            },
+            {
+                "name": "oot/foolish-ganondorf-8732",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/foolish-ganondorf-8732",
+                "data_url": "/oot/foolish-ganondorf-8732/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=645521&mode=normal",
+                "entrants_count": 4,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-02-22T02:42:21.229Z",
+                "started_at": "2024-02-22T02:56:54.629Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-22T04:35:10.976Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M04.041669S"
+            },
+            {
+                "name": "oot/dynamic-tunic-0536",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/dynamic-tunic-0536",
+                "data_url": "/oot/dynamic-tunic-0536/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=494568&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-02-20T21:29:51.477Z",
+                "started_at": "2024-02-20T21:44:56.425Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-20T23:24:12.558Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H06M13.002224S"
+            },
+            {
+                "name": "oot/eager-octorok-8466",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/eager-octorok-8466",
+                "data_url": "/oot/eager-octorok-8466/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=533180&mode=normal",
+                "entrants_count": 7,
+                "entrants_count_finished": 6,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-02-17T20:55:36.073Z",
+                "started_at": "2024-02-17T21:13:04.613Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-17T23:08:18.784Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H03M42.362468S"
+            },
+            {
+                "name": "oot/gnarly-lizalfos-1956",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-lizalfos-1956",
+                "data_url": "/oot/gnarly-lizalfos-1956/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=195840&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-02-16T23:46:26.721Z",
+                "started_at": "2024-02-17T00:11:20.886Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-17T02:22:38.556Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H14M03.959109S"
+            },
+            {
+                "name": "oot/banzai-dodongo-4677",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/banzai-dodongo-4677",
+                "data_url": "/oot/banzai-dodongo-4677/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "Anti-Bingo https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=836877&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-02-11T21:04:00.120Z",
+                "started_at": "2024-02-11T21:12:55.678Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-11T22:26:06.134Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H05M29.951748S"
+            },
+            {
+                "name": "oot/hungry-icecavern-2469",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/hungry-icecavern-2469",
+                "data_url": "/oot/hungry-icecavern-2469/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=883524&mode=normal",
+                "entrants_count": 6,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 3,
+                "opened_at": "2024-02-10T21:04:00.123Z",
+                "started_at": "2024-02-10T21:23:25.537Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-10T23:05:45.741Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H04M51.371339S"
+            },
+            {
+                "name": "oot/calm-sheik-9886",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/calm-sheik-9886",
+                "data_url": "/oot/calm-sheik-9886/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=981877&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-01-13T20:49:57.585Z",
+                "started_at": "2024-01-13T21:10:11.198Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-01-13T22:41:53.510Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M39.128898S"
+            },
+            {
+                "name": "oot/dynamax-volvagia-9263",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/dynamax-volvagia-9263",
+                "data_url": "/oot/dynamax-volvagia-9263/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=278481&mode=normal",
+                "entrants_count": 6,
+                "entrants_count_finished": 6,
+                "entrants_count_inactive": 0,
+                "opened_at": "2023-12-31T02:21:56.218Z",
+                "started_at": "2023-12-31T02:41:40.412Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2023-12-31T04:30:31.887Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H17M41.399696S"
             }
         ],
-        "last_updated": "2026-03-30 06:29:59"
+        "last_updated": "2026-03-30 06:59:44"
     },
     "triforce3250": {
         "username": "triforce3250",
@@ -3509,41 +3929,6 @@
                 "user_finish_time": "P0DT01H10M58.932674S"
             },
             {
-                "name": "oot/proud-chest-8135",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/proud-chest-8135",
-                "data_url": "/oot/proud-chest-8135/data",
-                "goal": {
-                    "name": "Free-For-All Lockout Bingo (SageRaces Room: https://sageraces.com/user/triforce3250/oot/multiplayer-bingo/Nz6ARXobiBNnY5KeE)",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 4,
-                "entrants_count_finished": 4,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-03-15T17:59:42.249Z",
-                "started_at": "2026-03-15T18:23:11.777Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-03-15T21:17:18.468Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H54M00.384984S"
-            },
-            {
                 "name": "oot/epic-wolfos-7051",
                 "status": {
                     "value": "finished",
@@ -3612,41 +3997,6 @@
                 "recordable": true,
                 "recorded": true,
                 "user_finish_time": "P0DT01H12M21.315285S"
-            },
-            {
-                "name": "oot/dazzling-temple-6567",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/dazzling-temple-6567",
-                "data_url": "/oot/dazzling-temple-6567/data",
-                "goal": {
-                    "name": "Path Bingo (https://rranjan11.github.io/path-bingo-old-generator/)",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 3,
-                "entrants_count_finished": 3,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-03-07T01:56:41.133Z",
-                "started_at": "2026-03-07T02:09:45.720Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-03-07T03:28:18.530Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H10M20.037873S"
             },
             {
                 "name": "oot/amused-cojiro-5363",
@@ -5679,41 +6029,6 @@
                 "user_finish_time": "P0DT01H10M37.852273S"
             },
             {
-                "name": "oot/intrepid-shabom-6295",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/intrepid-shabom-6295",
-                "data_url": "/oot/intrepid-shabom-6295/data",
-                "goal": {
-                    "name": "FASTER BINGO",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 6,
-                "entrants_count_finished": 6,
-                "entrants_count_inactive": 0,
-                "opened_at": "2025-07-20T03:15:24.657Z",
-                "started_at": "2025-07-20T03:21:23.917Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-07-20T03:26:22.347Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT00H04M32.629364S"
-            },
-            {
                 "name": "oot/golden-guay-5545",
                 "status": {
                     "value": "finished",
@@ -6657,9 +6972,569 @@
                 "recordable": true,
                 "recorded": true,
                 "user_finish_time": "P0DT01H11M13.532488S"
+            },
+            {
+                "name": "oot/trusty-gossipstone-5865",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/trusty-gossipstone-5865",
+                "data_url": "/oot/trusty-gossipstone-5865/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=216499&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-04-23T23:28:02.815Z",
+                "started_at": "2025-04-23T23:38:36.105Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-04-24T01:06:55.507Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H21M24.831372S"
+            },
+            {
+                "name": "oot/famous-shadow-6705",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/famous-shadow-6705",
+                "data_url": "/oot/famous-shadow-6705/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=947520&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2025-04-23T00:59:38.740Z",
+                "started_at": "2025-04-23T01:05:32.565Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-04-23T02:19:32.236Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H13M59.628445S"
+            },
+            {
+                "name": "oot/amused-kingzora-7270",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/amused-kingzora-7270",
+                "data_url": "/oot/amused-kingzora-7270/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=312085&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2025-04-21T14:27:42.123Z",
+                "started_at": "2025-04-21T14:40:19.798Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-04-21T16:11:42.291Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H16M10.737212S"
+            },
+            {
+                "name": "oot/agreeable-beamos-3698",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/agreeable-beamos-3698",
+                "data_url": "/oot/agreeable-beamos-3698/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=647221&mode=normal",
+                "entrants_count": 5,
+                "entrants_count_finished": 4,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-04-05T19:50:30.498Z",
+                "started_at": "2025-04-05T20:09:26.171Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-04-05T21:33:57.394Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M39.615052S"
+            },
+            {
+                "name": "oot/grumpy-ocarina-9727",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/grumpy-ocarina-9727",
+                "data_url": "/oot/grumpy-ocarina-9727/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=655849&mode=normal",
+                "entrants_count": 5,
+                "entrants_count_finished": 5,
+                "entrants_count_inactive": 0,
+                "opened_at": "2025-04-04T00:18:23.198Z",
+                "started_at": "2025-04-04T00:34:22.714Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-04-04T02:52:46.555Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H17M06.518925S"
+            },
+            {
+                "name": "oot/dapper-heartcontainer-7376",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/dapper-heartcontainer-7376",
+                "data_url": "/oot/dapper-heartcontainer-7376/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=115425&mode=normal",
+                "entrants_count": 6,
+                "entrants_count_finished": 4,
+                "entrants_count_inactive": 2,
+                "opened_at": "2025-03-29T20:52:35.732Z",
+                "started_at": "2025-03-29T21:10:11.386Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-29T22:59:07.876Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H13M28.265236S"
+            },
+            {
+                "name": "oot/swag-goron-9374",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/swag-goron-9374",
+                "data_url": "/oot/swag-goron-9374/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=49627&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-03-25T23:32:51.330Z",
+                "started_at": "2025-03-25T23:47:42.348Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-26T01:30:12.730Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M09.529405S"
+            },
+            {
+                "name": "oot/fortunate-likelike-2269",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/fortunate-likelike-2269",
+                "data_url": "/oot/fortunate-likelike-2269/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=573439&mode=normal",
+                "entrants_count": 6,
+                "entrants_count_finished": 5,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-03-23T01:26:47.177Z",
+                "started_at": "2025-03-23T01:43:04.632Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-23T04:31:33.351Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H11M06.741349S"
+            },
+            {
+                "name": "oot/crafty-arrow-7399",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/crafty-arrow-7399",
+                "data_url": "/oot/crafty-arrow-7399/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=61558&mode=normal",
+                "entrants_count": 5,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 2,
+                "opened_at": "2025-03-22T21:01:30.797Z",
+                "started_at": "2025-03-22T21:14:23.225Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-22T23:02:38.623Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H16M38.223440S"
+            },
+            {
+                "name": "oot/travelling-bombchu-8402",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/travelling-bombchu-8402",
+                "data_url": "/oot/travelling-bombchu-8402/data",
+                "goal": {
+                    "name": "Lockout Bingo",
+                    "custom": true
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=886018&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 1,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-03-21T02:50:15.206Z",
+                "started_at": "2025-03-21T03:01:54.882Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-21T04:53:16.568Z",
+                "cancelled_at": null,
+                "recordable": false,
+                "recorded": false,
+                "user_finish_time": "P0DT01H50M46.915227S"
+            },
+            {
+                "name": "oot/scruffy-bulletbag-2202",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/scruffy-bulletbag-2202",
+                "data_url": "/oot/scruffy-bulletbag-2202/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=872916&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2025-03-14T00:09:39.314Z",
+                "started_at": "2025-03-14T00:20:25.849Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-14T03:17:43.788Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H21M14.434804S"
+            },
+            {
+                "name": "oot/jolly-bean-0412",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/jolly-bean-0412",
+                "data_url": "/oot/jolly-bean-0412/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=657831&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 1,
+                "entrants_count_inactive": 2,
+                "opened_at": "2025-03-13T00:57:14.655Z",
+                "started_at": "2025-03-13T01:11:47.091Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-13T02:29:55.650Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H18M08.525503S"
+            },
+            {
+                "name": "oot/silly-icecavern-1127",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/silly-icecavern-1127",
+                "data_url": "/oot/silly-icecavern-1127/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=396526&mode=normal",
+                "entrants_count": 10,
+                "entrants_count_finished": 9,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-03-02T20:36:19.368Z",
+                "started_at": "2025-03-02T21:01:35.595Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-03-02T23:10:07.468Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H08M54.762686S"
+            },
+            {
+                "name": "oot/snug-minuet-5719",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/snug-minuet-5719",
+                "data_url": "/oot/snug-minuet-5719/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=242638&mode=normal",
+                "entrants_count": 13,
+                "entrants_count_finished": 12,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-02-23T02:25:24.201Z",
+                "started_at": "2025-02-23T02:42:30.445Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-02-23T05:37:51.001Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H17M13.743413S"
+            },
+            {
+                "name": "oot/shiny-ocarina-6762",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/shiny-ocarina-6762",
+                "data_url": "/oot/shiny-ocarina-6762/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=332685&mode=normal",
+                "entrants_count": 4,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-02-21T04:49:43.145Z",
+                "started_at": "2025-02-21T05:31:13.890Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-02-21T22:33:31.376Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H09M42.384718S"
+            },
+            {
+                "name": "oot/comic-dampe-8942",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/comic-dampe-8942",
+                "data_url": "/oot/comic-dampe-8942/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5&seed=570540&mode=normal",
+                "entrants_count": 4,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 1,
+                "opened_at": "2025-02-15T23:09:09.484Z",
+                "started_at": "2025-02-15T23:30:23.719Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2025-02-16T01:11:46.020Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H17M24.408827S"
             }
         ],
-        "last_updated": "2026-03-30 06:31:22"
+        "last_updated": "2026-03-30 07:00:49"
     },
     "2dollargargoyle": {
         "username": "2DollarGargoyle",
@@ -6698,41 +7573,6 @@
                 "recordable": true,
                 "recorded": true,
                 "user_finish_time": "P0DT01H31M35.486897S"
-            },
-            {
-                "name": "oot/proud-chest-8135",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/proud-chest-8135",
-                "data_url": "/oot/proud-chest-8135/data",
-                "goal": {
-                    "name": "Free-For-All Lockout Bingo (SageRaces Room: https://sageraces.com/user/triforce3250/oot/multiplayer-bingo/Nz6ARXobiBNnY5KeE)",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 4,
-                "entrants_count_finished": 4,
-                "entrants_count_inactive": 0,
-                "opened_at": "2026-03-15T17:59:42.249Z",
-                "started_at": "2026-03-15T18:23:11.777Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2026-03-15T21:17:18.468Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H53M51.262472S"
             },
             {
                 "name": "oot/foolish-farore-5733",
@@ -7400,41 +8240,6 @@
                 "user_finish_time": "P0DT01H12M26.295541S"
             },
             {
-                "name": "oot/intrepid-shabom-6295",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/intrepid-shabom-6295",
-                "data_url": "/oot/intrepid-shabom-6295/data",
-                "goal": {
-                    "name": "FASTER BINGO",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 6,
-                "entrants_count_finished": 6,
-                "entrants_count_inactive": 0,
-                "opened_at": "2025-07-20T03:15:24.657Z",
-                "started_at": "2025-07-20T03:21:23.917Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-07-20T03:26:22.347Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT00H04M37.203142S"
-            },
-            {
                 "name": "oot/golden-guay-5545",
                 "status": {
                     "value": "finished",
@@ -8030,41 +8835,6 @@
                 "user_finish_time": "P0DT01H09M44.876540S"
             },
             {
-                "name": "oot/lucky-mido-7074",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/lucky-mido-7074",
-                "data_url": "/oot/lucky-mido-7074/data",
-                "goal": {
-                    "name": "Bingo Brawlers Lockout (garg vs. tri)",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 2,
-                "entrants_count_finished": 2,
-                "entrants_count_inactive": 0,
-                "opened_at": "2025-03-15T19:49:31.661Z",
-                "started_at": "2025-03-15T20:04:49.619Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2025-03-15T22:38:17.986Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H33M28.316644S"
-            },
-            {
                 "name": "oot/swag-claimcheck-6954",
                 "status": {
                     "value": "finished",
@@ -8483,41 +9253,6 @@
                 "recordable": true,
                 "recorded": true,
                 "user_finish_time": "P0DT01H23M41.016744S"
-            },
-            {
-                "name": "oot/secret-zelda-1442",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/secret-zelda-1442",
-                "data_url": "/oot/secret-zelda-1442/data",
-                "goal": {
-                    "name": "Hell Bingo Qual1",
-                    "custom": true
-                },
-                "info": "https://bingo.pancaketurtle.com/room/2TzlTJg6QsSVMmvb6tVxnQ pass: qualone",
-                "entrants_count": 11,
-                "entrants_count_finished": 10,
-                "entrants_count_inactive": 1,
-                "opened_at": "2024-10-26T13:56:38.150Z",
-                "started_at": "2024-10-26T14:06:29.831Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-10-26T17:12:30.589Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT01H36M06.807252S"
             },
             {
                 "name": "oot/hot-sapphire-4693",
@@ -9360,111 +10095,6 @@
                 "user_finish_time": "P0DT01H13M15.305465S"
             },
             {
-                "name": "oot/dynamic-bugs-9624",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/dynamic-bugs-9624",
-                "data_url": "/oot/dynamic-bugs-9624/data",
-                "goal": {
-                    "name": "team exploration bingo",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 4,
-                "entrants_count_finished": 4,
-                "entrants_count_inactive": 0,
-                "opened_at": "2024-06-09T18:13:11.103Z",
-                "started_at": "2024-06-09T18:16:22.029Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-06-09T20:41:02.302Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H24M40.164849S"
-            },
-            {
-                "name": "oot/prudent-scrub-3727",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/prudent-scrub-3727",
-                "data_url": "/oot/prudent-scrub-3727/data",
-                "goal": {
-                    "name": "Team Exploration Blackout Bingo",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 6,
-                "entrants_count_finished": 6,
-                "entrants_count_inactive": 0,
-                "opened_at": "2024-05-05T18:12:25.395Z",
-                "started_at": "2024-05-05T18:25:16.499Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-05-05T20:52:26.216Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H08M17.445509S"
-            },
-            {
-                "name": "oot/good-temple-8805",
-                "status": {
-                    "value": "finished",
-                    "verbose_value": "Finished",
-                    "help_text": "This race has been completed"
-                },
-                "url": "/oot/good-temple-8805",
-                "data_url": "/oot/good-temple-8805/data",
-                "goal": {
-                    "name": "Team Exploration Bingo",
-                    "custom": true
-                },
-                "info": "",
-                "entrants_count": 4,
-                "entrants_count_finished": 4,
-                "entrants_count_inactive": 0,
-                "opened_at": "2024-03-31T17:05:44.563Z",
-                "started_at": "2024-03-31T17:14:46.610Z",
-                "time_limit": "P1DT00H00M00S",
-                "opened_by_bot": null,
-                "category": {
-                    "name": "The Legend of Zelda: Ocarina of Time",
-                    "short_name": "OoT",
-                    "slug": "oot",
-                    "url": "/oot",
-                    "data_url": "/oot/data",
-                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
-                },
-                "ended_at": "2024-03-31T19:35:08.532Z",
-                "cancelled_at": null,
-                "recordable": false,
-                "recorded": false,
-                "user_finish_time": "P0DT02H02M46.170522S"
-            },
-            {
                 "name": "oot/magic-deadhand-3343",
                 "status": {
                     "value": "finished",
@@ -9673,8 +10303,463 @@
                 "recordable": true,
                 "recorded": true,
                 "user_finish_time": "P0DT01H18M50.255557S"
+            },
+            {
+                "name": "oot/grumpy-hammer-7628",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/grumpy-hammer-7628",
+                "data_url": "/oot/grumpy-hammer-7628/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=551873&mode=normal",
+                "entrants_count": 5,
+                "entrants_count_finished": 5,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-02-25T20:00:32.841Z",
+                "started_at": "2024-02-25T20:14:34.626Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-25T22:12:00.456Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H14M02.606389S"
+            },
+            {
+                "name": "oot/agreeable-hammer-6735",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/agreeable-hammer-6735",
+                "data_url": "/oot/agreeable-hammer-6735/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=477231&mode=normal",
+                "entrants_count": 7,
+                "entrants_count_finished": 7,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-02-25T02:25:09.879Z",
+                "started_at": "2024-02-25T02:41:37.677Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-25T04:33:49.661Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H33M36.334316S"
+            },
+            {
+                "name": "oot/artful-dungeonmap-8816",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/artful-dungeonmap-8816",
+                "data_url": "/oot/artful-dungeonmap-8816/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=504444&mode=normal",
+                "entrants_count": 5,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 2,
+                "opened_at": "2024-02-24T21:00:52.798Z",
+                "started_at": "2024-02-24T21:24:56.728Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-24T23:30:59.556Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H13M28.487000S"
+            },
+            {
+                "name": "oot/eager-octorok-8466",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/eager-octorok-8466",
+                "data_url": "/oot/eager-octorok-8466/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=533180&mode=normal",
+                "entrants_count": 7,
+                "entrants_count_finished": 6,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-02-17T20:55:36.073Z",
+                "started_at": "2024-02-17T21:13:04.613Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-17T23:08:18.784Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H20M06.480365S"
+            },
+            {
+                "name": "oot/quick-mushroom-8602",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/quick-mushroom-8602",
+                "data_url": "/oot/quick-mushroom-8602/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=852905&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-02-16T20:12:52.087Z",
+                "started_at": "2024-02-16T20:24:37.365Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-16T21:44:55.412Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H06M50.839421S"
+            },
+            {
+                "name": "oot/hungry-icecavern-2469",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/hungry-icecavern-2469",
+                "data_url": "/oot/hungry-icecavern-2469/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=883524&mode=normal",
+                "entrants_count": 6,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 3,
+                "opened_at": "2024-02-10T21:04:00.123Z",
+                "started_at": "2024-02-10T21:23:25.537Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-02-10T23:05:45.741Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H11M11.280335S"
+            },
+            {
+                "name": "oot/prudent-ingo-3318",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/prudent-ingo-3318",
+                "data_url": "/oot/prudent-ingo-3318/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=16857&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 1,
+                "opened_at": "2024-01-04T22:56:57.076Z",
+                "started_at": "2024-01-04T23:04:18.903Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-01-05T02:07:52.886Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H14M20.030859S"
+            },
+            {
+                "name": "oot/mysterious-navi-6936",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/mysterious-navi-6936",
+                "data_url": "/oot/mysterious-navi-6936/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=115310&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2024-01-01T19:26:13.194Z",
+                "started_at": "2024-01-01T19:37:30.737Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2024-01-01T20:59:47.645Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H16M41.364060S"
+            },
+            {
+                "name": "oot/dynamax-volvagia-9263",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/dynamax-volvagia-9263",
+                "data_url": "/oot/dynamax-volvagia-9263/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.4&seed=278481&mode=normal",
+                "entrants_count": 6,
+                "entrants_count_finished": 6,
+                "entrants_count_inactive": 0,
+                "opened_at": "2023-12-31T02:21:56.218Z",
+                "started_at": "2023-12-31T02:41:40.412Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2023-12-31T04:30:31.887Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H12M00.834137S"
+            },
+            {
+                "name": "oot/foolish-ruto-0785",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/foolish-ruto-0785",
+                "data_url": "/oot/foolish-ruto-0785/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.3.2&seed=443255&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2023-11-03T20:35:26.610Z",
+                "started_at": "2023-11-03T21:05:23.922Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2023-11-03T22:16:05.116Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M41.064974S"
+            },
+            {
+                "name": "oot/crazy-bulletbag-5132",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/crazy-bulletbag-5132",
+                "data_url": "/oot/crazy-bulletbag-5132/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.3.2&seed=78466&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2023-10-21T13:38:00.580Z",
+                "started_at": "2023-10-21T14:01:23.371Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2023-10-21T15:14:09.870Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H12M46.377412S"
+            },
+            {
+                "name": "oot/comic-dekutree-0418",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/comic-dekutree-0418",
+                "data_url": "/oot/comic-dekutree-0418/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.3.2&seed=743046&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2023-10-14T21:50:22.129Z",
+                "started_at": "2023-10-14T22:03:35.151Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2023-10-14T23:29:19.527Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H15M46.499270S"
+            },
+            {
+                "name": "oot/silly-poe-5641",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/silly-poe-5641",
+                "data_url": "/oot/silly-poe-5641/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.3.2&seed=125428&mode=normal",
+                "entrants_count": 6,
+                "entrants_count_finished": 4,
+                "entrants_count_inactive": 2,
+                "opened_at": "2023-10-07T19:53:52.282Z",
+                "started_at": "2023-10-07T20:08:53.341Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2023-10-07T21:31:31.819Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H14M02.246464S"
             }
         ],
-        "last_updated": "2026-03-30 06:32:40"
+        "last_updated": "2026-03-30 07:01:46"
     }
 }
