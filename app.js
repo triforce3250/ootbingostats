@@ -47,68 +47,48 @@ let myChart;
 function renderChart(userData) {
     const ctx = document.getElementById('statsChart').getContext('2d');
     
-    // Process races: x is Date, y is Total Minutes
-    const points = userData.races.map(race => ({
+    // 1. Raw Data Points
+    const rawPoints = userData.races.map(race => ({
         x: new Date(race.ended_at),
         y: parseDuration(race.user_finish_time),
         goal: race.goal.name
-    })).sort((a, b) => a.x - b.x);
+    })).filter(p => p.y > 0).sort((a, b) => a.x - b.x);
+
+    // 2. Calculate Trend Line (10-race Moving Average)
+    const trendPoints = rawPoints.map((point, index, array) => {
+        const start = Math.max(0, index - 9);
+        const subset = array.slice(start, index + 1);
+        const average = subset.reduce((sum, p) => sum + p.y, 0) / subset.length;
+        return { x: point.x, y: average };
+    });
 
     if (myChart) myChart.destroy();
 
     myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            datasets: [{
-                label: `${userData.username} - Bingo History`,
-                data: points,
-                borderColor: '#00ccff',
-                backgroundColor: 'rgba(0, 204, 255, 0.1)',
-                tension: 0.3,
-                fill: true,
-                pointRadius: 4,
-                pointHoverRadius: 6
-            }]
+            datasets: [
+                {
+                    label: 'Individual Races',
+                    data: rawPoints,
+                    borderColor: 'rgba(0, 204, 255, 0.3)', // Fainter color for dots
+                    pointBackgroundColor: '#00ccff',
+                    showLine: false, // Scatter style
+                    pointRadius: 3
+                },
+                {
+                    label: 'Skill Trend (10-race Avg)',
+                    data: trendPoints,
+                    borderColor: '#ffcc00', // Gold trend line
+                    backgroundColor: 'transparent',
+                    borderWidth: 3,
+                    pointRadius: 0, // Smooth line without dots
+                    tension: 0.4
+                }
+            ]
         },
         options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-                x: {
-                    type: 'time',
-                    time: { unit: 'month' },
-                    grid: { color: '#333' }
-                },
-                y: {
-                    title: { display: true, text: 'Finish Time', color: '#888' },
-                    grid: { color: '#333' },
-                    ticks: {
-                        // FORMATTER: Converts minutes back to "1h 15m" for the axis
-                        callback: function(value) {
-                            const h = Math.floor(value / 60);
-                            const m = Math.round(value % 60);
-                            return h > 0 ? `${h}h ${m}m` : `${m}m`;
-                        },
-                        color: '#aaa'
-                    }
-                }
-            },
-            plugins: {
-                tooltip: {
-                    callbacks: {
-                        // Format the tooltip time as well
-                        label: function(context) {
-                            const val = context.raw.y;
-                            const h = Math.floor(val / 60);
-                            const m = Math.floor(val % 60);
-                            const s = Math.round((val % 1) * 60);
-                            const timeStr = h > 0 ? `${h}h ${m}m ${s}s` : `${m}m ${s}s`;
-                            return ` Time: ${timeStr}`;
-                        },
-                        footer: (items) => `Goal: ${items[0].raw.goal}`
-                    }
-                }
-            }
+            // ... (keep the same scales and tooltips from before) ...
         }
     });
 }
