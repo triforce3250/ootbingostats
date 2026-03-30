@@ -17,7 +17,8 @@
         
         <section class="search-section">
             <div class="search-box">
-                <input type="text" id="userSearch" list="playerList" placeholder="Search a racer..." />
+                <input type="text" id="userSearch" list="playerList" placeholder="Search a racer..." onfocus="this.value=''"
+                    oninput="handleSearch()" />
                 <datalist id="playerList">
                     </datalist>
                 <button onclick="searchUser()">View Stats</button>

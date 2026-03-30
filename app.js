@@ -6,7 +6,6 @@ fetch('data.json')
     .then(data => {
         bingoData = data; // Save to global variable
         
-        // --- CALL THE POPULATE FUNCTION HERE ---
         populateSearchList(bingoData);
         
         // Optional: Load a default user (like tob3000) on start
@@ -146,8 +145,11 @@ function renderChart(userData) {
                             return ` Time: ${h}h ${m}m ${s}s`;
                         },
                         footer: (items) => {
-                            return items[0].datasetIndex === 0 ? 
-                                `Goal: ${items[0].raw.goal}\n\n(Click to view race)` : "";
+                            if (items[0].datasetIndex === 0) {
+                                const date = items[0].raw.x.toLocaleDateString();
+                                return `Date: ${date}\n(Click to view race)`;
+                            }
+                            return "";
                         }
                     }
                 }
@@ -196,4 +198,15 @@ function populateSearchList(allData) {
     });
     
     console.log(`Search list populated with ${usernames.length} players.`);
+}
+
+function handleSearch() {
+    const input = document.getElementById('userSearch');
+    const name = input.value;
+    
+    if (bingoData[name]) {
+        loadUser(name);
+        // Blur the input so the keyboard/dropdown closes on mobile
+        input.blur(); 
+    }
 }

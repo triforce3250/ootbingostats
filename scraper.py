@@ -88,7 +88,8 @@ def fetch_bingo_data(username, user_id):
                     race.get('recorded', False) and
                     race.get('goal', {}).get('name', '').lower() == 'bingo' and
                     'ootbingo.github.io/bingo/bingo.html' in info and
-                    'mode=normal' in info
+                    'mode=normal' in info and
+                    'anti-bingo' not in info # Filters out the anti-bingo mode
                 )
 
                 if is_valid:
