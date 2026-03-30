@@ -62,19 +62,19 @@ function renderChart(userData) {
         return { x: point.x, y: average };
     });
 
-    if (myChart) myChart.destroy();
+    if (window.myChart) window.myChart.destroy();
 
-    myChart = new Chart(ctx, {
+    window.myChart = new Chart(ctx, {
         type: 'line',
         data: {
             datasets: [
                 {
                     label: 'Individual Races',
                     data: rawPoints,
-                    borderColor: 'rgba(0, 204, 255, 0.3)', // Fainter color for dots
+                    borderColor: 'rgba(0, 204, 255, 0.3)',
                     pointBackgroundColor: '#00ccff',
                     showLine: false, // Scatter style
-                    pointRadius: 3
+                    pointRadius: 4
                 },
                 {
                     label: 'Skill Trend (10-race Avg)',
@@ -82,13 +82,48 @@ function renderChart(userData) {
                     borderColor: '#ffcc00', // Gold trend line
                     backgroundColor: 'transparent',
                     borderWidth: 3,
-                    pointRadius: 0, // Smooth line without dots
+                    pointRadius: 0, 
                     tension: 0.4
                 }
             ]
         },
         options: {
-            // ... (keep the same scales and tooltips from before) ...
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    type: 'time',
+                    time: { unit: 'month' },
+                    grid: { color: '#333' }
+                },
+                y: {
+                    title: { display: true, text: 'Finish Time', color: '#888' },
+                    grid: { color: '#333' },
+                    ticks: {
+                        callback: function(value) {
+                            const h = Math.floor(value / 60);
+                            const m = Math.round(value % 60);
+                            return h > 0 ? `${h}h ${m}m` : `${m}m`;
+                        },
+                        color: '#aaa'
+                    }
+                }
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            const val = context.raw.y;
+                            const h = Math.floor(val / 60);
+                            const m = Math.floor(val % 60);
+                            const s = Math.round((val % 1) * 60);
+                            const timeStr = h > 0 ? `${h}h ${m}m ${s}s` : `${m}m ${s}s`;
+                            return ` Time: ${timeStr}`;
+                        },
+                        footer: (items) => `Goal: ${items[0].raw.goal}`
+                    }
+                }
+            }
         }
     });
 }
