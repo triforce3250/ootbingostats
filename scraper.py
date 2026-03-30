@@ -11,21 +11,33 @@ HEADERS = {
 }
 
 def get_user_id_map():
-    """Fetches the OoT category members to map names to unique IDs."""
+    """Correctly parses the nested Racetime.gg leaderboard JSON."""
     print("Mapping users via OoT Category...")
-    # This endpoint provides the list of all active OoT players and their IDs
     url = "https://racetime.gg/oot/leaderboards/data"
+    id_map = {}
+    
     try:
         res = requests.get(url, headers=HEADERS)
-        if res.status_code != 200: 
-            print(f" ! Leaderboard fetch failed: {res.status_code}")
-            return {}
-        data = res.json()
+        if res.status_code != 200: return {}
         
-        # We map the display name (lowercase) to the internal ID URL
-        # The 'user' object contains the 'url' which looks like '/user/Aa5veo.../name'
-        return {player['user']['name'].lower(): player['user']['url'] 
-                for player in data.get('leaderboard', [])}
+        data = res.json()
+        # Navigate: data['leaderboards'] -> find the one where goal == 'Bingo'
+        all_boards = data.get('leaderboards', [])
+        
+        for board in all_boards:
+            # We specifically want the Bingo rankings
+            if board.get('goal') == 'Bingo':
+                rankings = board.get('rankings', [])
+                for entry in rankings:
+                    user = entry.get('user', {})
+                    name = user.get('name', '').lower()
+                    url_path = user.get('url')
+                    if name and url_path:
+                        id_map[name] = url_path
+                break # We found Bingo, no need to check other goals
+                
+        print(f"  > Successfully mapped {len(id_map)} players from Bingo leaderboard.")
+        return id_map
     except Exception as e:
         print(f" ! Error mapping IDs: {e}")
         return {}
@@ -37,31 +49,26 @@ def fetch_bingo_data(username, user_id_url):
     total_pages = 1
     
     while page <= total_pages:
-        # CORRECTED URL: We use the ID-based URL provided by the leaderboard
-        # Structure: https://racetime.gg/user/Aa5veo.../name/races/data
+        # Construct the data URL: /user/ID/name/races/data
         url = f"https://racetime.gg{user_id_url}/races/data?category=oot&page={page}"
         
         try:
             res = requests.get(url, headers=HEADERS)
-            if res.status_code != 200:
-                print(f"  ! Error on page {page}: {res.status_code}")
-                break
+            if res.status_code != 200: break
             
             data = res.json()
             for race in data.get('races', []):
                 goal = race['goal']['name'].lower()
-                # Check status and goal name
                 if race['status'] == 'finished' and 'bingo' in goal:
                     bingo_races.append(race)
             
             total_pages = data.get('num_pages', 1)
-            print(f"  - Page {page}/{total_pages} (Found {len(bingo_races)} bingo races)")
+            print(f"  - Page {page}/{total_pages} (Bingo: {len(bingo_races)})")
             page += 1
-            time.sleep(1.5) # Anti-ban delay
-        except Exception as e:
-            print(f"  ! Request error: {e}")
+            time.sleep(1.2) 
+        except:
             break
-        
+            
     return bingo_races
 
 # --- Main Execution ---
@@ -70,22 +77,25 @@ data_store = {}
 
 for name in TARGET_USERS:
     lower_name = name.lower()
-    if lower_name in id_map:
-        history = fetch_bingo_data(name, id_map[lower_name])
-        if history:
-            data_store[lower_name] = {
-                "username": name, 
-                "races": history,
-                "last_updated": time.strftime("%Y-%m-%d %H:%M:%S")
-            }
-    else:
-        print(f" ! Could not find ID for '{name}' on the leaderboard. Is the name spelled exactly right?")
+    user_path = id_map.get(lower_name)
     
-    # 3 second gap between different users to stay safe
-    time.sleep(3)
+    # Plan A: Use the ID from the leaderboard
+    if user_path:
+        history = fetch_bingo_data(name, user_path)
+    # Plan B: Direct access if they weren't on the Bingo-specific board
+    else:
+        print(f" ! {name} not found in Bingo rankings. Trying direct URL...")
+        history = fetch_bingo_data(name, f"/user/{name}")
 
-# Save the final database
+    if history:
+        data_store[lower_name] = {
+            "username": name, 
+            "races": history,
+            "last_updated": time.strftime("%Y-%m-%d %H:%M:%S")
+        }
+    time.sleep(2)
+
 with open('data.json', 'w') as f:
     json.dump(data_store, f, indent=4)
 
-print(f"\nSuccess! Saved {len(data_store)} users to data.json")
+print(f"\nDone! Saved {len(data_store)} users to data.json")
