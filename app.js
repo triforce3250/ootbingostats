@@ -162,15 +162,16 @@ function renderChart(pUser, cUser) {
 
     const datasets = [
         { 
-            label: `${pUser.name} Races`, // Explicit label for the legend
+            label: `${pUser.name} (Individual Races)`, // Explicit label for the legend
             data: pPoints,
-            showLine: false,
-            pointBackgroundColor: '#00ccff', 
-            pointRadius: 4,
-            order: 2 
+            borderColor: '#00ccff',
+            pointRadius: 0,
+            borderWidth: 3, 
+            tension: 0.4,
+            order: 1
         },
         {
-            label: `${pUser.name} Trend`,
+            label: `${pUser.name} (Trend)`,
             data: pTrend,
             borderColor: '#ffcc00',
             pointRadius: 0,
@@ -185,7 +186,7 @@ function renderChart(pUser, cUser) {
         const cTrend = cPoints.map((p, i, a) => ({ x: p.x, y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10) }));
         // Add only the trend line for comparison to keep chart clean
         datasets.push({
-            label: `${cUser.name} Trend`, // Label for the Rival
+            label: `${cUser.name} (Trend)`, // Label for the Rival
             data: cTrend,
             borderColor: '#ff4444',
             borderDash: [5, 5],
