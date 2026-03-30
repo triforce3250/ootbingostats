@@ -1,19 +1,21 @@
 let bingoData = {};
+let primaryUser = null;
+let compareUser = null;
 
 // 1. Load the data
 fetch('data.json')
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
-        bingoData = data; // Save to global variable
+        bingoData = data;
+        populateSearchList(data);
         
-        populateSearchList(bingoData);
-        
-        // Optional: Load a default user (like tob3000) on start
-        if (bingoData['tob3000']) {
-            renderChart(bingoData['tob3000']);
+        // Use the actual key from your data to avoid "undefined"
+        const defaultPlayer = 'tob3000';
+        if (bingoData[defaultPlayer]) {
+            loadUser(defaultPlayer);
         }
     })
-    .catch(error => console.error('Error loading bingo data:', error));
+    .catch(err => console.error("Could not load data.json", err));
 
 // 2. Duration Parser
 function parseDuration(duration) {
@@ -53,53 +55,88 @@ function searchUser() {
 function loadUser(username) {
     if (!bingoData[username]) return;
 
-    primaryUser = { name: username, races: bingoData[username].races };
+    // Set the primary state
+    primaryUser = { 
+        name: username, 
+        races: bingoData[username].races 
+    };
     
-    // Sync the search box text so it doesn't stay empty or wrong
+    // Update UI elements
     document.getElementById('userSearch').value = username;
     document.getElementById('display-name').innerText = username;
     
+    // Refresh the version list for THIS specific player
     updateVersionDropdown(primaryUser.races);
+    
+    // Trigger the render
     applyFilters();
 }
 
 function handleCompare() {
-    const name = document.getElementById('compareSearch').value;
-    if (bingoData[name]) {
-        compareUser = { name: name, races: bingoData[name].races };
-        applyFilters();
-    } else if (name === "") {
+    const name = document.getElementById('compareSearch').value.trim();
+    
+    // If the input is valid and exists in our data
+    if (name && bingoData[name]) {
+        compareUser = { 
+            name: name, 
+            races: bingoData[name].races 
+        };
+    } else {
+        // If the box is cleared or name is invalid, REMOVE the rival
         compareUser = null;
-        applyFilters();
     }
+    
+    applyFilters();
 }
 
 function updateVersionDropdown(races) {
     const select = document.getElementById('versionFilter');
-    const currentVal = select.value;
-    const versions = [...new Set(races.map(r => r.bingo_version))].sort((a, b) => b - a);
-
+    // Map versions, default to "Unknown" if the field doesn't exist yet
+    const versions = [...new Set(races.map(r => r.bingo_version || "Unknown"))]
+        .filter(v => v !== "Unknown")
+        .sort((a, b) => b.localeCompare(a, undefined, {numeric: true}));
+    
     select.innerHTML = '<option value="all">All Versions</option>';
+    
     versions.forEach(v => {
-        if (v === "Unknown") return;
         const opt = document.createElement('option');
         opt.value = v;
         opt.innerText = `v${v}`;
         select.appendChild(opt);
     });
-    // Keep selection if it still exists
-    select.value = versions.includes(currentVal) ? currentVal : "all";
 }
 
 function applyFilters() {
+    if (!primaryUser) return;
+    
     const version = document.getElementById('versionFilter').value;
-
+    
+    // Filter logic: if 'all', keep everything. Otherwise, match the version string.
     const filterFn = (r) => version === 'all' || r.bingo_version === version;
+    
+    const pFilteredRaces = primaryUser.races.filter(filterFn);
+    
+    // Prepare the primary data object
+    const pData = { 
+        name: primaryUser.name, 
+        races: pFilteredRaces 
+    };
+    
+    // Prepare the rival data object ONLY if they exist
+    let cData = null;
+    if (compareUser) {
+        const cFilteredRaces = compareUser.races.filter(filterFn);
+        cData = { 
+            name: compareUser.name, 
+            races: cFilteredRaces 
+        };
+    }
+    
+    // Update the subtitle text
+    document.getElementById('race-count').innerText = compareUser 
+        ? `Comparing ${pData.races.length} vs ${cData.races.length} races`
+        : `Showing ${pData.races.length} total races`;
 
-    const pData = { ...primaryUser, races: primaryUser.races.filter(filterFn) };
-    const cData = compareUser ? { ...compareUser, races: compareUser.races.filter(filterFn) } : null;
-
-    document.getElementById('race-count').innerText = `Displaying ${pData.races.length} races`;
     renderChart(pData, cData);
 }
 

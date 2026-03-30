@@ -15,50 +15,52 @@
             <h1>📜 OoT Bingo Stats</h1>
             <p>Historical performance tracking for Ocarina of Time Bingo.</p>
         </header>
-        
-        <section class="dashboard-controls">
-            <div class="search-row">
-                <div class="control-group">
-                    <label>Primary Racer</label>
-                    <input type="text" id="userSearch" list="playerList" placeholder="Select Racer..." onfocus="this.value=''"
-                        oninput="handleSearch()">
-                </div>
 
-            <div class="control-group">
-                <label>Optional Comparison</label>
-                <input type="text" id="compareSearch" list="playerList" placeholder="Add Comparison..." onfocus="this.value=''"
-                    oninput="handleCompare()">
-                </div>
-                </div>
-
-            <div class="quick-select">
-                <span>Examples:</span>
-                <button onclick="loadUser('tob3000')">tob3000</button>
-                <button onclick="loadUser('triforce3250')">triforce3250</button>
-                <button onclick="loadUser('2DollarGargoyle')">2DollarGargoyle</button>
-            </div>
-
-            <div class="filter-row">
-                <div class="control-group">
-                    <label>Bingo Version:</label>
-                    <select id="versionFilter" onchange="applyFilters()">
-                        <option value="all">All Versions</option>
-                    </select>
+        <body>
+            <section class="dashboard-controls">
+                <div class="search-row">
+                    <div class="control-group">
+                        <label>Primary Racer</label>
+                        <input type="text" id="userSearch" list="playerList" placeholder="Select Racer..." onfocus="this.value=''"
+                            oninput="handleSearch()">
                     </div>
-                <button id="resetZoomBtn" onclick="resetChartZoom()" style="display:none;">Reset Zoom</button>
-            </div>
-        </section>
 
-        <datalist id="playerList"></datalist>
-        
-        <div id="stats-summary">
-            <h2 id="display-name">Select a player</h2>
-            <p id="race-count"></p>
-        </div>
-        
-        <div class="chart-container" style="position: relative; height:70vh; width:90vw; margin: auto;">
-            <canvas id="statsChart"></canvas>
-        </div>
+                <div class="control-group">
+                    <label>Optional Comparison</label>
+                    <input type="text" id="compareSearch" list="playerList" placeholder="Add Comparison..." onfocus="this.value=''"
+                        oninput="handleCompare()">
+                    </div>
+                    </div>
+
+                <div class="quick-select">
+                    <span>Examples:</span>
+                    <button onclick="loadUser('tob3000')">tob3000</button>
+                    <button onclick="loadUser('triforce3250')">triforce3250</button>
+                    <button onclick="loadUser('2DollarGargoyle')">2DollarGargoyle</button>
+                </div>
+
+                <div class="filter-row">
+                    <div class="control-group">
+                        <label>Bingo Version:</label>
+                        <select id="versionFilter" onchange="applyFilters()">
+                            <option value="all">All Versions</option>
+                        </select>
+                        </div>
+                    <button id="resetZoomBtn" onclick="resetChartZoom()" style="display:none;">Reset Zoom</button>
+                </div>
+            </section>
+
+            <datalist id="playerList"></datalist>
+            
+            <div id="stats-summary">
+                <h2 id="display-name">Select a player</h2>
+                <p id="race-count"></p>
+            </div>
+            
+            <div class="chart-container" style="position: relative; height:70vh; width:90vw; margin: auto;">
+                <canvas id="statsChart"></canvas>
+            </div>
+        </body>
 
         <footer>
             <p id="updateTimestamp">Data automatically updates daily to reflect recorded Racetime races.</p>
