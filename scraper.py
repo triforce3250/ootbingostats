@@ -33,16 +33,6 @@ def get_user_id_map():
         print(f" ! Mapping Error: {e}")
         return {}
 
-That is a sharp observation. Using the recorded field as a primary filter is much more reliable because, as you noted, a race can be "finished" but still be an unranked, unofficial, or "test" room that doesn't count toward a player's official history.
-
-I have updated the fetch_bingo_data function to prioritize the recordable and recorded flags. I’ve also kept the Progress Bar, mode=normal check, and the Race URL generation.
-
-Updated scraper.py (Filtering by Recorded Status)
-Python
-import sys
-import requests
-import time
-
 def fetch_bingo_data(username, user_id):
     print(f"\nFetching history for {username}...")
     bingo_races = []
