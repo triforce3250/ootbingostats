@@ -120,7 +120,6 @@ button {
     align-items: flex-start; /* Left-aligns the control box contents */
     gap: 25px;               /* Vertical space between the Search, Featured, and Filters */
     background: #1a1a1a;
-    padding: 25px;
     border-radius: 8px;
     width: 100%;
     box-sizing: border-box;
