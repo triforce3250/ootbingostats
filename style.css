@@ -103,14 +103,22 @@ button {
 
 #display-name {
     margin: 0;
-    font-size: 2em;
-    color: #00ccff;          /* Matches the primary blue */
+    font-size: 2.2em;
+    color: #ffd700; /* Metallic Gold */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 #race-count {
     margin: 5px 0 0 0;
-    color: #888;
+    color: #a0a0a0; /* Subtle silver-gray */
     font-style: italic;
+    font-weight: 300;
+}
+
+.vs-divider {
+    color: #666;
+    font-weight: 900;
+    font-size: 1.2em;
 }
 
 /* Updated Controls for better vertical spacing */
