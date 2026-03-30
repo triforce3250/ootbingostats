@@ -73,13 +73,13 @@ function renderChart(userData) {
                     data: rawPoints,
                     borderColor: 'rgba(0, 204, 255, 0.3)',
                     pointBackgroundColor: '#00ccff',
-                    showLine: false, // Scatter style
+                    showLine: false,
                     pointRadius: 4
                 },
                 {
                     label: 'Skill Trend (10-race Avg)',
                     data: trendPoints,
-                    borderColor: '#ffcc00', // Gold trend line
+                    borderColor: '#ffcc00', 
                     backgroundColor: 'transparent',
                     borderWidth: 3,
                     pointRadius: 0, 
@@ -117,8 +117,7 @@ function renderChart(userData) {
                             const h = Math.floor(val / 60);
                             const m = Math.floor(val % 60);
                             const s = Math.round((val % 1) * 60);
-                            const timeStr = h > 0 ? `${h}h ${m}m ${s}s` : `${m}m ${s}s`;
-                            return ` Time: ${timeStr}`;
+                            return ` Time: ${h}h ${m}m ${s}s`;
                         },
                         footer: (items) => `Goal: ${items[0].raw.goal}`
                     }

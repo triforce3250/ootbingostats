@@ -34,47 +34,64 @@ def get_user_id_map():
         return {}
 
 def fetch_bingo_data(username, user_id):
-    print(f"Fetching history for {username}...")
+    print(f"\nFetching history for {username}...")
     bingo_races = []
     page = 1
     
     while page <= 12: 
         url = f"https://racetime.gg/user/{user_id}/races/data?page={page}"
-        res = requests.get(url, headers=HEADERS)
-        if res.status_code != 200: break
-        data = res.json()
-        races = data.get('races', [])
-        if not races: break
-        
-        total_in_page = len(races)
-        for i, race in enumerate(races):
-            # PROGRESS BAR: Updates on the same line in the logs
-            percent = int((i + 1) / total_in_page * 100)
-            sys.stdout.write(f"\r    Page {page} Progress: [{'=' * (percent // 5)}{' ' * (20 - percent // 5)}] {percent}%")
-            sys.stdout.flush()
+        try:
+            res = requests.get(url, headers=HEADERS)
+            if res.status_code != 200: break
+            data = res.json()
+            races = data.get('races', [])
+            if not races: break
+            
+            total_in_page = len(races)
+            for i, race in enumerate(races):
+                # --- PROGRESS BAR ---
+                percent = int((i + 1) / total_in_page * 100)
+                bar = '=' * (percent // 5)
+                spaces = ' ' * (20 - (percent // 5))
+                sys.stdout.write(f"\r    Page {page} [{bar}{spaces}] {percent}%")
+                sys.stdout.flush()
 
-            category = race.get('category', {}).get('slug', '').lower()
-            status = race.get('status', {}).get('value', '')
-            info_link = race.get('info', '') or ''
-            goal_name = race.get('goal', {}).get('name', '').lower()
+                # --- FILTERING LOGIC ---
+                category = race.get('category', {}).get('slug', '').lower()
+                status = race.get('status', {}).get('value', '')
+                goal_name = race.get('goal', {}).get('name', '').lower()
+                info_link = race.get('info', '') or ''
 
-            if (category == 'oot' and status == 'finished' and 
-                'bingo' in goal_name and 'ootbingo.github.io/bingo' in info_link):
-                
-                race_detail_url = f"https://racetime.gg{race.get('data_url')}"
-                detail_res = requests.get(race_detail_url, headers=HEADERS)
-                if detail_res.status_code == 200:
-                    details = detail_res.json()
-                    entrant = next((e for e in details.get('entrants', []) 
-                                  if e.get('user', {}).get('id') == user_id), None)
-                    if entrant and entrant.get('finish_time'):
-                        race['user_finish_time'] = entrant['finish_time']
-                        bingo_races.append(race)
-                time.sleep(0.3) 
+                # Strict Vanilla Check:
+                # 1. Goal name must be exactly "bingo"
+                # 2. Must use the official ootbingo.github.io generator
+                if (category == 'oot' and 
+                    status == 'finished' and 
+                    goal_name == 'bingo' and 
+                    'ootbingo.github.io/bingo/bingo.html' in info_link):
+                    
+                    # Deep Dive for the Finish Time
+                    race_detail_url = f"https://racetime.gg{race.get('data_url')}"
+                    detail_res = requests.get(race_detail_url, headers=HEADERS)
+                    
+                    if detail_res.status_code == 200:
+                        details = detail_res.json()
+                        entrant = next((e for e in details.get('entrants', []) 
+                                      if e.get('user', {}).get('id') == user_id), None)
+                        
+                        if entrant and entrant.get('finish_time'):
+                            race['user_finish_time'] = entrant['finish_time']
+                            bingo_races.append(race)
+                    time.sleep(0.2) 
 
-        print(f"\n    - Page {page} complete. Found {len(bingo_races)} valid Bingos.")
-        if page >= data.get('num_pages', 1): break
-        page += 1
+            sys.stdout.write(f"\n    - Page {page} done. Valid Bingos: {len(bingo_races)}\n")
+            if page >= data.get('num_pages', 1): break
+            page += 1
+            time.sleep(1.0)
+        except Exception as e:
+            print(f"\n    ! Error: {e}")
+            break
+            
     return bingo_races
 
 # --- Main Execution ---
