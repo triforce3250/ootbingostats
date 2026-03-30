@@ -17,7 +17,9 @@
         
         <section class="search-section">
             <div class="search-box">
-                <input type="text" id="userSearch" placeholder="Enter Racetime username..." />
+                <input type="text" id="userSearch" list="playerList" placeholder="Search a racer..." />
+                <datalist id="playerList">
+                    </datalist>
                 <button onclick="searchUser()">View Stats</button>
             </div>
             

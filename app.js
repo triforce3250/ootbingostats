@@ -1,12 +1,20 @@
-let fullData = {};
+let bingoData = {};
 
 // 1. Load the data
 fetch('data.json')
-    .then(res => res.json())
+    .then(response => response.json())
     .then(data => {
-        fullData = data;
-        console.log("Database loaded:", Object.keys(data).length, "users found.");
-    });
+        bingoData = data; // Save to global variable
+        
+        // --- CALL THE POPULATE FUNCTION HERE ---
+        populateSearchList(bingoData);
+        
+        // Optional: Load a default user (like tob3000) on start
+        if (bingoData['tob3000']) {
+            renderChart(bingoData['tob3000']);
+        }
+    })
+    .catch(error => console.error('Error loading bingo data:', error));
 
 // 2. Duration Parser
 function parseDuration(duration) {
@@ -32,7 +40,7 @@ function parseDuration(duration) {
 // 3. Search Function
 function searchUser() {
     const input = document.getElementById('userSearch').value.toLowerCase();
-    const userData = fullData[input];
+    const userData = bingoData[input];
 
     if (!userData) {
         alert("User not found in database. Check spelling!");
@@ -134,7 +142,7 @@ function quickSearch(name) {
 
 function searchUser() {
     const input = document.getElementById('userSearch').value.toLowerCase().trim();
-    const userData = fullData[input];
+    const userData = bingoData[input];
 
     if (!userData) {
         alert("User not found in current database.");
@@ -150,4 +158,21 @@ function searchUser() {
     }
 
     renderChart(userData);
+}
+
+function populateSearchList(allData) {
+    const list = document.getElementById('playerList');
+    // Clear existing options to prevent duplicates if called multiple times
+    list.innerHTML = ''; 
+
+    // Get all usernames from the JSON keys
+    const usernames = Object.keys(allData);
+
+    usernames.forEach(name => {
+        const option = document.createElement('option');
+        option.value = name;
+        list.appendChild(option);
+    });
+    
+    console.log(`Search list populated with ${usernames.length} players.`);
 }
