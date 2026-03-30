@@ -161,20 +161,20 @@ function renderChart(pUser, cUser) {
     const pTrend = pPoints.map((p, i, a) => ({ x: p.x, y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10) }));
 
     const datasets = [
-        {
-            label: `${pUser.name} Races`, // This restores the "Blue Dot" label
+        { 
+            label: `${pUser.name} Races`, // Explicit label for the legend
             data: pPoints,
             showLine: false,
-            pointBackgroundColor: '#00ccff',
+            pointBackgroundColor: '#00ccff', 
             pointRadius: 4,
-            order: 2 // Keeps dots on top of lines
+            order: 2 
         },
         {
             label: `${pUser.name} Trend`,
             data: pTrend,
             borderColor: '#ffcc00',
             pointRadius: 0,
-            borderWidth: 3,
+            borderWidth: 3, 
             tension: 0.4,
             order: 1
         }
@@ -184,7 +184,16 @@ function renderChart(pUser, cUser) {
         const cPoints = getPoints(cUser.races);
         const cTrend = cPoints.map((p, i, a) => ({ x: p.x, y: a.slice(Math.max(0, i - 9), i + 1).reduce((s, x) => s + x.y, 0) / Math.min(i + 1, 10) }));
         // Add only the trend line for comparison to keep chart clean
-        datasets.push({ label: `${cUser.name} Trend`, data: cTrend, borderColor: '#ff4444', borderDash: [5, 5], pointRadius: 0, borderWidth: 2, tension: 0.4 });
+        datasets.push({
+            label: `${cUser.name} Trend`, // Label for the Rival
+            data: cTrend,
+            borderColor: '#ff4444',
+            borderDash: [5, 5],
+            pointRadius: 0,
+            borderWidth: 2,
+            tension: 0.4,
+            order: 0
+        });
     }
 
     if (window.myChart) window.myChart.destroy();
