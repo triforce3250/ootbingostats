@@ -13138,7 +13138,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:06:29"
+        "last_updated": "2026-05-29 04:09:31"
     },
     "juwk": {
         "username": "juwk",
@@ -20285,11 +20285,48 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:07:46"
+        "last_updated": "2026-05-29 04:11:46"
     },
     "triforce3250": {
         "username": "triforce3250",
         "races": [
+            {
+                "name": "oot/amused-ganon-4721",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/amused-ganon-4721",
+                "data_url": "/oot/amused-ganon-4721/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=418522&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-05-28T00:24:43.601Z",
+                "started_at": "2026-05-28T00:37:39.772Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-05-28T02:23:19.151Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H12M13.426150S",
+                "full_race_url": "https://racetime.gg/oot/amused-ganon-4721",
+                "bingo_version": "10.5.1"
+            },
             {
                 "name": "oot/virtual-spookymask-4132",
                 "status": {
@@ -37422,7 +37459,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:09:45"
+        "last_updated": "2026-05-29 04:14:28"
     },
     "amateseru": {
         "username": "Amateseru",
@@ -39833,7 +39870,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:10:06"
+        "last_updated": "2026-05-29 04:14:55"
     },
     "tkc": {
         "username": "TKC",
@@ -52086,7 +52123,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:11:34"
+        "last_updated": "2026-05-29 04:16:56"
     },
     "fantatanked": {
         "username": "FantaTanked",
@@ -62526,7 +62563,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:13:05"
+        "last_updated": "2026-05-29 04:18:58"
     },
     "2dollargargoyle": {
         "username": "2DollarGargoyle",
@@ -72411,7 +72448,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:14:17"
+        "last_updated": "2026-05-29 04:20:34"
     },
     "runnerguy2489": {
         "username": "Runnerguy2489",
@@ -75858,7 +75895,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:14:44"
+        "last_updated": "2026-05-29 04:21:11"
     },
     "eggmeister": {
         "username": "Eggmeister",
@@ -94845,7 +94882,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:17:12"
+        "last_updated": "2026-05-29 04:24:43"
     },
     "hayafo": {
         "username": "hayafo",
@@ -96664,7 +96701,7 @@
                 "bingo_version": "10.3.2"
             }
         ],
-        "last_updated": "2026-05-28 04:17:26"
+        "last_updated": "2026-05-29 04:25:04"
     },
     "neefe": {
         "username": "neefe",
@@ -103700,7 +103737,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:18:18"
+        "last_updated": "2026-05-29 04:26:14"
     },
     "bonooru": {
         "username": "Bonooru",
@@ -104335,7 +104372,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:18:26"
+        "last_updated": "2026-05-29 04:26:26"
     },
     "timato": {
         "username": "Timato",
@@ -110927,7 +110964,7 @@
                 "bingo_version": "9.5.1"
             }
         ],
-        "last_updated": "2026-05-28 04:19:15"
+        "last_updated": "2026-05-29 04:27:33"
     },
     "mutantaura": {
         "username": "MutantAura",
@@ -121404,7 +121441,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:20:37"
+        "last_updated": "2026-05-29 04:29:23"
     },
     "jenslang": {
         "username": "jenslang",
@@ -132103,11 +132140,48 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:21:56"
+        "last_updated": "2026-05-29 04:31:10"
     },
     "link11": {
         "username": "Link11",
         "races": [
+            {
+                "name": "oot/amused-ganon-4721",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/amused-ganon-4721",
+                "data_url": "/oot/amused-ganon-4721/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=418522&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-05-28T00:24:43.601Z",
+                "started_at": "2026-05-28T00:37:39.772Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-05-28T02:23:19.151Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H23M32.536735S",
+                "full_race_url": "https://racetime.gg/oot/amused-ganon-4721",
+                "bingo_version": "10.5.1"
+            },
             {
                 "name": "oot/kind-pocketegg-4584",
                 "status": {
@@ -155900,7 +155974,7 @@
                 "bingo_version": "9.5.1"
             }
         ],
-        "last_updated": "2026-05-28 04:24:45"
+        "last_updated": "2026-05-29 04:35:02"
     },
     "mooseoot": {
         "username": "MooseOoT",
@@ -161863,7 +161937,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:25:41"
+        "last_updated": "2026-05-29 04:36:18"
     },
     "challensois_": {
         "username": "Challensois_",
@@ -175781,7 +175855,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:27:54"
+        "last_updated": "2026-05-29 04:39:33"
     },
     "averagegreg": {
         "username": "AverageGreg",
@@ -181855,7 +181929,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:28:39"
+        "last_updated": "2026-05-29 04:40:35"
     },
     "the__consultant": {
         "username": "the__consultant",
@@ -196513,7 +196587,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:30:46"
+        "last_updated": "2026-05-29 04:43:38"
     },
     "jake wright": {
         "username": "Jake Wright",
@@ -199960,7 +200034,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:31:17"
+        "last_updated": "2026-05-29 04:44:21"
     },
     "phoenixfeather": {
         "username": "PhoenixFeather",
@@ -200262,7 +200336,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:31:23"
+        "last_updated": "2026-05-29 04:44:28"
     },
     "adam": {
         "username": "Adam",
@@ -202636,7 +202710,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 04:31:40"
+        "last_updated": "2026-05-29 04:44:52"
     },
     "p.titou": {
         "username": "P.Titou",
@@ -222104,7 +222178,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:34:21"
+        "last_updated": "2026-05-29 04:48:32"
     },
     "chris7": {
         "username": "Chris7",
@@ -223812,7 +223886,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:34:36"
+        "last_updated": "2026-05-29 04:49:25"
     },
     "literallylake": {
         "username": "LiterallyLake",
@@ -233993,7 +234067,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:35:55"
+        "last_updated": "2026-05-29 04:51:13"
     },
     "realtimeattack64": {
         "username": "realtimeattack64",
@@ -234443,7 +234517,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:36:01"
+        "last_updated": "2026-05-29 04:51:20"
     },
     "sva": {
         "username": "sva",
@@ -235559,7 +235633,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:36:11"
+        "last_updated": "2026-05-29 04:51:33"
     },
     "tsundererar": {
         "username": "tsundererar",
@@ -237008,7 +237082,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:36:24"
+        "last_updated": "2026-05-29 04:51:50"
     },
     "arthuroudini": {
         "username": "ArthurOudini",
@@ -238161,7 +238235,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 04:36:41"
+        "last_updated": "2026-05-29 04:52:13"
     },
     "coffeepot": {
         "username": "CoffeePot",
@@ -263512,7 +263586,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:39:35"
+        "last_updated": "2026-05-29 04:56:24"
     },
     "diamondflash27": {
         "username": "DiamondFlash27",
@@ -264628,7 +264702,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:39:48"
+        "last_updated": "2026-05-29 04:56:40"
     },
     "paintskate8": {
         "username": "PaintSkate8",
@@ -267890,7 +267964,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:40:13"
+        "last_updated": "2026-05-29 04:57:13"
     },
     "grego": {
         "username": "Grego",
@@ -273779,7 +273853,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:41:08"
+        "last_updated": "2026-05-29 04:58:29"
     },
     "mikekatz45": {
         "username": "MikeKatz45",
@@ -274969,7 +275043,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:41:22"
+        "last_updated": "2026-05-29 04:58:47"
     },
     "blinkzy": {
         "username": "blinkzy",
@@ -277676,7 +277750,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:41:42"
+        "last_updated": "2026-05-29 04:59:16"
     },
     "darker": {
         "username": "Darker",
@@ -284046,7 +284120,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:42:38"
+        "last_updated": "2026-05-29 05:00:33"
     },
     "dotzo": {
         "username": "dotzo",
@@ -285199,7 +285273,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:42:54"
+        "last_updated": "2026-05-29 05:00:55"
     },
     "xwillmarktheplace": {
         "username": "xwillmarktheplace",
@@ -287129,7 +287203,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:43:10"
+        "last_updated": "2026-05-29 05:01:17"
     },
     "nalle": {
         "username": "Nalle",
@@ -294498,7 +294572,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:44:09"
+        "last_updated": "2026-05-29 05:02:38"
     },
     "lulz": {
         "username": "Lulz",
@@ -295059,7 +295133,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 04:44:15"
+        "last_updated": "2026-05-29 05:02:46"
     },
     "scaramanga": {
         "username": "scaramanga",
@@ -295398,7 +295472,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:44:20"
+        "last_updated": "2026-05-29 05:02:52"
     },
     "skepticole": {
         "username": "skepticole",
@@ -300658,7 +300732,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:45:02"
+        "last_updated": "2026-05-29 05:03:51"
     },
     "reaper": {
         "username": "Reaper",
@@ -307287,7 +307361,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 04:46:09"
+        "last_updated": "2026-05-29 05:05:23"
     },
     "wickedgligar": {
         "username": "WickedGligar",
@@ -314027,7 +314101,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:47:06"
+        "last_updated": "2026-05-29 05:06:51"
     },
     "magnumpi47": {
         "username": "magnumpi47",
@@ -314107,7 +314181,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:47:09"
+        "last_updated": "2026-05-29 05:06:54"
     },
     "gombill": {
         "username": "Gombill",
@@ -315704,7 +315778,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:47:22"
+        "last_updated": "2026-05-29 05:07:25"
     },
     "woli": {
         "username": "Woli",
@@ -319151,7 +319225,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:47:59"
+        "last_updated": "2026-05-29 05:08:16"
     },
     "makko": {
         "username": "makko",
@@ -321414,7 +321488,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:48:17"
+        "last_updated": "2026-05-29 05:08:41"
     },
     "goodgortho": {
         "username": "goodgortho",
@@ -324047,7 +324121,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 04:48:42"
+        "last_updated": "2026-05-29 05:09:15"
     },
     "zell": {
         "username": "Zell",
@@ -326606,7 +326680,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-05-28 04:49:10"
+        "last_updated": "2026-05-29 05:10:06"
     },
     "armorysons": {
         "username": "ArmorySons",
@@ -327130,7 +327204,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:49:15"
+        "last_updated": "2026-05-29 05:10:14"
     },
     "jeanbernardgaming": {
         "username": "JEANBERNARDGAMING",
@@ -331354,7 +331428,7 @@
                 "bingo_version": "10.3"
             }
         ],
-        "last_updated": "2026-05-28 04:49:54"
+        "last_updated": "2026-05-29 05:11:09"
     },
     "cloudike": {
         "username": "Cloudike",
@@ -333950,7 +334024,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:50:18"
+        "last_updated": "2026-05-29 05:11:43"
     },
     "adef": {
         "username": "adef",
@@ -336657,7 +336731,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:50:39"
+        "last_updated": "2026-05-29 05:12:12"
     },
     "xanra": {
         "username": "Xanra",
@@ -340733,7 +340807,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:51:10"
+        "last_updated": "2026-05-29 05:12:54"
     },
     "fenyan": {
         "username": "Fenyan",
@@ -345623,7 +345697,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:51:47"
+        "last_updated": "2026-05-29 05:13:47"
     },
     "numberplay": {
         "username": "Numberplay",
@@ -347923,7 +347997,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:52:08"
+        "last_updated": "2026-05-29 05:14:16"
     },
     "cma": {
         "username": "Cma",
@@ -348299,7 +348373,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:52:13"
+        "last_updated": "2026-05-29 05:14:22"
     },
     "cabbage72": {
         "username": "Cabbage72",
@@ -353892,7 +353966,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:53:02"
+        "last_updated": "2026-05-29 05:15:29"
     },
     "psymarth": {
         "username": "PsyMarth",
@@ -355859,7 +355933,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:53:21"
+        "last_updated": "2026-05-29 05:15:53"
     },
     "quickkiran": {
         "username": "QuickKiran",
@@ -358899,7 +358973,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:53:47"
+        "last_updated": "2026-05-29 05:16:28"
     },
     "hapenfors": {
         "username": "Hapenfors",
@@ -360015,7 +360089,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:53:58"
+        "last_updated": "2026-05-29 05:16:43"
     },
     "worn_mittens": {
         "username": "Worn_Mittens",
@@ -363314,7 +363388,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 04:54:24"
+        "last_updated": "2026-05-29 05:17:18"
     },
     "valientlink": {
         "username": "Valientlink",
@@ -363468,11 +363542,48 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:54:27"
+        "last_updated": "2026-05-29 05:17:22"
     },
     "kurt": {
         "username": "Kurt",
         "races": [
+            {
+                "name": "oot/amused-ganon-4721",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/amused-ganon-4721",
+                "data_url": "/oot/amused-ganon-4721/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.5.1&seed=418522&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-05-28T00:24:43.601Z",
+                "started_at": "2026-05-28T00:37:39.772Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-05-28T02:23:19.151Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H45M39.315232S",
+                "full_race_url": "https://racetime.gg/oot/amused-ganon-4721",
+                "bingo_version": "10.5.1"
+            },
             {
                 "name": "oot/brainy-icecavern-2927",
                 "status": {
@@ -365139,7 +365250,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-05-28 04:54:42"
+        "last_updated": "2026-05-29 05:17:42"
     },
     "ilher": {
         "username": "Ilher",
@@ -365330,7 +365441,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:54:46"
+        "last_updated": "2026-05-29 05:17:47"
     },
     "apasher": {
         "username": "Apasher",
@@ -365817,7 +365928,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:54:52"
+        "last_updated": "2026-05-29 05:17:55"
     },
     "gsk8": {
         "username": "gsk8",
@@ -366156,7 +366267,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:55:00"
+        "last_updated": "2026-05-29 05:18:06"
     },
     "k4erup": {
         "username": "k4erup",
@@ -367605,7 +367716,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:55:12"
+        "last_updated": "2026-05-29 05:18:21"
     },
     "jfm2796": {
         "username": "JFM2796",
@@ -372643,7 +372754,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:55:56"
+        "last_updated": "2026-05-29 05:19:22"
     },
     "sloth": {
         "username": "Sloth",
@@ -372945,7 +373056,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:56:02"
+        "last_updated": "2026-05-29 05:19:30"
     },
     "matttinthehat": {
         "username": "MatttInTheHat",
@@ -376910,7 +377021,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:56:36"
+        "last_updated": "2026-05-29 05:20:16"
     },
     "ladylambdadeltasdandruff": {
         "username": "LadyLambdadeltasDandruff",
@@ -377730,7 +377841,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:56:44"
+        "last_updated": "2026-05-29 05:20:26"
     },
     "sariasobject": {
         "username": "SariasObject",
@@ -378883,7 +378994,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 04:57:19"
+        "last_updated": "2026-05-29 05:21:13"
     },
     "fleush": {
         "username": "Fleush",
@@ -381886,7 +381997,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:57:43"
+        "last_updated": "2026-05-29 05:21:46"
     },
     "prettybigjoe": {
         "username": "prettybigjoe",
@@ -382040,7 +382151,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 04:57:46"
+        "last_updated": "2026-05-29 05:21:49"
     },
     "myelin": {
         "username": "Myelin",
@@ -385672,7 +385783,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:58:17"
+        "last_updated": "2026-05-29 05:22:32"
     },
     "davpat": {
         "username": "Davpat",
@@ -385863,7 +385974,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:58:21"
+        "last_updated": "2026-05-29 05:22:37"
     },
     "tompouce": {
         "username": "TomPouce",
@@ -386979,7 +387090,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:58:36"
+        "last_updated": "2026-05-29 05:22:57"
     },
     "shirosoluna": {
         "username": "shirosoluna",
@@ -388576,7 +388687,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 04:58:58"
+        "last_updated": "2026-05-29 05:23:27"
     },
     "tashman91": {
         "username": "Tashman91",
@@ -389544,7 +389655,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 04:59:07"
+        "last_updated": "2026-05-29 05:23:38"
     },
     "vidyajames": {
         "username": "VidyaJames",
@@ -390179,7 +390290,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 04:59:32"
+        "last_updated": "2026-05-29 05:24:12"
     },
     "matz": {
         "username": "Matz",
@@ -391517,7 +391628,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 04:59:46"
+        "last_updated": "2026-05-29 05:24:31"
     },
     "plasma-parse": {
         "username": "plasma-parse",
@@ -392707,7 +392818,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 04:59:57"
+        "last_updated": "2026-05-29 05:24:45"
     },
     "countdown": {
         "username": "Countdown",
@@ -397449,7 +397560,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:00:45"
+        "last_updated": "2026-05-29 05:25:52"
     },
     "midboss": {
         "username": "Midboss",
@@ -398676,7 +398787,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:00:56"
+        "last_updated": "2026-05-29 05:26:07"
     },
     "bou_frost": {
         "username": "Bou_Frost",
@@ -399237,7 +399348,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:01:03"
+        "last_updated": "2026-05-29 05:26:15"
     },
     "yanis": {
         "username": "Yanis",
@@ -399465,7 +399576,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:01:07"
+        "last_updated": "2026-05-29 05:26:20"
     },
     "photon": {
         "username": "Photon",
@@ -400285,7 +400396,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:01:15"
+        "last_updated": "2026-05-29 05:26:31"
     },
     "noface099": {
         "username": "noface099",
@@ -403917,7 +404028,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:01:57"
+        "last_updated": "2026-05-29 05:27:28"
     },
     "sonfloro": {
         "username": "Sonfloro",
@@ -404478,7 +404589,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:02:03"
+        "last_updated": "2026-05-29 05:27:36"
     },
     "condor": {
         "username": "Condor",
@@ -404965,7 +405076,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:02:09"
+        "last_updated": "2026-05-29 05:27:43"
     },
     "zeru": {
         "username": "Zeru",
@@ -407339,7 +407450,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:02:30"
+        "last_updated": "2026-05-29 05:28:12"
     },
     "moosecrap": {
         "username": "moosecrap",
@@ -415670,7 +415781,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:03:29"
+        "last_updated": "2026-05-29 05:29:33"
     },
     "benstephens56": {
         "username": "benstephens56",
@@ -416490,7 +416601,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:03:37"
+        "last_updated": "2026-05-29 05:29:43"
     },
     "zar": {
         "username": "ZAR",
@@ -416681,7 +416792,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:03:40"
+        "last_updated": "2026-05-29 05:29:47"
     },
     "honkymcbutterball": {
         "username": "HonkyMcButterball",
@@ -416761,7 +416872,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:03:43"
+        "last_updated": "2026-05-29 05:29:50"
     },
     "caidren": {
         "username": "Caidren",
@@ -417877,7 +417988,7 @@
                 "bingo_version": "10.3.2"
             }
         ],
-        "last_updated": "2026-05-28 05:03:57"
+        "last_updated": "2026-05-29 05:30:10"
     },
     "keys336": {
         "username": "keys336",
@@ -418179,7 +418290,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:04:10"
+        "last_updated": "2026-05-29 05:30:27"
     },
     "gc1": {
         "username": "gc1",
@@ -418333,7 +418444,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:04:13"
+        "last_updated": "2026-05-29 05:30:31"
     },
     "brocolli4": {
         "username": "brocolli4",
@@ -419412,7 +419523,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:04:22"
+        "last_updated": "2026-05-29 05:30:43"
     },
     "shaggy": {
         "username": "shaggy",
@@ -424006,7 +424117,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:04:57"
+        "last_updated": "2026-05-29 05:31:30"
     },
     "cynsitive": {
         "username": "cynsitive",
@@ -424049,7 +424160,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:05:00"
+        "last_updated": "2026-05-29 05:31:33"
     },
     "west0pher": {
         "username": "West0pher",
@@ -424573,7 +424684,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:05:08"
+        "last_updated": "2026-05-29 05:31:44"
     },
     "mathias8750": {
         "username": "mathias8750",
@@ -424949,7 +425060,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-05-28 05:05:14"
+        "last_updated": "2026-05-29 05:31:51"
     },
     "taaboo": {
         "username": "taaboo",
@@ -425103,7 +425214,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:05:17"
+        "last_updated": "2026-05-29 05:31:55"
     },
     "skyreon": {
         "username": "Skyreon",
@@ -425923,7 +426034,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:05:25"
+        "last_updated": "2026-05-29 05:32:06"
     },
     "lexwatercolor": {
         "username": "LexWatercolor",
@@ -426077,7 +426188,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:05:28"
+        "last_updated": "2026-05-29 05:32:09"
     },
     "niamek": {
         "username": "Niamek",
@@ -426379,7 +426490,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:05:35"
+        "last_updated": "2026-05-29 05:32:17"
     },
     "tsuyoi": {
         "username": "tsuyoi",
@@ -426866,7 +426977,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-05-28 05:05:43"
+        "last_updated": "2026-05-29 05:32:28"
     },
     "kayro64": {
         "username": "Kayro64",
@@ -427427,7 +427538,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:05:52"
+        "last_updated": "2026-05-29 05:32:40"
     },
     "rjminotaur": {
         "username": "Rjminotaur",
@@ -427507,7 +427618,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:05:55"
+        "last_updated": "2026-05-29 05:32:43"
     },
     "gamestabled": {
         "username": "gamestabled",
@@ -427994,7 +428105,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:06:00"
+        "last_updated": "2026-05-29 05:32:51"
     },
     "zer0sg_1": {
         "username": "Zer0SG_1",
@@ -429591,7 +429702,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:06:14"
+        "last_updated": "2026-05-29 05:33:10"
     },
     "cisco64": {
         "username": "Cisco64",
@@ -429782,7 +429893,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:06:18"
+        "last_updated": "2026-05-29 05:33:14"
     },
     "slask": {
         "username": "Slask",
@@ -429936,7 +430047,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:06:21"
+        "last_updated": "2026-05-29 05:33:18"
     },
     "rubixmagic": {
         "username": "Rubixmagic",
@@ -430460,7 +430571,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:06:27"
+        "last_updated": "2026-05-29 05:33:26"
     },
     "peatsheep": {
         "username": "peatsheep",
@@ -430984,7 +431095,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:06:33"
+        "last_updated": "2026-05-29 05:33:34"
     },
     "nonsensebread": {
         "username": "Nonsensebread",
@@ -431027,7 +431138,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:06:36"
+        "last_updated": "2026-05-29 05:33:37"
     },
     "ohrange": {
         "username": "Ohrange",
@@ -431107,7 +431218,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:06:39"
+        "last_updated": "2026-05-29 05:33:40"
     },
     "zachlink99": {
         "username": "ZachLink99",
@@ -431298,7 +431409,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:06:43"
+        "last_updated": "2026-05-29 05:33:46"
     },
     "maddie": {
         "username": "Maddie",
@@ -431563,7 +431674,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:06:48"
+        "last_updated": "2026-05-29 05:33:51"
     },
     "alaris": {
         "username": "Alaris",
@@ -431680,7 +431791,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:06:54"
+        "last_updated": "2026-05-29 05:34:00"
     },
     "mkbgnr": {
         "username": "mkbgnr",
@@ -432426,7 +432537,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:07:04"
+        "last_updated": "2026-05-29 05:34:13"
     },
     "nkitten": {
         "username": "Nkitten",
@@ -432543,7 +432654,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:07:08"
+        "last_updated": "2026-05-29 05:34:16"
     },
     "luisito": {
         "username": "Luisito",
@@ -432697,7 +432808,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:07:12"
+        "last_updated": "2026-05-29 05:34:22"
     },
     "linky628": {
         "username": "linky628",
@@ -432814,7 +432925,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:07:16"
+        "last_updated": "2026-05-29 05:34:26"
     },
     "swagieswamp": {
         "username": "swagieswamp",
@@ -432894,7 +433005,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:07:21"
+        "last_updated": "2026-05-29 05:34:33"
     },
     "fadoxthon": {
         "username": "Fadoxthon",
@@ -433492,7 +433603,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:07:27"
+        "last_updated": "2026-05-29 05:34:41"
     },
     "mikekanis": {
         "username": "MikeKanis",
@@ -433535,7 +433646,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:07:30"
+        "last_updated": "2026-05-29 05:34:43"
     },
     "sorokya": {
         "username": "Sorokya",
@@ -433578,7 +433689,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-05-28 05:07:33"
+        "last_updated": "2026-05-29 05:34:46"
     },
     "monochromii": {
         "username": "monochromii",
@@ -433991,7 +434102,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:07:40"
+        "last_updated": "2026-05-29 05:34:57"
     },
     "katienoelle": {
         "username": "katienoelle",
@@ -434219,7 +434330,7 @@
                 "bingo_version": "10.3.1"
             }
         ],
-        "last_updated": "2026-05-28 05:07:44"
+        "last_updated": "2026-05-29 05:35:01"
     },
     "sestral": {
         "username": "Sestral",
@@ -435039,7 +435150,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:07:54"
+        "last_updated": "2026-05-29 05:35:14"
     },
     "zombie_god": {
         "username": "Zombie_God",
@@ -435082,7 +435193,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:07:57"
+        "last_updated": "2026-05-29 05:35:17"
     },
     "zefloppies": {
         "username": "ZeFloppies",
@@ -435347,7 +435458,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:08:01"
+        "last_updated": "2026-05-29 05:35:22"
     },
     "soda": {
         "username": "soda",
@@ -435686,7 +435797,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:08:07"
+        "last_updated": "2026-05-29 05:35:30"
     },
     "speedbayer_": {
         "username": "Speedbayer_",
@@ -435729,7 +435840,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:08:10"
+        "last_updated": "2026-05-29 05:35:33"
     },
     "spitle": {
         "username": "Spitle",
@@ -435772,7 +435883,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:08:13"
+        "last_updated": "2026-05-29 05:35:35"
     },
     "thags15": {
         "username": "thags15",
@@ -435815,7 +435926,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:08:19"
+        "last_updated": "2026-05-29 05:35:44"
     },
     "purple tissue box": {
         "username": "purple tissue box",
@@ -435858,7 +435969,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:08:23"
+        "last_updated": "2026-05-29 05:35:48"
     },
     "kayla": {
         "username": "Kayla",
@@ -436345,7 +436456,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:08:29"
+        "last_updated": "2026-05-29 05:35:56"
     },
     "haktical": {
         "username": "haktical",
@@ -436647,7 +436758,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:08:34"
+        "last_updated": "2026-05-29 05:36:02"
     },
     "clydepowers": {
         "username": "ClydePowers",
@@ -437615,7 +437726,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:08:47"
+        "last_updated": "2026-05-29 05:36:19"
     },
     "nozzly": {
         "username": "nozzly",
@@ -437732,7 +437843,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:08:58"
+        "last_updated": "2026-05-29 05:36:33"
     },
     "pancaketurtle": {
         "username": "PancakeTurtle",
@@ -437812,7 +437923,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:09:00"
+        "last_updated": "2026-05-29 05:36:36"
     },
     "aksannyi": {
         "username": "Aksannyi",
@@ -437855,7 +437966,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:09:08"
+        "last_updated": "2026-05-29 05:36:46"
     },
     "the corpser": {
         "username": "The corpser",
@@ -438453,7 +438564,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:09:15"
+        "last_updated": "2026-05-29 05:36:55"
     },
     "chefbear": {
         "username": "ChefBear",
@@ -438496,7 +438607,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:09:18"
+        "last_updated": "2026-05-29 05:36:58"
     },
     "crafth": {
         "username": "Crafth",
@@ -438539,7 +438650,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:09:20"
+        "last_updated": "2026-05-29 05:37:01"
     },
     "khuno": {
         "username": "khuno",
@@ -438767,7 +438878,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:09:24"
+        "last_updated": "2026-05-29 05:37:06"
     },
     "figure8": {
         "username": "Figure8",
@@ -438995,7 +439106,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:09:29"
+        "last_updated": "2026-05-29 05:37:12"
     },
     "glasfolie": {
         "username": "Glasfolie",
@@ -439186,7 +439297,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:09:33"
+        "last_updated": "2026-05-29 05:37:16"
     },
     "cobeck": {
         "username": "Cobeck",
@@ -439414,7 +439525,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:09:37"
+        "last_updated": "2026-05-29 05:37:20"
     },
     "juchemao17": {
         "username": "Juchemao17",
@@ -439864,7 +439975,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:09:45"
+        "last_updated": "2026-05-29 05:37:32"
     },
     "thecowness": {
         "username": "TheCowness",
@@ -440314,7 +440425,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:09:52"
+        "last_updated": "2026-05-29 05:37:40"
     },
     "kouyou": {
         "username": "kouyou",
@@ -440468,7 +440579,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:09:55"
+        "last_updated": "2026-05-29 05:37:44"
     },
     "luichito": {
         "username": "Luichito",
@@ -440622,7 +440733,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:10:00"
+        "last_updated": "2026-05-29 05:37:49"
     },
     "savestate": {
         "username": "Savestate",
@@ -441072,7 +441183,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:10:05"
+        "last_updated": "2026-05-29 05:37:56"
     },
     "gc_one": {
         "username": "gc_one",
@@ -441781,7 +441892,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-05-28 05:10:17"
+        "last_updated": "2026-05-29 05:38:18"
     },
     "khufufoofoo": {
         "username": "khufufoofoo",
@@ -441898,7 +442009,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:10:20"
+        "last_updated": "2026-05-29 05:38:21"
     },
     "tempest": {
         "username": "Tempest",
@@ -441941,7 +442052,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:10:23"
+        "last_updated": "2026-05-29 05:38:24"
     },
     "eltiokamina": {
         "username": "eltiokamina",
@@ -441984,7 +442095,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:10:28"
+        "last_updated": "2026-05-29 05:38:30"
     },
     "amber24": {
         "username": "Amber24",
@@ -442175,7 +442286,7 @@
                 "bingo_version": "10.3.1"
             }
         ],
-        "last_updated": "2026-05-28 05:10:32"
+        "last_updated": "2026-05-29 05:38:35"
     },
     "zemoo": {
         "username": "Zemoo",
@@ -442255,7 +442366,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:10:40"
+        "last_updated": "2026-05-29 05:38:45"
     },
     "nicv": {
         "username": "NicV",
@@ -442298,7 +442409,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:10:43"
+        "last_updated": "2026-05-29 05:38:48"
     },
     "jasoncario131": {
         "username": "jasoncario131",
@@ -442785,7 +442896,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-05-28 05:11:00"
+        "last_updated": "2026-05-29 05:39:12"
     },
     "greenbomber": {
         "username": "GreenBomber",
@@ -442828,7 +442939,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:11:03"
+        "last_updated": "2026-05-29 05:39:14"
     },
     "santaslittlenibbler": {
         "username": "SantasLittleNibbler",
@@ -442945,7 +443056,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:11:06"
+        "last_updated": "2026-05-29 05:39:18"
     },
     "colin": {
         "username": "colin",
@@ -442988,7 +443099,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-05-28 05:11:08"
+        "last_updated": "2026-05-29 05:39:21"
     },
     "lil_kyleyt": {
         "username": "Lil_KyleYT",
@@ -443031,7 +443142,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:11:11"
+        "last_updated": "2026-05-29 05:39:23"
     },
     "lunaticj": {
         "username": "LunaticJ",
@@ -443074,7 +443185,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-05-28 05:11:13"
+        "last_updated": "2026-05-29 05:39:26"
     },
     "dot": {
         "username": "dot",
@@ -443598,7 +443709,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-05-28 05:11:25"
+        "last_updated": "2026-05-29 05:39:41"
     },
     "ioliver": {
         "username": "iOliver",
@@ -443641,7 +443752,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:11:30"
+        "last_updated": "2026-05-29 05:39:49"
     },
     "willow the whimsical": {
         "username": "Willow The Whimsical",
@@ -443684,6 +443795,6 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-05-28 05:11:33"
+        "last_updated": "2026-05-29 05:39:51"
     }
 }
