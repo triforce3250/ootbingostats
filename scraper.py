@@ -29,7 +29,8 @@ PancakeTurtle, Aksannyi, The corpser, ChefBear, Crafth, khuno, Figure8,
 Glasfolie, Cobeck, Juchemao17, TheCowness, kouyou, Luichito, Savestate, 
 gc_one, khufufoofoo, Tempest, eltiokamina, Amber24, Zemoo, NicV, 
 jasoncario131, GreenBomber, SantasLittleNibbler, colin, Lil_KyleYT, 
-LunaticJ, dot, iOliver, Willow The Whimsical, Roseatia, elijoot, ziranui
+LunaticJ, dot, iOliver, Willow The Whimsical, Roseatia, elijoot, ziranui, 
+ZFG, Druncle_Titus, lloyd, RealZombieGod, XxX_D4rk_G4m3r_79_XxX
 """
 
 TARGET_USERS = [name.strip() for name in LEADERBOARD_DATA.split(',') if name.strip()]
