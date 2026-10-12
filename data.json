@@ -13693,7 +13693,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:05:11"
+        "last_updated": "2026-10-12 05:19:29"
     },
     "juwk": {
         "username": "juwk",
@@ -21025,11 +21025,85 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:06:56"
+        "last_updated": "2026-10-12 05:21:22"
     },
     "triforce3250": {
         "username": "triforce3250",
         "races": [
+            {
+                "name": "oot/gnarly-nabooru-1032",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-nabooru-1032",
+                "data_url": "/oot/gnarly-nabooru-1032/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=30015&mode=normal",
+                "entrants_count": 8,
+                "entrants_count_finished": 8,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T19:59:19.342Z",
+                "started_at": "2026-10-10T20:12:50.879Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T22:05:14.618Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H06M18.067727S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-nabooru-1032",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/reliable-requiem-2925",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/reliable-requiem-2925",
+                "data_url": "/oot/reliable-requiem-2925/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=751240&mode=normal",
+                "entrants_count": 4,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-09T23:53:29.264Z",
+                "started_at": "2026-10-10T00:08:19.103Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T01:22:31.858Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M52.300343S",
+                "full_race_url": "https://racetime.gg/oot/reliable-requiem-2925",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/clever-fish-8504",
                 "status": {
@@ -40382,7 +40456,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:09:59"
+        "last_updated": "2026-10-12 05:24:38"
     },
     "amateseru": {
         "username": "Amateseru",
@@ -42793,11 +42867,48 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:10:26"
+        "last_updated": "2026-10-12 05:25:07"
     },
     "tkc": {
         "username": "TKC",
         "races": [
+            {
+                "name": "oot/curious-peahat-0408",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/curious-peahat-0408",
+                "data_url": "/oot/curious-peahat-0408/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=313000&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 1,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-09T13:11:54.786Z",
+                "started_at": "2026-10-09T13:18:13.099Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-09T14:48:47.918Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H13M12.330595S",
+                "full_race_url": "https://racetime.gg/oot/curious-peahat-0408",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/cold-rauru-6886",
                 "status": {
@@ -56563,11 +56674,48 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:12:41"
+        "last_updated": "2026-10-12 05:27:32"
     },
     "fantatanked": {
         "username": "FantaTanked",
         "races": [
+            {
+                "name": "oot/fearless-colossus-6474",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/fearless-colossus-6474",
+                "data_url": "/oot/fearless-colossus-6474/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=886786&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T12:48:29.856Z",
+                "started_at": "2026-10-10T13:05:39.777Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T14:26:59.495Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H08M50.187285S",
+                "full_race_url": "https://racetime.gg/oot/fearless-colossus-6474",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/bonus-zora-5114",
                 "status": {
@@ -67669,7 +67817,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:14:52"
+        "last_updated": "2026-10-12 05:29:52"
     },
     "2dollargargoyle": {
         "username": "2DollarGargoyle",
@@ -79552,7 +79700,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:16:48"
+        "last_updated": "2026-10-12 05:31:56"
     },
     "runnerguy2489": {
         "username": "Runnerguy2489",
@@ -83850,11 +83998,270 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:17:34"
+        "last_updated": "2026-10-12 05:32:45"
     },
     "eggmeister": {
         "username": "Eggmeister",
         "races": [
+            {
+                "name": "oot/critical-colossus-2568",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/critical-colossus-2568",
+                "data_url": "/oot/critical-colossus-2568/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=801892&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-11T01:46:45.645Z",
+                "started_at": "2026-10-11T02:03:15.257Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-11T03:49:05.708Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H25M46.857628S",
+                "full_race_url": "https://racetime.gg/oot/critical-colossus-2568",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/amazing-skulltula-2554",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/amazing-skulltula-2554",
+                "data_url": "/oot/amazing-skulltula-2554/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=307966&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-10T21:57:14.189Z",
+                "started_at": "2026-10-10T22:04:09.592Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T23:26:17.293Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H10M34.772811S",
+                "full_race_url": "https://racetime.gg/oot/amazing-skulltula-2554",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/clever-sapphire-8432",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/clever-sapphire-8432",
+                "data_url": "/oot/clever-sapphire-8432/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=579725&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 1,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-10T15:00:41.476Z",
+                "started_at": "2026-10-10T15:15:17.526Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T16:22:03.086Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H06M45.494778S",
+                "full_race_url": "https://racetime.gg/oot/clever-sapphire-8432",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/reliable-requiem-2925",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/reliable-requiem-2925",
+                "data_url": "/oot/reliable-requiem-2925/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=751240&mode=normal",
+                "entrants_count": 4,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-09T23:53:29.264Z",
+                "started_at": "2026-10-10T00:08:19.103Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T01:22:31.858Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H14M00.690926S",
+                "full_race_url": "https://racetime.gg/oot/reliable-requiem-2925",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/mini-nabooru-8754",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/mini-nabooru-8754",
+                "data_url": "/oot/mini-nabooru-8754/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=322349&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-09T21:06:19.070Z",
+                "started_at": "2026-10-09T21:10:04.513Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-09T22:36:03.696Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H21M24.857187S",
+                "full_race_url": "https://racetime.gg/oot/mini-nabooru-8754",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/fearless-kakariko-8134",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/fearless-kakariko-8134",
+                "data_url": "/oot/fearless-kakariko-8134/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=61884&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-09T19:03:13.662Z",
+                "started_at": "2026-10-09T19:11:04.016Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-09T20:41:32.567Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H30M03.520813S",
+                "full_race_url": "https://racetime.gg/oot/fearless-kakariko-8134",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/fried-pocketegg-9345",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/fried-pocketegg-9345",
+                "data_url": "/oot/fried-pocketegg-9345/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=258320&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 1,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-09T14:49:32.633Z",
+                "started_at": "2026-10-09T14:59:41.684Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-09T16:16:19.364Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H16M37.577131S",
+                "full_race_url": "https://racetime.gg/oot/fried-pocketegg-9345",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/dazzling-hylian-2974",
                 "status": {
@@ -104872,11 +105279,48 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 05:21:18"
+        "last_updated": "2026-10-12 05:36:43"
     },
     "hayafo": {
         "username": "hayafo",
         "races": [
+            {
+                "name": "oot/fearless-colossus-6474",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/fearless-colossus-6474",
+                "data_url": "/oot/fearless-colossus-6474/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=886786&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T12:48:29.856Z",
+                "started_at": "2026-10-10T13:05:39.777Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T14:26:59.495Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H21M19.680801S",
+                "full_race_url": "https://racetime.gg/oot/fearless-colossus-6474",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/cold-rauru-6886",
                 "status": {
@@ -107357,11 +107801,85 @@
                 "bingo_version": "10.3.2"
             }
         ],
-        "last_updated": "2026-10-11 05:21:44"
+        "last_updated": "2026-10-12 05:37:11"
     },
     "neefe": {
         "username": "neefe",
         "races": [
+            {
+                "name": "oot/gnarly-nabooru-1032",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-nabooru-1032",
+                "data_url": "/oot/gnarly-nabooru-1032/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=30015&mode=normal",
+                "entrants_count": 8,
+                "entrants_count_finished": 8,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T19:59:19.342Z",
+                "started_at": "2026-10-10T20:12:50.879Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T22:05:14.618Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H30M51.371320S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-nabooru-1032",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/fearless-kakariko-8134",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/fearless-kakariko-8134",
+                "data_url": "/oot/fearless-kakariko-8134/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=61884&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-09T19:03:13.662Z",
+                "started_at": "2026-10-09T19:11:04.016Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-09T20:41:32.567Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H30M02.011307S",
+                "full_race_url": "https://racetime.gg/oot/fearless-kakariko-8134",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/casual-spirit-1707",
                 "status": {
@@ -116206,7 +116724,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:23:10"
+        "last_updated": "2026-10-12 05:38:44"
     },
     "bonooru": {
         "username": "Bonooru",
@@ -116841,7 +117359,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:23:20"
+        "last_updated": "2026-10-12 05:38:54"
     },
     "timato": {
         "username": "Timato",
@@ -123433,7 +123951,7 @@
                 "bingo_version": "9.5.1"
             }
         ],
-        "last_updated": "2026-10-11 05:24:26"
+        "last_updated": "2026-10-12 05:40:05"
     },
     "mutantaura": {
         "username": "MutantAura",
@@ -135538,7 +136056,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:26:34"
+        "last_updated": "2026-10-12 05:42:21"
     },
     "jenslang": {
         "username": "jenslang",
@@ -146237,11 +146755,122 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:28:23"
+        "last_updated": "2026-10-12 05:44:15"
     },
     "link11": {
         "username": "Link11",
         "races": [
+            {
+                "name": "oot/critical-colossus-2568",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/critical-colossus-2568",
+                "data_url": "/oot/critical-colossus-2568/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=801892&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-11T01:46:45.645Z",
+                "started_at": "2026-10-11T02:03:15.257Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-11T03:49:05.708Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H12M19.549575S",
+                "full_race_url": "https://racetime.gg/oot/critical-colossus-2568",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/gnarly-nabooru-1032",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-nabooru-1032",
+                "data_url": "/oot/gnarly-nabooru-1032/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=30015&mode=normal",
+                "entrants_count": 8,
+                "entrants_count_finished": 8,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T19:59:19.342Z",
+                "started_at": "2026-10-10T20:12:50.879Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T22:05:14.618Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H20M31.902753S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-nabooru-1032",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/reliable-requiem-2925",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/reliable-requiem-2925",
+                "data_url": "/oot/reliable-requiem-2925/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=751240&mode=normal",
+                "entrants_count": 4,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 1,
+                "opened_at": "2026-10-09T23:53:29.264Z",
+                "started_at": "2026-10-10T00:08:19.103Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T01:22:31.858Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H14M12.708428S",
+                "full_race_url": "https://racetime.gg/oot/reliable-requiem-2925",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/casual-spirit-1707",
                 "status": {
@@ -173623,7 +174252,7 @@
                 "bingo_version": "9.5.1"
             }
         ],
-        "last_updated": "2026-10-11 05:32:47"
+        "last_updated": "2026-10-12 05:48:57"
     },
     "mooseoot": {
         "username": "MooseOoT",
@@ -179623,7 +180252,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:34:03"
+        "last_updated": "2026-10-12 05:50:18"
     },
     "challensois_": {
         "username": "Challensois_",
@@ -193541,7 +194170,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:37:07"
+        "last_updated": "2026-10-12 05:53:33"
     },
     "averagegreg": {
         "username": "AverageGreg",
@@ -200466,7 +201095,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:38:19"
+        "last_updated": "2026-10-12 05:54:48"
     },
     "the__consultant": {
         "username": "the__consultant",
@@ -215901,7 +216530,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:41:23"
+        "last_updated": "2026-10-12 05:58:04"
     },
     "jake wright": {
         "username": "Jake Wright",
@@ -219348,7 +219977,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:42:05"
+        "last_updated": "2026-10-12 05:58:48"
     },
     "phoenixfeather": {
         "username": "PhoenixFeather",
@@ -219650,7 +220279,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 05:42:13"
+        "last_updated": "2026-10-12 05:58:56"
     },
     "adam": {
         "username": "Adam",
@@ -222690,7 +223319,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 05:42:43"
+        "last_updated": "2026-10-12 05:59:28"
     },
     "p.titou": {
         "username": "P.Titou",
@@ -242158,7 +242787,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:46:24"
+        "last_updated": "2026-10-12 06:03:24"
     },
     "chris7": {
         "username": "Chris7",
@@ -243866,7 +244495,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:46:45"
+        "last_updated": "2026-10-12 06:03:46"
     },
     "literallylake": {
         "username": "LiterallyLake",
@@ -254047,7 +254676,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:48:32"
+        "last_updated": "2026-10-12 06:05:42"
     },
     "realtimeattack64": {
         "username": "realtimeattack64",
@@ -254497,7 +255126,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:48:39"
+        "last_updated": "2026-10-12 06:05:49"
     },
     "sva": {
         "username": "sva",
@@ -255761,7 +256390,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:48:53"
+        "last_updated": "2026-10-12 06:06:04"
     },
     "tsundererar": {
         "username": "tsundererar",
@@ -257247,7 +257876,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:49:11"
+        "last_updated": "2026-10-12 06:06:23"
     },
     "arthuroudini": {
         "username": "ArthurOudini",
@@ -258400,7 +259029,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 05:49:34"
+        "last_updated": "2026-10-12 06:06:47"
     },
     "coffeepot": {
         "username": "CoffeePot",
@@ -285268,7 +285897,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:53:49"
+        "last_updated": "2026-10-12 06:11:21"
     },
     "diamondflash27": {
         "username": "DiamondFlash27",
@@ -286384,7 +287013,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:54:06"
+        "last_updated": "2026-10-12 06:11:38"
     },
     "paintskate8": {
         "username": "PaintSkate8",
@@ -290423,7 +291052,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:54:46"
+        "last_updated": "2026-10-12 06:12:22"
     },
     "grego": {
         "username": "Grego",
@@ -296312,7 +296941,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:56:01"
+        "last_updated": "2026-10-12 06:13:42"
     },
     "mikekatz45": {
         "username": "MikeKatz45",
@@ -297502,7 +298131,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:56:18"
+        "last_updated": "2026-10-12 06:14:01"
     },
     "blinkzy": {
         "username": "blinkzy",
@@ -300209,7 +300838,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:56:45"
+        "last_updated": "2026-10-12 06:14:30"
     },
     "darker": {
         "username": "Darker",
@@ -307763,7 +308392,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:58:13"
+        "last_updated": "2026-10-12 06:16:05"
     },
     "dotzo": {
         "username": "dotzo",
@@ -308916,7 +309545,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 05:58:34"
+        "last_updated": "2026-10-12 06:16:29"
     },
     "xwillmarktheplace": {
         "username": "xwillmarktheplace",
@@ -310846,7 +311475,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 05:58:56"
+        "last_updated": "2026-10-12 06:16:51"
     },
     "nalle": {
         "username": "Nalle",
@@ -318585,7 +319214,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:00:21"
+        "last_updated": "2026-10-12 06:18:22"
     },
     "lulz": {
         "username": "Lulz",
@@ -319146,7 +319775,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:00:29"
+        "last_updated": "2026-10-12 06:18:30"
     },
     "scaramanga": {
         "username": "scaramanga",
@@ -319485,7 +320114,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:00:34"
+        "last_updated": "2026-10-12 06:18:36"
     },
     "skepticole": {
         "username": "skepticole",
@@ -329333,7 +329962,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:02:19"
+        "last_updated": "2026-10-12 06:20:26"
     },
     "reaper": {
         "username": "Reaper",
@@ -337294,7 +337923,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:04:05"
+        "last_updated": "2026-10-12 06:22:23"
     },
     "wickedgligar": {
         "username": "WickedGligar",
@@ -344034,7 +344663,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:05:23"
+        "last_updated": "2026-10-12 06:23:47"
     },
     "magnumpi47": {
         "username": "magnumpi47",
@@ -344114,7 +344743,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:05:26"
+        "last_updated": "2026-10-12 06:23:51"
     },
     "gombill": {
         "username": "Gombill",
@@ -345822,7 +346451,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:05:44"
+        "last_updated": "2026-10-12 06:24:10"
     },
     "woli": {
         "username": "Woli",
@@ -349269,7 +349898,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:06:34"
+        "last_updated": "2026-10-12 06:25:04"
     },
     "makko": {
         "username": "makko",
@@ -351532,7 +352161,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:06:57"
+        "last_updated": "2026-10-12 06:25:29"
     },
     "goodgortho": {
         "username": "goodgortho",
@@ -356126,7 +356755,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:07:51"
+        "last_updated": "2026-10-12 06:26:28"
     },
     "armorysons": {
         "username": "ArmorySons",
@@ -356650,7 +357279,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:07:58"
+        "last_updated": "2026-10-12 06:26:36"
     },
     "cloudike": {
         "username": "Cloudike",
@@ -359246,7 +359875,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:08:31"
+        "last_updated": "2026-10-12 06:27:10"
     },
     "adef": {
         "username": "adef",
@@ -361953,7 +362582,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:08:59"
+        "last_updated": "2026-10-12 06:27:41"
     },
     "xanra": {
         "username": "Xanra",
@@ -366029,7 +366658,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:09:40"
+        "last_updated": "2026-10-12 06:28:25"
     },
     "fenyan": {
         "username": "Fenyan",
@@ -370919,7 +371548,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:10:29"
+        "last_updated": "2026-10-12 06:29:19"
     },
     "numberplay": {
         "username": "Numberplay",
@@ -373219,7 +373848,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:10:58"
+        "last_updated": "2026-10-12 06:29:49"
     },
     "cma": {
         "username": "Cma",
@@ -373595,7 +374224,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:11:04"
+        "last_updated": "2026-10-12 06:29:55"
     },
     "cabbage72": {
         "username": "Cabbage72",
@@ -379188,7 +379817,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:12:09"
+        "last_updated": "2026-10-12 06:31:07"
     },
     "psymarth": {
         "username": "PsyMarth",
@@ -381414,7 +382043,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:12:37"
+        "last_updated": "2026-10-12 06:31:37"
     },
     "quickkiran": {
         "username": "QuickKiran",
@@ -384454,7 +385083,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:13:12"
+        "last_updated": "2026-10-12 06:32:14"
     },
     "hapenfors": {
         "username": "Hapenfors",
@@ -385570,11 +386199,85 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:13:26"
+        "last_updated": "2026-10-12 06:32:30"
     },
     "worn_mittens": {
         "username": "Worn_Mittens",
         "races": [
+            {
+                "name": "oot/gnarly-nabooru-1032",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-nabooru-1032",
+                "data_url": "/oot/gnarly-nabooru-1032/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=30015&mode=normal",
+                "entrants_count": 8,
+                "entrants_count_finished": 8,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T19:59:19.342Z",
+                "started_at": "2026-10-10T20:12:50.879Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T22:05:14.618Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H36M24.903718S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-nabooru-1032",
+                "bingo_version": "10.6"
+            },
+            {
+                "name": "oot/mini-nabooru-8754",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/mini-nabooru-8754",
+                "data_url": "/oot/mini-nabooru-8754/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=322349&mode=normal",
+                "entrants_count": 2,
+                "entrants_count_finished": 2,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-09T21:06:19.070Z",
+                "started_at": "2026-10-09T21:10:04.513Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-09T22:36:03.696Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H25M59.075147S",
+                "full_race_url": "https://racetime.gg/oot/mini-nabooru-8754",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/bonus-mido-4484",
                 "status": {
@@ -390127,7 +390830,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:14:14"
+        "last_updated": "2026-10-12 06:33:21"
     },
     "valientlink": {
         "username": "Valientlink",
@@ -390318,7 +391021,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:14:18"
+        "last_updated": "2026-10-12 06:33:27"
     },
     "kurt": {
         "username": "Kurt",
@@ -392581,7 +393284,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-10-11 06:14:43"
+        "last_updated": "2026-10-12 06:33:54"
     },
     "ilher": {
         "username": "Ilher",
@@ -392772,7 +393475,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:14:48"
+        "last_updated": "2026-10-12 06:33:58"
     },
     "apasher": {
         "username": "Apasher",
@@ -393259,7 +393962,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:14:56"
+        "last_updated": "2026-10-12 06:34:07"
     },
     "gsk8": {
         "username": "gsk8",
@@ -393598,7 +394301,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:15:07"
+        "last_updated": "2026-10-12 06:34:19"
     },
     "k4erup": {
         "username": "k4erup",
@@ -395158,7 +395861,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:15:24"
+        "last_updated": "2026-10-12 06:34:37"
     },
     "jfm2796": {
         "username": "JFM2796",
@@ -401565,7 +402268,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:16:36"
+        "last_updated": "2026-10-12 06:35:55"
     },
     "sloth": {
         "username": "Sloth",
@@ -401867,7 +402570,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:16:44"
+        "last_updated": "2026-10-12 06:36:03"
     },
     "matttinthehat": {
         "username": "MatttInTheHat",
@@ -405943,7 +406646,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:17:31"
+        "last_updated": "2026-10-12 06:36:52"
     },
     "ladylambdadeltasdandruff": {
         "username": "LadyLambdadeltasDandruff",
@@ -406763,7 +407466,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:17:41"
+        "last_updated": "2026-10-12 06:37:03"
     },
     "sariasobject": {
         "username": "SariasObject",
@@ -407916,7 +408619,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:18:29"
+        "last_updated": "2026-10-12 06:37:54"
     },
     "fleush": {
         "username": "Fleush",
@@ -410919,7 +411622,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:19:00"
+        "last_updated": "2026-10-12 06:38:28"
     },
     "prettybigjoe": {
         "username": "prettybigjoe",
@@ -411073,7 +411776,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:19:04"
+        "last_updated": "2026-10-12 06:38:31"
     },
     "myelin": {
         "username": "Myelin",
@@ -414816,7 +415519,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:19:48"
+        "last_updated": "2026-10-12 06:39:18"
     },
     "davpat": {
         "username": "Davpat",
@@ -415007,7 +415710,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:19:52"
+        "last_updated": "2026-10-12 06:39:23"
     },
     "tompouce": {
         "username": "TomPouce",
@@ -416160,7 +416863,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:20:13"
+        "last_updated": "2026-10-12 06:39:46"
     },
     "shirosoluna": {
         "username": "shirosoluna",
@@ -417757,7 +418460,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:20:43"
+        "last_updated": "2026-10-12 06:40:18"
     },
     "tashman91": {
         "username": "Tashman91",
@@ -418725,11 +419428,48 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:20:54"
+        "last_updated": "2026-10-12 06:40:31"
     },
     "vidyajames": {
         "username": "VidyaJames",
         "races": [
+            {
+                "name": "oot/critical-colossus-2568",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/critical-colossus-2568",
+                "data_url": "/oot/critical-colossus-2568/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=801892&mode=normal",
+                "entrants_count": 3,
+                "entrants_count_finished": 3,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-11T01:46:45.645Z",
+                "started_at": "2026-10-11T02:03:15.257Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-11T03:49:05.708Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H45M50.347053S",
+                "full_race_url": "https://racetime.gg/oot/critical-colossus-2568",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/hot-fish-8970",
                 "status": {
@@ -420174,7 +420914,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:21:38"
+        "last_updated": "2026-10-12 06:41:19"
     },
     "matz": {
         "username": "Matz",
@@ -421882,7 +422622,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:22:02"
+        "last_updated": "2026-10-12 06:41:45"
     },
     "plasma-parse": {
         "username": "plasma-parse",
@@ -423220,7 +423960,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:22:17"
+        "last_updated": "2026-10-12 06:42:01"
     },
     "countdown": {
         "username": "Countdown",
@@ -427962,7 +428702,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:23:20"
+        "last_updated": "2026-10-12 06:43:08"
     },
     "midboss": {
         "username": "Midboss",
@@ -429189,7 +429929,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:23:35"
+        "last_updated": "2026-10-12 06:43:24"
     },
     "bou_frost": {
         "username": "Bou_Frost",
@@ -429750,7 +430490,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:23:43"
+        "last_updated": "2026-10-12 06:43:32"
     },
     "yanis": {
         "username": "Yanis",
@@ -429978,7 +430718,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:23:48"
+        "last_updated": "2026-10-12 06:43:37"
     },
     "photon": {
         "username": "Photon",
@@ -430798,7 +431538,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:23:58"
+        "last_updated": "2026-10-12 06:43:47"
     },
     "noface099": {
         "username": "noface099",
@@ -435096,7 +435836,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:25:01"
+        "last_updated": "2026-10-12 06:44:56"
     },
     "sonfloro": {
         "username": "Sonfloro",
@@ -435657,7 +436397,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:25:09"
+        "last_updated": "2026-10-12 06:45:05"
     },
     "condor": {
         "username": "Condor",
@@ -436144,7 +436884,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:25:16"
+        "last_updated": "2026-10-12 06:45:12"
     },
     "zeru": {
         "username": "Zeru",
@@ -438518,7 +439258,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:25:44"
+        "last_updated": "2026-10-12 06:45:43"
     },
     "moosecrap": {
         "username": "moosecrap",
@@ -446849,7 +447589,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:27:03"
+        "last_updated": "2026-10-12 06:47:09"
     },
     "benstephens56": {
         "username": "benstephens56",
@@ -447669,7 +448409,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:27:13"
+        "last_updated": "2026-10-12 06:47:20"
     },
     "zar": {
         "username": "ZAR",
@@ -447860,7 +448600,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:27:17"
+        "last_updated": "2026-10-12 06:47:23"
     },
     "honkymcbutterball": {
         "username": "HonkyMcButterball",
@@ -448088,7 +448828,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:27:23"
+        "last_updated": "2026-10-12 06:47:30"
     },
     "caidren": {
         "username": "Caidren",
@@ -449981,7 +450721,7 @@
                 "bingo_version": "10.3.2"
             }
         ],
-        "last_updated": "2026-10-11 06:27:51"
+        "last_updated": "2026-10-12 06:48:01"
     },
     "keys336": {
         "username": "keys336",
@@ -450283,7 +451023,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:28:08"
+        "last_updated": "2026-10-12 06:48:18"
     },
     "gc1": {
         "username": "gc1",
@@ -450437,7 +451177,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:28:11"
+        "last_updated": "2026-10-12 06:48:22"
     },
     "brocolli4": {
         "username": "brocolli4",
@@ -451627,7 +452367,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:28:24"
+        "last_updated": "2026-10-12 06:48:36"
     },
     "shaggy": {
         "username": "shaggy",
@@ -456221,7 +456961,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:29:10"
+        "last_updated": "2026-10-12 06:49:26"
     },
     "cynsitive": {
         "username": "cynsitive",
@@ -456264,7 +457004,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:29:13"
+        "last_updated": "2026-10-12 06:49:30"
     },
     "west0pher": {
         "username": "West0pher",
@@ -456788,7 +457528,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:29:23"
+        "last_updated": "2026-10-12 06:49:41"
     },
     "mathias8750": {
         "username": "mathias8750",
@@ -458607,7 +459347,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-10-11 06:29:48"
+        "last_updated": "2026-10-12 06:50:08"
     },
     "taaboo": {
         "username": "taaboo",
@@ -458761,7 +459501,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:29:51"
+        "last_updated": "2026-10-12 06:50:11"
     },
     "skyreon": {
         "username": "Skyreon",
@@ -459581,7 +460321,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:30:02"
+        "last_updated": "2026-10-12 06:50:23"
     },
     "lexwatercolor": {
         "username": "LexWatercolor",
@@ -459735,7 +460475,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:30:06"
+        "last_updated": "2026-10-12 06:50:26"
     },
     "niamek": {
         "username": "Niamek",
@@ -460037,7 +460777,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:30:14"
+        "last_updated": "2026-10-12 06:50:34"
     },
     "tsuyoi": {
         "username": "tsuyoi",
@@ -460524,7 +461264,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-10-11 06:30:26"
+        "last_updated": "2026-10-12 06:50:48"
     },
     "kayro64": {
         "username": "Kayro64",
@@ -461085,7 +461825,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:30:38"
+        "last_updated": "2026-10-12 06:51:01"
     },
     "rjminotaur": {
         "username": "Rjminotaur",
@@ -461165,7 +461905,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:30:41"
+        "last_updated": "2026-10-12 06:51:04"
     },
     "gamestabled": {
         "username": "gamestabled",
@@ -461652,7 +462392,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:30:48"
+        "last_updated": "2026-10-12 06:51:11"
     },
     "zer0sg_1": {
         "username": "Zer0SG_1",
@@ -463249,7 +463989,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:31:06"
+        "last_updated": "2026-10-12 06:51:31"
     },
     "cisco64": {
         "username": "Cisco64",
@@ -463440,7 +464180,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:31:10"
+        "last_updated": "2026-10-12 06:51:35"
     },
     "slask": {
         "username": "Slask",
@@ -463594,7 +464334,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:31:14"
+        "last_updated": "2026-10-12 06:51:39"
     },
     "rubixmagic": {
         "username": "Rubixmagic",
@@ -464118,7 +464858,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:31:22"
+        "last_updated": "2026-10-12 06:51:47"
     },
     "peatsheep": {
         "username": "peatsheep",
@@ -464642,7 +465382,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:31:30"
+        "last_updated": "2026-10-12 06:51:55"
     },
     "nonsensebread": {
         "username": "Nonsensebread",
@@ -464685,7 +465425,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:31:33"
+        "last_updated": "2026-10-12 06:51:58"
     },
     "ohrange": {
         "username": "Ohrange",
@@ -464765,7 +465505,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:31:36"
+        "last_updated": "2026-10-12 06:52:01"
     },
     "zachlink99": {
         "username": "ZachLink99",
@@ -464956,7 +465696,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:31:41"
+        "last_updated": "2026-10-12 06:52:07"
     },
     "maddie": {
         "username": "Maddie",
@@ -465221,7 +465961,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:31:47"
+        "last_updated": "2026-10-12 06:52:13"
     },
     "alaris": {
         "username": "Alaris",
@@ -465338,7 +466078,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:31:55"
+        "last_updated": "2026-10-12 06:52:22"
     },
     "mkbgnr": {
         "username": "mkbgnr",
@@ -466084,7 +466824,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:32:08"
+        "last_updated": "2026-10-12 06:52:36"
     },
     "nkitten": {
         "username": "Nkitten",
@@ -466201,7 +466941,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:32:11"
+        "last_updated": "2026-10-12 06:52:39"
     },
     "luisito": {
         "username": "Luisito",
@@ -466355,7 +467095,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:32:18"
+        "last_updated": "2026-10-12 06:52:46"
     },
     "linky628": {
         "username": "linky628",
@@ -466472,7 +467212,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:32:22"
+        "last_updated": "2026-10-12 06:52:50"
     },
     "swagieswamp": {
         "username": "swagieswamp",
@@ -466552,7 +467292,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:32:28"
+        "last_updated": "2026-10-12 06:52:57"
     },
     "fadoxthon": {
         "username": "Fadoxthon",
@@ -467150,7 +467890,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:32:36"
+        "last_updated": "2026-10-12 06:53:05"
     },
     "mikekanis": {
         "username": "MikeKanis",
@@ -467193,7 +467933,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:32:39"
+        "last_updated": "2026-10-12 06:53:08"
     },
     "sorokya": {
         "username": "Sorokya",
@@ -467236,7 +467976,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-10-11 06:32:42"
+        "last_updated": "2026-10-12 06:53:11"
     },
     "monochromii": {
         "username": "monochromii",
@@ -467649,7 +468389,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:32:52"
+        "last_updated": "2026-10-12 06:53:22"
     },
     "katienoelle": {
         "username": "katienoelle",
@@ -467877,7 +468617,7 @@
                 "bingo_version": "10.3.1"
             }
         ],
-        "last_updated": "2026-10-11 06:32:57"
+        "last_updated": "2026-10-12 06:53:27"
     },
     "sestral": {
         "username": "Sestral",
@@ -468697,7 +469437,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:33:10"
+        "last_updated": "2026-10-12 06:53:40"
     },
     "zombie_god": {
         "username": "Zombie_God",
@@ -468740,7 +469480,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:33:13"
+        "last_updated": "2026-10-12 06:53:43"
     },
     "zefloppies": {
         "username": "ZeFloppies",
@@ -469005,7 +469745,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:33:18"
+        "last_updated": "2026-10-12 06:53:48"
     },
     "soda": {
         "username": "soda",
@@ -469344,7 +470084,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:33:26"
+        "last_updated": "2026-10-12 06:53:57"
     },
     "speedbayer_": {
         "username": "Speedbayer_",
@@ -469387,7 +470127,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:33:29"
+        "last_updated": "2026-10-12 06:54:00"
     },
     "spitle": {
         "username": "Spitle",
@@ -469430,7 +470170,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:33:32"
+        "last_updated": "2026-10-12 06:54:03"
     },
     "thags15": {
         "username": "thags15",
@@ -469473,7 +470213,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:33:41"
+        "last_updated": "2026-10-12 06:54:12"
     },
     "purple tissue box": {
         "username": "purple tissue box",
@@ -469516,7 +470256,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:33:45"
+        "last_updated": "2026-10-12 06:54:17"
     },
     "kayla": {
         "username": "Kayla",
@@ -470003,7 +470743,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:33:53"
+        "last_updated": "2026-10-12 06:54:26"
     },
     "haktical": {
         "username": "haktical",
@@ -470305,7 +471045,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:33:59"
+        "last_updated": "2026-10-12 06:54:32"
     },
     "clydepowers": {
         "username": "ClydePowers",
@@ -471273,7 +472013,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:34:16"
+        "last_updated": "2026-10-12 06:54:50"
     },
     "nozzly": {
         "username": "nozzly",
@@ -471390,7 +472130,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:34:31"
+        "last_updated": "2026-10-12 06:55:06"
     },
     "pancaketurtle": {
         "username": "PancakeTurtle",
@@ -471470,7 +472210,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:34:34"
+        "last_updated": "2026-10-12 06:55:08"
     },
     "aksannyi": {
         "username": "Aksannyi",
@@ -471513,7 +472253,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:34:43"
+        "last_updated": "2026-10-12 06:55:18"
     },
     "the corpser": {
         "username": "The corpser",
@@ -472111,11 +472851,48 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:34:53"
+        "last_updated": "2026-10-12 06:55:28"
     },
     "chefbear": {
         "username": "ChefBear",
         "races": [
+            {
+                "name": "oot/gnarly-nabooru-1032",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-nabooru-1032",
+                "data_url": "/oot/gnarly-nabooru-1032/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=30015&mode=normal",
+                "entrants_count": 8,
+                "entrants_count_finished": 8,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T19:59:19.342Z",
+                "started_at": "2026-10-10T20:12:50.879Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T22:05:14.618Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H23M41.310127S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-nabooru-1032",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/casual-spirit-1707",
                 "status": {
@@ -475447,7 +476224,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:35:30"
+        "last_updated": "2026-10-12 06:56:09"
     },
     "crafth": {
         "username": "Crafth",
@@ -475490,7 +476267,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:35:33"
+        "last_updated": "2026-10-12 06:56:12"
     },
     "khuno": {
         "username": "khuno",
@@ -475718,7 +476495,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:35:37"
+        "last_updated": "2026-10-12 06:56:17"
     },
     "figure8": {
         "username": "Figure8",
@@ -475946,7 +476723,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:35:43"
+        "last_updated": "2026-10-12 06:56:23"
     },
     "glasfolie": {
         "username": "Glasfolie",
@@ -476137,7 +476914,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:35:47"
+        "last_updated": "2026-10-12 06:56:27"
     },
     "cobeck": {
         "username": "Cobeck",
@@ -476365,7 +477142,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:35:52"
+        "last_updated": "2026-10-12 06:56:33"
     },
     "juchemao17": {
         "username": "Juchemao17",
@@ -476815,7 +477592,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:36:03"
+        "last_updated": "2026-10-12 06:56:44"
     },
     "thecowness": {
         "username": "TheCowness",
@@ -477265,7 +478042,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:36:12"
+        "last_updated": "2026-10-12 06:56:53"
     },
     "kouyou": {
         "username": "kouyou",
@@ -477419,7 +478196,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:36:15"
+        "last_updated": "2026-10-12 06:56:57"
     },
     "luichito": {
         "username": "Luichito",
@@ -477573,7 +478350,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:36:21"
+        "last_updated": "2026-10-12 06:57:03"
     },
     "savestate": {
         "username": "Savestate",
@@ -478023,7 +478800,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:36:27"
+        "last_updated": "2026-10-12 06:57:10"
     },
     "gc_one": {
         "username": "gc_one",
@@ -478732,7 +479509,7 @@
                 "bingo_version": "10.0"
             }
         ],
-        "last_updated": "2026-10-11 06:36:42"
+        "last_updated": "2026-10-12 06:57:26"
     },
     "khufufoofoo": {
         "username": "khufufoofoo",
@@ -479034,7 +479811,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:36:48"
+        "last_updated": "2026-10-12 06:57:33"
     },
     "tempest": {
         "username": "Tempest",
@@ -479077,7 +479854,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:36:51"
+        "last_updated": "2026-10-12 06:57:35"
     },
     "eltiokamina": {
         "username": "eltiokamina",
@@ -479120,7 +479897,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:36:58"
+        "last_updated": "2026-10-12 06:57:42"
     },
     "amber24": {
         "username": "Amber24",
@@ -479459,7 +480236,7 @@
                 "bingo_version": "10.3.1"
             }
         ],
-        "last_updated": "2026-10-11 06:37:05"
+        "last_updated": "2026-10-12 06:57:50"
     },
     "zemoo": {
         "username": "Zemoo",
@@ -479539,7 +480316,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:37:16"
+        "last_updated": "2026-10-12 06:58:01"
     },
     "nicv": {
         "username": "NicV",
@@ -479582,7 +480359,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:37:18"
+        "last_updated": "2026-10-12 06:58:04"
     },
     "jasoncario131": {
         "username": "jasoncario131",
@@ -480143,7 +480920,7 @@
                 "bingo_version": "10.5"
             }
         ],
-        "last_updated": "2026-10-11 06:37:44"
+        "last_updated": "2026-10-12 06:58:31"
     },
     "greenbomber": {
         "username": "GreenBomber",
@@ -480186,7 +480963,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:37:47"
+        "last_updated": "2026-10-12 06:58:33"
     },
     "santaslittlenibbler": {
         "username": "SantasLittleNibbler",
@@ -480303,7 +481080,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:37:50"
+        "last_updated": "2026-10-12 06:58:37"
     },
     "colin": {
         "username": "colin",
@@ -480346,7 +481123,7 @@
                 "bingo_version": "10.1"
             }
         ],
-        "last_updated": "2026-10-11 06:37:53"
+        "last_updated": "2026-10-12 06:58:40"
     },
     "lil_kyleyt": {
         "username": "Lil_KyleYT",
@@ -480389,7 +481166,7 @@
                 "bingo_version": "Unknown"
             }
         ],
-        "last_updated": "2026-10-11 06:37:56"
+        "last_updated": "2026-10-12 06:58:43"
     },
     "lunaticj": {
         "username": "LunaticJ",
@@ -480432,7 +481209,7 @@
                 "bingo_version": "10.2"
             }
         ],
-        "last_updated": "2026-10-11 06:37:58"
+        "last_updated": "2026-10-12 06:58:45"
     },
     "ioliver": {
         "username": "iOliver",
@@ -480475,7 +481252,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:38:06"
+        "last_updated": "2026-10-12 06:58:53"
     },
     "willow the whimsical": {
         "username": "Willow The Whimsical",
@@ -480518,7 +481295,7 @@
                 "bingo_version": "10.4"
             }
         ],
-        "last_updated": "2026-10-11 06:38:09"
+        "last_updated": "2026-10-12 06:58:56"
     },
     "roseatia": {
         "username": "Roseatia",
@@ -482633,7 +483410,7 @@
                 "bingo_version": "10.6"
             }
         ],
-        "last_updated": "2026-10-11 06:38:35"
+        "last_updated": "2026-10-12 06:59:24"
     },
     "elijoot": {
         "username": "elijoot",
@@ -482713,7 +483490,7 @@
                 "bingo_version": "10.6"
             }
         ],
-        "last_updated": "2026-10-11 06:38:39"
+        "last_updated": "2026-10-12 06:59:29"
     },
     "ziranui": {
         "username": "ziranui",
@@ -483385,7 +484162,7 @@
                 "bingo_version": "10.5.1"
             }
         ],
-        "last_updated": "2026-10-11 06:38:47"
+        "last_updated": "2026-10-12 06:59:37"
     },
     "zfg": {
         "username": "ZFG",
@@ -483613,7 +484390,7 @@
                 "bingo_version": "10.6"
             }
         ],
-        "last_updated": "2026-10-11 06:38:51"
+        "last_updated": "2026-10-12 06:59:41"
     },
     "druncle_titus": {
         "username": "Druncle_Titus",
@@ -483878,11 +484655,48 @@
                 "bingo_version": "10.6"
             }
         ],
-        "last_updated": "2026-10-11 06:38:56"
+        "last_updated": "2026-10-12 06:59:47"
     },
     "lloyd": {
         "username": "lloyd",
         "races": [
+            {
+                "name": "oot/gnarly-nabooru-1032",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-nabooru-1032",
+                "data_url": "/oot/gnarly-nabooru-1032/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=30015&mode=normal",
+                "entrants_count": 8,
+                "entrants_count_finished": 8,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T19:59:19.342Z",
+                "started_at": "2026-10-10T20:12:50.879Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T22:05:14.618Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H36M03.093211S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-nabooru-1032",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/prudent-bongobongo-9199",
                 "status": {
@@ -485771,11 +486585,48 @@
                 "bingo_version": "10.6"
             }
         ],
-        "last_updated": "2026-10-11 06:39:18"
+        "last_updated": "2026-10-12 07:00:11"
     },
     "realzombiegod": {
         "username": "RealZombieGod",
         "races": [
+            {
+                "name": "oot/gnarly-nabooru-1032",
+                "status": {
+                    "value": "finished",
+                    "verbose_value": "Finished",
+                    "help_text": "This race has been completed"
+                },
+                "url": "/oot/gnarly-nabooru-1032",
+                "data_url": "/oot/gnarly-nabooru-1032/data",
+                "goal": {
+                    "name": "Bingo",
+                    "custom": false
+                },
+                "info": "https://ootbingo.github.io/bingo/bingo.html?version=10.6&seed=30015&mode=normal",
+                "entrants_count": 8,
+                "entrants_count_finished": 8,
+                "entrants_count_inactive": 0,
+                "opened_at": "2026-10-10T19:59:19.342Z",
+                "started_at": "2026-10-10T20:12:50.879Z",
+                "time_limit": "P1DT00H00M00S",
+                "opened_by_bot": null,
+                "category": {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "short_name": "OoT",
+                    "slug": "oot",
+                    "url": "/oot",
+                    "data_url": "/oot/data",
+                    "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+                },
+                "ended_at": "2026-10-10T22:05:14.618Z",
+                "cancelled_at": null,
+                "recordable": true,
+                "recorded": true,
+                "user_finish_time": "P0DT01H52M23.680981S",
+                "full_race_url": "https://racetime.gg/oot/gnarly-nabooru-1032",
+                "bingo_version": "10.6"
+            },
             {
                 "name": "oot/dazzling-medallion-5254",
                 "status": {
@@ -485999,7 +486850,7 @@
                 "bingo_version": "10.6"
             }
         ],
-        "last_updated": "2026-10-11 06:39:23"
+        "last_updated": "2026-10-12 07:00:16"
     },
     "xxx_d4rk_g4m3r_79_xxx": {
         "username": "XxX_D4rk_G4m3r_79_XxX",
@@ -491074,6 +491925,6 @@
                 "bingo_version": "10.3"
             }
         ],
-        "last_updated": "2026-10-11 06:40:22"
+        "last_updated": "2026-10-12 07:01:20"
     }
 }
