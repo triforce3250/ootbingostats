@@ -11,7 +11,7 @@ Jake Wright, PhoenixFeather, Adam, P.Titou, Chris7, LiterallyLake,
 realtimeattack64, sva, tsundererar, ArthurOudini, CoffeePot, DiamondFlash27, 
 PaintSkate8, Grego, MikeKatz45, blinkzy, Darker, dotzo, xwillmarktheplace, 
 Nalle, Lulz, scaramanga, skepticole, Reaper, WickedGligar, magnumpi47, 
-Gombill, Woli, makko, goodgortho, Zell, ArmorySons, JEANBERNARDGAMING, 
+Gombill, Woli, makko, goodgortho, Zella, ArmorySons, XxX_D4rk_G4m3r_79_XxX, 
 Cloudike, adef, Xanra, Fenyan, Numberplay, Cma, Cabbage72, PsyMarth, 
 QuickKiran, Hapenfors, Worn_Mittens, Valientlink, Kurt, Ilher, Apasher, 
 gsk8, k4erup, JFM2796, Sloth, MatttInTheHat, LadyLambdadeltasDandruff, 
@@ -30,7 +30,7 @@ Glasfolie, Cobeck, Juchemao17, TheCowness, kouyou, Luichito, Savestate,
 gc_one, khufufoofoo, Tempest, eltiokamina, Amber24, Zemoo, NicV, 
 jasoncario131, GreenBomber, SantasLittleNibbler, colin, Lil_KyleYT, 
 LunaticJ, dot, iOliver, Willow The Whimsical, Roseatia, elijoot, ziranui, 
-ZFG, Druncle_Titus, lloyd, RealZombieGod, XxX_D4rk_G4m3r_79_XxX
+ZFG, Druncle_Titus, lloyd, RealZombieGod, pal64
 """
 
 TARGET_USERS = [name.strip() for name in LEADERBOARD_DATA.split(',') if name.strip()]
